@@ -3,8 +3,8 @@
     // SHOW HEADER
     $("#header").load("header.html", function ()
     {
-        $("#logo").attr("src", "_img/icons/cloud-" + colorCode + ".svg");
-        $(".logo-node-img").attr("src", "_img/icons/node-" + colorCode + ".svg");
+        $("#logo").attr("src", "img/icons/cloud-" + colorCode + ".svg");
+        $(".logo-node-img").attr("src", "img/icons/node-" + colorCode + ".svg");
     });
 
     // SHOW FOOTER

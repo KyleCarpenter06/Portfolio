@@ -12,8 +12,8 @@
 //         |____||____|  `.____.'  /_/          
 // #endregion
 // #region INTELLISENSE PATHS (jQuery)
-/// <reference path="../_scripts/jquery-3.4.1.js" />
-/// <reference path="../_scripts/jquery-3.4.1.intellisense.js" />
+/// <reference path="../scripts/jquery-3.4.1.js" />
+/// <reference path="../scripts/jquery-3.4.1.intellisense.js" />
 // #endregion
 // #region VARIABLES
 var webURL;
@@ -130,7 +130,7 @@ function preloadArt()
         alert("LOADED");
     };
 
-    imgBig.src = "../_img/art/gargantua.jpg";
+    imgBig.src = "../img/art/gargantua.jpg";
     //artGallery.forEach(function(art))
 }
 
@@ -141,7 +141,7 @@ function createMoreArt()
     artGallery.forEach(function (art, i)
     {
         images[i] = new Image();
-        images[i].src = "../_img/art/" + art.name + ".jpg";
+        images[i].src = "../img/art/" + art.name + ".jpg";
         art.image = images[i];
         //document.body.appendChild(imgBig);
 
@@ -191,7 +191,7 @@ function changeArt(piece)
     $("#art-time").html(piece.time.toUpperCase() + " HOURS TO COMPLETE"); // art hours to finish
     $("#port-about").find("p").html(piece.info); // art about section
 
-    var src = "../_img/art/" + piece.name + ".jpg";
+    var src = "../img/art/" + piece.name + ".jpg";
     //var src = piece.image;
     $("#port-img").css("background-image", "url('" + src + "')"); // art image
     $(".lightbox-front").css("background-image", "url('" + src + "')"); // art lightbox
@@ -401,7 +401,7 @@ function changeWeb(piece)
     $("#web-created").html("ESTABLISHED " + piece.date.toUpperCase()); // website created date
     $("#port-about").find("p").html(piece.info); // website about section
 
-    var src = "../_img/web/" + piece.name + ".jpg";
+    var src = "../img/web/" + piece.name + ".jpg";
     webURL = piece.link;
     //var src = piece.image;
     $("#port-img").css("background-image", "url('" + src + "')"); // art image
