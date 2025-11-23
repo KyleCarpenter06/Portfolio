@@ -1,0 +1,19 @@
+<!--%%[
+/* This code is standardized, do not edit. */
+set @jsonExtraColumns = concat("[", AttributeValue("ExtraColumns"), "]")
+set @jsonRows = BuildRowsetFromJSON(@jsonExtraColumns, '$.[*]', 1)
+var @SoftphoneNumber, @Buddy
+if IndexOf(@jsonExtraColumns, "Softphone") > 0 then
+    Set @SoftphoneNumber = field(row(@jsonRows,1),"SoftphoneNumber")
+else
+endif
+if IndexOf(@jsonExtraColumns, "buddy") > 0 then
+    Set @Buddy = field(row(@jsonRows,1),"buddy")
+else
+endif
+if IndexOf(@jsonExtraColumns, "Conference") > 0 then
+    Set @Conference = field(row(@jsonRows,1),"Conference")
+else
+endif
+]%%-->
+%%[ /* ExtraColumns JSON */ ]%%

@@ -1,0 +1,8 @@
+%%[ 
+var @subject, @preheader, @bannerText, @topBannerText 
+set @subject = "Your Shockwave Shared Mailboxes have been scheduled for migration" 
+set @preheader = "View your migration schedule" 
+set @preheaderTPrior = "View and confirm your list of migrating Shared mailboxes"
+set @topBannerText = "Technology / Shockwave / Shared Data Migration" 
+set @bannerText = "Your Shockwave Shared Mailboxes have been scheduled for migration" 
+]%%

@@ -1,0 +1,17 @@
+<!-- Body Text -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <!----first paragraph---->
+  <tr>
+    <td align="left" bgcolor="#ffffff" class="pad-30LR" id="paragraph" style="padding: 10px 30px 0px 30px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #212121; mso-line-height-rule: exactly;width:100%" valign="top">
+    </td>
+  </tr>
+</table>
+<!-- /Body Text -->
+<!--%%[
+/* This code is standarized, do not edit. */
+
+set @hiContent = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Hello\JnJ_202310_Hello_10px_Top_Abio_", @langShortName), "", "", ContentBlockByName("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Hello\JnJ_202310_Hello_10px_Top_Abio_EN"))
+
+]%%-->
+
+%%=V(@hiContent)=%%

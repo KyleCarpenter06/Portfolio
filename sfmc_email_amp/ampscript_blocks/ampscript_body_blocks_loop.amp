@@ -1,0 +1,24 @@
+%%[ /* Shared SL PH (Subject Line and Preheader Line) block */ ]%%
+<!--
+%%[
+
+/* ---------------------
+ Set the @subPath variable as the folder structura you have after 3. Campaigns folder, each folder should be separated with backslash, for instance:
+ 
+ set @subPath = "7. Outlook Mobile\1. Mobility End of Year Cleanup\1. Initial"
+ 
+ The @campaignName variable should have the name you put as an identifier for your campaign block, for instance:
+ 
+ set @campaignName = "OM_MEOYC_Initial"
+--------------------- */
+
+set @subPath = "Acquisitions and Divestitures\Intra-Cellular\Device Migration\W\W-35"
+set @campaignName = "ITCI_DM_FS_W35"
+set @ammountOfBlocks = 5
+
+set @content = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\", @langShortName, "\", @campaignName, "_SL_PL_", @langShortName), "", "", ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\EN\", @campaignName, "_SL_PL_EN")))
+
+]%%-->
+
+<!--%%=V(@content)=%%-->
+

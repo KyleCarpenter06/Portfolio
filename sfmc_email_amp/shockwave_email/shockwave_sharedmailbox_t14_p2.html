@@ -1,0 +1,114 @@
+<!-- Body Table -->
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="pad-20LR" style="padding: 10px 40px;" valign="top">
+      <span class="var-placeholder"></span>
+      <!-- %%[if @pdf != true then]%% -->
+      <table class="print-hide" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+        <!-----Header------>
+        <tr>
+          <th align="center" class="width-third" style="padding: 8px 2px 8px 8px; width: 21%; background-color: #F1EFED; font-size: 13px; line-height: 120%; color: #000000; mso-line-height-rule: exactly; border-bottom: 2px solid #D4CFC9;" valign="center">
+            Shockwave
+            <br>
+            mailbox
+          </th>
+          <th align="center" class="width-third" style="padding: 8px 2px; width: 18%; background-color: #F1EFED; font-size: 13px; line-height: 120%; color: #000000; mso-line-height-rule: exactly; border-bottom: 2px solid #D4CFC9;" valign="center">
+            Scheduled migration date
+          </th>
+          <th align="center" class="width-third" style="padding: 8px 2px; width: 14%; background-color: #F1EFED; font-size: 13px; line-height: 120%; color: #000000; mso-line-height-rule: exactly; border-bottom: 2px solid #D4CFC9;" valign="center">
+            Owner or
+            <br>
+            Member
+          </th>
+          <th align="center" class="hide" style="padding: 8px 2px; width: 25%; background-color: #F1EFED; font-size: 13px; line-height: 120%; color: #000000; mso-line-height-rule: exactly; border-bottom: 2px solid #D4CFC9;" valign="center">
+            Shockwave Email address
+          </th>
+          <th align="center" class="hide" style="padding: 8px 8px 8px 2px; width: 22%; background-color: #F1EFED; font-size: 13px; line-height: 120%; color: #000000; mso-line-height-rule: exactly; border-bottom: 2px solid #D4CFC9;" valign="center">
+            J&J email address
+          </th>
+        </tr>
+        %%[
+    set @siteCount = 10
+    set @ocurrence = 0
+    if @rowCount > 0 then
+        for @i = 1 to @rowCount do
+            
+                set @row = Row(@rows, @i)
+                set @ShockwaveMailbox = Field(@row, "SiteURL")
+                set @UserType = Field(@row, "UserType")
+                
+                set @siteRows = LookupRows(@SiteInfoDE, "SiteURL", @ShockwaveMailbox)
+                
+                if RowCount(@siteRows) > 0 then
+                  set @siteRow = Row(@siteRows, 1)
+
+                  set @MigrationDate = Field(@siteRow, "MigrationDate")
+
+                  if Field(@siteRow, "SiteType") == "SharedMailbox" AND (@MigrationDate == @closestDate  OR @MigrationDate == DateAdd(@closestDate,1,"D")) then              
+
+                    set @ocurrence = Add(@ocurrence,1)             
+
+                    set @ShockwaveEmail = Field(@siteRow , "SiteName")
+
+                    set @FormattedMigrationDate = FormatDate(@MigrationDate,"dddd MMM d")
+
+                    set @NewEmail = Field(@siteRow, "NewSiteURL")
+                    
+                   if (@ocurrence  <= 10 AND _messageContext != "VAWP") OR (_messageContext == "VAWP") then
+]%%
+        <tr>
+          <td align="left" style="padding: 4px 2px 4px 8px; font-size: 13px; line-height: 18px; color: #000000; mso-line-height-rule: exactly; border-bottom: 1px solid #D4CFC9; word-break: break-all !important;" valign="top">
+            <a href="#" style="text-decoration:none !Important; color: #000000 !important; cursor:default;word-break: break-all !important;">%%=v(@ShockwaveEmail)=%%</a>
+          </td>
+          <td align="center" style="padding: 4px 2px; font-size: 13px; line-height: 18px; color: #000000; mso-line-height-rule: exactly; border-bottom: 1px solid #D4CFC9" valign="top">
+            <a href="#" style="color:#000000 !important;text-decoration:none !important;">%%=v(@FormattedMigrationDate)=%%</a>
+          </td>
+          <td align="center" style="padding: 4px 2px; font-size: 13px; line-height: 18px; color: #000000; mso-line-height-rule: exactly; border-bottom: 1px solid #D4CFC9;word-break: break-word;" valign="top">
+            <b>%%=v(@UserType)=%%
+            </b>
+          </td>
+          <td align="center" class="hide" style="padding: 4px 2px; font-size: 13px; line-height: 18px; color: #000000; mso-line-height-rule: exactly; border-bottom: 1px solid #D4CFC9; word-break: break-all !important;" valign="top">
+            <a href="#" style="text-decoration:none !Important; color: #000000 !important; cursor:default; word-break: break-all !important;">%%=v(@ShockwaveMailbox)=%%</a>
+</td>
+          <td align="top" class="hide" style="padding: 4px 2px; font-size: 13px; line-height: 18px; color: #000000 !important; mso-line-height-rule: exactly; border-bottom: 1px solid #D4CFC9; word-break: break-all !important; text-decoration:none !important;" valign="top">         <a href="#" style="text-decoration:none !Important; color:#000000 !important; cursor:default;word-break: break-all !important;">%%=v(@NewEmail)=%%</a>
+          </td>
+        </tr>  
+   %%[
+                 endif
+               endif
+            endif
+        next @i
+    endif
+   ]%%
+   </table>
+      <!-- %%[endif]%% -->
+    </td>
+  </tr>
+</table>
+%%[
+    if @ocurrence > 10 and _messageContext != "VAWP" and @pdf != true then
+    
+    set @addedSites = Subtract(@ocurrence, @siteCount)
+]%% <table class="print-hide" style="line-height:20px;width:100%">
+        <tr>
+          <td style="padding: 10px 40px !important;mso-line-height-rule:exactly;line-height:18px;font-size:16px">
+            <table style="line-height:20px;width:100%">
+              <tr>
+                <td style="border:1px solid #D4CFC9;text-align:left;box-sizing:border-box;height:20px;padding:5px;font-size:12px">
+                  <b>Plus %%=v(@addedSites)=%% additional mailboxes. 
+                    <a title="Full Page List" style="color:#eb1700; text-decoration: underline;" alias="Full Page List" href="%%view_email_url%%">Click here for the full&nbsp;list</a></b>.
+                  
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+ %%[
+   endif
+]%%
+%%[
+    if @ocurrence < 1 and @pdf != true then
+      RaiseError("No Data", true)
+    endif
+]%% 

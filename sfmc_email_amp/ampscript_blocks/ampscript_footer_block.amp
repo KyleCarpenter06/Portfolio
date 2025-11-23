@@ -1,0 +1,8 @@
+<!--%%[
+/* This code is standarized, do not edit. */
+
+set @LegalFooter = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Legal Footer\JNJ_Legal_Footer_", @langShortName), "", "", ContentBlockByName("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Legal Footer\JNJ_Legal_Footer_EN"))
+
+]%%-->
+
+%%=V(@LegalFooter)=%%

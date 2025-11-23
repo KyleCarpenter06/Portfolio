@@ -1,0 +1,6 @@
+%%[/* -- Pre Salutation Block -- */]%%
+<!--%%[ 
+set @preSalutation = ContentBlockByName(Concat(@basePath,@subPath,"\",@langShortName,"\", "PreSalutation","_",@langShortName), "", "", ContentBlockByName(Concat(@basePath,@subPath,"\EN\PreSalutation_EN"))) 
+]%%-->
+
+%%=v(@preSalutation)=%% 

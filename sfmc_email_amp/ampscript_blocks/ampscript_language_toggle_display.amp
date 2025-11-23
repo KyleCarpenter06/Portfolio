@@ -1,0 +1,76 @@
+<!-- Body Text -->
+<table border="0" cellpadding="0" cellspacing="0" class="print-hide" width="100%">
+  <tr>
+    <td align="center" bgcolor="#ffffff" class="pad-30LR pad-10T pad-20B" style="padding: 10px  30px 20px 30px;width:100%; " valign="top">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td align="center" bgcolor="#ffffff" style="padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; mso-line-height-rule: exactly;" valign="center">
+            <!-- Czech PDF %%[ if @enableCzech then ]%%-->
+            <a alias="Czech PDF" href="%%=RedirectTo(Concat(@fullURL, @czechPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Czech PDF">če&scaron;tina</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- German PDF %%[ if @enableGerman then ]%%--> 
+            <a alias="German PDF" href="%%=RedirectTo(Concat(@fullURL, @germanPDFName))=%%" style="color:#212121 !important;" target="_blank" title="German PDF">Deutsch</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- English PDF %%[ if @enableEnglish then ]%%--> 
+            <a alias="English PDF" href="%%=RedirectTo(Concat(@fullURL, @englishPDFName))=%%" style="color:#212121 !important;" target="_blank" title="English PDF">English</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Spanish PDF %%[ if @enableSpanish then ]%%--> 
+            <a alias="Spanish PDF" href="%%=RedirectTo(Concat(@fullURL, @spanishPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Spanish PDF">Espa&ntilde;ol</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- French (France) PDF %%[ if @enableFrench then ]%%--> 
+            <a alias="French (France) PDF" href="%%=RedirectTo(Concat(@fullURL, @frenchPDFName))=%%" style="color:#212121 !important;" target="_blank" title="French (France) PDF">Fran&ccedil;ais</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- French (Canada) PDF %%[ if @enableCanadianFrench then ]%%--> 
+            <a alias="French (Canada) PDF" href="%%=RedirectTo(Concat(@fullURL, @canadianFrenchPDFName))=%%" style="color:#212121 !important;" target="_blank" title="French (Canada) PDF">Fran&ccedil;ais&nbsp;(Canada)</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Greek PDF %%[ if @enableGreek then ]%%--> 
+            <a alias="Greek PDF" href="%%=RedirectTo(Concat(@fullURL, @greekPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Greek PDF">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Hebrew PDF %%[ if @enableHebrew then ]%% --> 
+            <a alias="Hebrew PDF" dir="ltr" href="%%=RedirectTo(Concat(@fullURL, @hebrewPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Hebrew PDF">עִברִית</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Italian PDF %%[ if @enableItalian then ]%%--> 
+            <a alias="Italian PDF" href="%%=RedirectTo(Concat(@fullURL, @italianPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Italian PDF">Italiano</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Japanese PDF %%[ if @enableJapanese then ]%%--> 
+            <a alias="Japanese PDF" href="%%=RedirectTo(Concat(@fullURL, @japanesePDFName))=%%" style="color:#212121 !important;word-break: keep-all;letter-spacing:-1px;" title="Japanese PDF">日&nbsp;本&nbsp;語</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Korean PDF %%[ if @enableKorean then ]%%--> 
+            <a alias="Korean PDF" href="%%=RedirectTo(Concat(@fullURL, @koreanPDFName))=%%" style="color:#212121 !important;word-break: keep-all;letter-spacing:-1px;" target="_blank" title="Korean PDF">한&nbsp;국&nbsp;어</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Dutch PDF %%[ if @enableDutch then ]%%--> 
+            <a alias="Dutch PDF" href="%%=RedirectTo(Concat(@fullURL, @dutchPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Dutch PDF">Nederlands</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Polish PDF %%[ if @enablePolish then ]%%--> 
+            <a alias="Polish PDF" href="%%=RedirectTo(Concat(@fullURL, @polishPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Polish PDF">Polski</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Portuguese PDF %%[ if @enablePortuguese then ]%%--> 
+            <a alias="Portuguese PDF" href="%%=RedirectTo(Concat(@fullURL, @portuguesePDFName))=%%" style="color:#212121 !important;" target="_blank" title="Portuguese PDF">Portugu&ecirc;s</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Russian PDF %%[ if @enableRussian then ]%%--> 
+            <a alias="Russian PDF" href="%%=RedirectTo(Concat(@fullURL, @russianPDFName))=%%" style="color:#212121 !important;word-break: keep-all;" target="_blank" title="Russian PDF">Русский</a>&emsp; 
+            <!--%%[ endif ]%%-->  
+            <!-- Swedish PDF %%[ if @enableSwedish then ]%%--> 
+            <a alias="Swedish PDF" href="%%=RedirectTo(Concat(@fullURL, @swedishPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Swedish PDF">Svenska</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Turkish PDF %%[ if @enableTurkish then ]%%--> 
+            <a alias="Turkish PDF" href="%%=RedirectTo(Concat(@fullURL, @turkishPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Turkish PDF">T&uuml;rk&ccedil;e</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Ukrainian PDF %%[ if @enableUkrainian then ]%%--> 
+            <a alias="Ukrainian PDF" href="%%=RedirectTo(Concat(@fullURL, @ukrainianPDFName))=%%" style="color:#212121 !important;" target="_blank" title="Ukrainian PDF">українська</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Chinese – Simplified PDF %%[ if @enableChinese then ]%%--> 
+            <a alias="Chinese – Simplified PDF" href="%%=RedirectTo(Concat(@fullURL, @chinesePDFName))=%%" style="color:#212121 !important;word-break: keep-all;letter-spacing:-1px;" target="_blank" title="Chinese – Simplified PDF">中&nbsp;文&nbsp;(&nbsp;简&nbsp;体&nbsp;)</a>&emsp; 
+            <!--%%[ endif ]%%--> 
+            <!-- Chinese – Traditional PDF %%[ if @enableTraditionalChinese then ]%%--> 
+            <a alias="Chinese – Traditional PDF" href="%%=RedirectTo(Concat(@fullURL, @traditionalChinesePDFName))=%%" style="color:#212121 !important;word-break: keep-all;letter-spacing:-2px;" target="_blank" title="Chinese – Traditional PDF">中&nbsp;國&nbsp;人&nbsp;(&nbsp;傳&nbsp;統&nbsp;的&nbsp;)</a>&emsp; 
+            <!--%%[ endif ]%%-->
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- /Body Text -->
+<!--
+</div></div>-->

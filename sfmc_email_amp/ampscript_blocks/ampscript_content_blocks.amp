@@ -1,0 +1,13 @@
+<!--%%[
+
+/* Adjust the number of blocks based on your maximum available P-blocks. */
+
+for @counter = 1 to @ammountOfBlocks do
+
+set @content = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\", @langShortName, "\", @campaignName, "_P", @counter, "_", @langShortName), "", "", ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\EN\", @campaignName, "_P", @counter, "_EN")))
+
+]%%-->
+
+%%=V(@content)=%%
+
+<!--%%[ next ]%%-->

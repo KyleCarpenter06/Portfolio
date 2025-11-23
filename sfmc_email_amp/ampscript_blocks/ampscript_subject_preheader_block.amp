@@ -1,0 +1,7 @@
+%%[ 
+var @subject, @preheader, @bannerText, @topBannerText 
+set @subject = "Congratulations! You have been scheduled for your technology migration. Let’s get prepared" 
+set @preheader = "Let’s help you prepare for your migration" 
+set @topBannerText = "Technology / Intra-Cellular / Technology Migration" 
+set @bannerText = "Congratulations! You have been scheduled for your technology migration. Let’s get prepared" 
+]%%

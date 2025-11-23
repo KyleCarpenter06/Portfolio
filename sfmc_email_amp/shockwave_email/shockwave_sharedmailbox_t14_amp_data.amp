@@ -1,0 +1,48 @@
+%%[ /* Data block */ ]%%
+<!--
+%%[
+var @SiteInfoDE, @SiteUserDE, @isOwner, @isSMOwner, @isSPOWner, @firstName, @Email
+
+set @Email = AttributeValue("Email")
+set @Firstname = ProperCase(AttributeValue("firstname"))
+
+set @SiteInfoDE = "SW_SD_SP_SiteInfo"
+set @SiteUserDE = "SW_SD_SP_SiteUsers"
+
+set @rows = LookupRows(@SiteUserDE, "Email", @Email) 
+set @rowCount = RowCount(@rows)
+
+set @aproxDate = FormatDate(DateAdd(now(), 14, "D"),"dddd MMM d") 
+set @closestDate = now()
+set @closestDateDiff = 365
+
+if @rowCount > 0 then
+    for @i = 1 to @rowCount do
+        set @row = Row(@rows, @i)
+        set @SiteURL = Field(@row, "SiteURL")
+                
+        set @siteRows = LookupRows(@SiteInfoDE, "SiteURL", @SiteURL)
+        
+        if RowCount(@siteRows) > 0 then
+            set @siteRow = Row(@siteRows, 1)
+            
+            if  Field(@siteRow, "SiteType") == "SharedMailbox" then
+            
+                set @MigrationDate = Field(@siteRow, "MigrationDate")
+
+                set @dateDiff = DateDiff(@aproxDate, @MigrationDate, "D")
+
+                if @dateDiff < 0 then
+                    set @dateDiff = Multiply(@dateDiff, -1)
+                endif
+
+                if @dateDiff < @closestDateDiff then
+                    set @closestDate = @MigrationDate
+                    set @closestDateDiff = @dateDiff
+                endif
+            endif
+        endif
+    next @i
+endif
+
+]%%-->

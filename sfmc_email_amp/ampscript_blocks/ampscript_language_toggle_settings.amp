@@ -1,0 +1,166 @@
+%%[/* Langs, toggles, PDFs and date formatting block */]%%
+<!--%%[
+/* ---------------------
+  This block contains most features and variables related to:
+  - Languages
+  - Date formatting
+  - PDFs
+  - Toggles
+  - CSS for some langs
+--------------------- */
+/* Define enable flags for each language */
+var @enableCanadianFrench, @enableChinese, @enableCzech, @enableDutch, @enableDutch, @enableEnglish, @enableFrench, @enableGerman, @enableHebrew, @enableIndonesian, @enableItalian, @enableJapanese, @enableKorean, @enableMalay, @enablePolish, @enablePortuguese, @enableRussian, @enableRussian, @enableSpanish, @enableSwedish, @enableThai, @enableTurkish, @enableUkrainian, @enableVietnamese
+/* ---------------------
+ Set enable flags based on your criteria.
+ Possible values:
+ - true (enable the lang)
+ - false (disable the lang)
+--------------------- */
+set @enableEnglish = true
+set @enableCanadianFrench = false
+set @enableChinese = false
+set @enableCzech = false
+set @enableDutch = false
+set @enableDutch = false
+set @enableFrench = true
+set @enableGerman = true
+set @enableHebrew = false
+set @enableIndonesian = false
+set @enableItalian = true
+set @enableJapanese = true
+set @enableKorean = false
+set @enableMalay = false
+set @enablePolish = false
+set @enablePortuguese = true
+set @enableRussian = false
+set @enableRussian = false
+set @enableSpanish = true
+set @enableSwedish = false
+set @enableThai = false
+set @enableTurkish = false
+set @enableUkrainian = false
+set @enableVietnamese = false
+/* ---------------------
+ The following language conditions are related to date formats, locales, PDFs text, and related
+ This is most standarized, please do not edit.
+--------------------- */
+/* WARNING: Do not edit below this line */
+var @lang, @languageCode, @languageLocalFormat, @langAttribute, @defaultFormat, @pdfText
+set @lang = AttributeValue("Language")
+set @defaultFormat = "DDDDD, MMMM D, YYYY"
+if (@lang == "German" or @lang == "DE") and @enableGerman then
+ set @langShortName = "DE"
+ set @languageCode = "de-DE"
+ set @languageLocalFormat = "DDDDD, D. MMMM YYYY"
+ set @pdfText = "[SIEHE HAUPTMELDUNG]"
+elseif (@lang == "Spanish" or @lang == "ES") and @enableSpanish then
+ set @langShortName = "ES"
+ set @languageCode = "es-ES"
+ set @languageLocalFormat = "DDDDD, D \d\e MMMM \d\e YYYY"
+ set @pdfText = "[VER MENSAJE PRINCIPAL]"
+elseif (@lang == "Italian" or @lang == "IT") and @enableItalian then
+ set @langShortName = "IT"
+ set @languageCode = "it-IT"
+ set @languageLocalFormat = "DDDDD D MMMM YYYY"
+ set @pdfText = "[VEDI MESSAGGIO PRINCIPALE]"
+elseif (@lang == "French" or @lang == "FR") and @enableFrench then
+ set @langShortName = "FR"
+ set @languageCode = "fr-FR"
+ set @languageLocalFormat = "DDDDD D MMMM YYYY"
+ set @pdfText = "[VOIR MESSAGE PRINCIPAL]"
+elseif (@lang == "Japanese" or @lang == "JA") and @enableJapanese then
+ set @langShortName = "JA"
+ set @languageCode = "ja-JP"
+ set @languageLocalFormat = "YYYY年MMMMD日DDDDD"
+ set @pdfText = "[メイン メッセージを参照]"
+ set @langAttribute = "ja-JP"
+elseif (@lang == "Korean" or @lang == "KO") and @enableKorean then
+ set @langShortName = "KO"
+ set @languageCode = "ko-KR"
+ set @languageLocalFormat = "YYYY년MMMMD일DDDDD"
+ set @pdfText = "[메인 메시지 참조]"
+elseif (@lang == "Portuguese" or @lang == "PT") and @enablePortuguese then
+ set @langShortName = "PT"
+ set @languageCode = "pt-BR"
+ set @languageLocalFormat = "DDDDD, D \d\e MMMM \d\e YYYY"
+ set @pdfText = "[VER MENSAGEM PRINCIPAL]"
+elseif (@lang == "Thai" or @lang == "TH") and @enableThai then
+ set @langShortName = "TH"
+ set @languageCode = "th-TH"
+ set @languageLocalFormat = "DDDDD D MMMM YYYY"
+ set @pdfText = "[ดูข้อความหลัก]"
+elseif (@lang == "Swedish" or @lang == "SW") and @enableSwedish then
+ set @langShortName = "SW"
+ set @languageCode = "sv-SE"
+ set @languageLocalFormat = "DDDDD\&\n\b\s\p\;\d\e\n D MMMM YYYY"
+ set @pdfText = "[SE HUVUDBUDANDE]"
+elseif (@lang == "Chinese" or @lang == "ZH") and @enableChinese then
+ set @langShortName = "ZH"
+ set @languageCode = "zh-CN"
+ set @languageLocalFormat = "YYYY 年 M 月 D 日，DDDDD"
+ set @pdfText = "[查看主要信息]"
+ set @chineseDots = "font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif !important"
+elseif (@lang == "Russian" or @lang == "RU") and @enableRussian then
+ set @langShortName = "RU"
+ set @languageCode = "ru-RU"
+ set @languageLocalFormat = "DDDDD, D MMMM YYYY г."
+ set @pdfText = "[ПОСМОТРЕТЬ ОСНОВНОЕ СООБЩЕНИЕ]"
+elseif (@lang == "Dutch" or @lang == "NL") and @enableDutch then
+ set @langShortName = "NL"
+ set @languageCode = "nl-NL"
+ set @languageLocalFormat = "DDDDD D MMMM YYYY"
+ set @pdfText = "[ZIE HOOFDBERICHT]"
+elseif (@lang == "French Canadian" or @lang == "Canadian French" or @lang == "CA") and @enableCanadianFrench then
+ set @langShortName = "CA"
+ set @languageCode = "fr_CA"
+ set @languageLocalFormat = "DDDDD, \l\e D MMMM YYYY"
+ set @pdfText = "[VOIR LE MESSAGE PRINCIPAL]"
+elseif (@lang == "Czech" or @lang == "CZ") and @enableCzech then
+ set @langShortName = "CZ"
+ set @languageCode = "cs_CZ"
+ set @languageLocalFormat = "DDDDD, D. MMMM YYYY"
+ set @pdfText = "[VIZ HLAVNÍ ZPRÁVA]"
+elseif (@lang == "Greek" or @lang == "GR") and @enableGreek then
+ set @langShortName = "GR"
+ set @languageCode = "el_GR"
+ set @languageLocalFormat = "DDDDD, D MMMM YYYY"
+ set @pdfText = "[ΔΕΙΤΕ ΚΥΡΙΟ ΜΗΝΥΜΑ]"
+elseif (@lang == "Hebrew" or @lang == "HE") and @enableHebrew then
+ set @langShortName = "HE"
+ set @languageCode = "he-HE"
+ set @languageLocalFormat = "DDDDD, D בMMMM YYYY"
+ set @pdfText = "[ראה את ההודעה הראשית]"
+elseif (@lang == "Polish" or @lang == "PO") and @enablePolish then
+ set @langShortName = "PO"
+ set @languageCode = "pl_PL"
+ set @languageLocalFormat = "DDDDD, D MMMM YYYY"
+ set @pdfText = "[ZOBACZ GŁÓWNY WIADOMOŚĆ]"
+elseif (@lang == "Turkish" or @lang == "TU") and @enableTurkish then
+ set @langShortName = "TU"
+ set @languageCode = "tr_TR"
+ set @languageLocalFormat = "DDDDD, D MMMM YYYY"
+ set @pdfText = "[ANA MESAJI GÖRÜN]"
+elseif (@lang == "Ukrainian" or @lang == "UK") and @enableUkrainian then
+ set @langShortName = "UK"
+ set @languageCode = "uk_UA"
+ set @languageLocalFormat = "DDDDD, D MMMM YYYY"
+ set @pdfText = "[ДИВІТЬСЯ ГОЛОВНЕ ПОВІДОМЛЕННЯ]"
+else
+ set @langShortName = "EN"
+ set @languageCode = "en-US"
+ set @languageLocalFormat = @defaultFormat
+ set @pdfText = "[SEE MAIN MESSAGE]"
+endif
+/* WARNING: Do not edit above this line */
+/* --------------------- 
+ Date variables, set as many dates you need for your comm.
+ For instance
+ - @date1
+ - @date2
+ - @date3
+ The @fullDate variables should have the date wrapped in a span tag that contains the white-space property as nowrap to have it in one line
+--------------------- */
+var @date1
+set @date1 = AttributeValue("MigrationDate")
+set @migrationDate = Concat("<span class='var-placeholder' style='white-space:nowrap'>",FormatDate(@date1, @languageLocalFormat, " ", @languageCode),"</span>")
+]%%--->
