@@ -19,10 +19,9 @@ https://www.linkedin.com/in/kyle06/
 
 ## Table of Contents
 1. [Email Design Examples](Email%20Designs/README.md)
-1. [AMPScript Code Examples](AMPScript%20Code/README.md)
-1. [Cloud Page Examples](Cloud%20Pages/README.md)
-1. [SSJS Script Examples](SSJS%20Scripts/README.md)
-1. [SQL Query Examples](SQL%20Queries/README.md)
+1. AMPScript Code Snippets
+1. SSJS Code Snippets
+1. SQL Query Examples
 1. Automation Studio Examples
 1. Journey Builder Examples
 1. API Testing Examples
