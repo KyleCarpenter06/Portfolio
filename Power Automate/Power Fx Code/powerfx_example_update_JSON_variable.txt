@@ -1,0 +1,1 @@
+setProperty(variables('JiraVariables'), 'JiraEmailStoryNumber', outputs('HTTP_Create_Email_JIRA_Story')?['body']['key'])

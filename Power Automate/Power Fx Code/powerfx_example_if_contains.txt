@@ -1,0 +1,5 @@
+if(contains(outputs('Get_response_details')?['body/r4c6358e590ec4446852f3cb1f80e4bf6'],'Communications Request'),'Communication',
+if(contains(outputs('Get_response_details')?['body/r4c6358e590ec4446852f3cb1f80e4bf6'],'Resend'),'Resend',
+if(contains(outputs('Get_response_details')?['body/r4c6358e590ec4446852f3cb1f80e4bf6'],'Support'),'Support',
+if(contains(outputs('Get_response_details')?['body/r4c6358e590ec4446852f3cb1f80e4bf6'],'Translation'),'Translation',
+if(contains(outputs('Get_response_details')?['body/r4c6358e590ec4446852f3cb1f80e4bf6'],'Other'),'Other','')))))

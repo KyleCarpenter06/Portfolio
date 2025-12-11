@@ -1,0 +1,2 @@
+formatDateTime(convertTimeZone(utcNow(), 'UTC', 'Eastern Standard Time'),'MM/dd/yyyy - hh:mm:ss
+      tt')

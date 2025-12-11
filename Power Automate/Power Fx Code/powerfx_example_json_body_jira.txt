@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "project": {
+      "key": "JDUB"
+    },
+    "summary": @{concat(variables('FlowVariables')?['ProjectName'], ' - Email')},
+    "description": "@{outputs('ticketDescription_Prod')}",
+    "issuetype": {
+      "name": "Story"
+    },
+    "reporter": {
+      "name": "CAlvar73"
+    },
+    "assignee": {
+      "name": "YAbud1"
+    },
+    "duedate": @{variables('FlowVariables')?['ProjectDate']},
+    "customfield_10504": "@{body('Create_item')?['Title']}",
+    "customfield_12012": @{if(equals(outputs('HTTP_Get_Jira_User_Status')?['statusCode'],200),json(concat(       
+      '{"name":"', 
+      outputs('Get_Company_Name_from_Forms_Email')?['body/mailNickname'],  
+    '"}')),null)}
+  }
+}

@@ -1,0 +1,1 @@
+@{parameters('SFMC Folder (sfmc_SFMCFolder)')}@{variables('FlowVariables')?['ProjectFolderName']}
