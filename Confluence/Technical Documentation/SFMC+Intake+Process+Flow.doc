@@ -1,0 +1,1004 @@
+Date: Thu, 11 Dec 2025 13:16:35 -0500 (EST)
+Message-ID: <1699849916.207754.1765476995743@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207753_414385864.1765476995743"
+
+------=_Part_207753_414385864.1765476995743
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SFMC Intake Process Flow</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SFMC Intake Process Flow</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCIntakeProcessFlow-Overview">Overview</h2>
+  <p>This is the full EUS Support Team documentation for the SFMC Intake Pr=
+ocess Flow.</p>
+  <p><span style=3D"color:#333333;">All non-technical, public-facing conten=
+t should be placed here <a href=3D"/spaces/VBPG/pages/1112411525/SFMC+Intak=
+e+Process#SFMCIntakeProcess-Overview">SFMC Intake Process</a> =E2=80=94 for=
+ example, FAQs, summaries, announcements, and any materials intended for ex=
+ternal or broad internal audiences.</span></p>
+  <h3 style=3D"text-align: left;" id=3D"SFMCIntakeProcessFlow-JiraSpike">Ji=
+ra Spike</h3>
+  <p style=3D"text-align: left;">Any updates for the project can go here fo=
+r project tracking purposes.</p>
+  <p style=3D"text-align: left;"><span class=3D"jira-issue" data-jira-key=
+=3D"JDUB-47532"> <a href=3D"https://jira.jnj.com/browse/JDUB-47532" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://jira.jnj.com/secure/=
+viewavatar?size=3Dxsmall&amp;avatarId=3D31995&amp;avatarType=3Dissuetype">J=
+DUB-47532</a> - <span class=3D"summary">SFMC Intake Process</span> <span cl=
+ass=3D"aui-lozenge aui-lozenge-subtle             aui-lozenge-default
+     jira-macro-single-issue-export-pdf">Open</span> </span></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Data</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCIntakeProcessFlow-Data">Data</h2>
+  <p>Below contains the data extension locations and API Event keys for jou=
+rney builder. This is documented here so that the Salesforce team and other=
+ team members know where to troubleshoot and make updates.</p>
+  <p>Each below corresponds to a communication type that is sent out to the=
+ requestor of the intake form.</p>
+  <h3 style=3D"text-align: left;" id=3D"SFMCIntakeProcessFlow-SalesforceTab=
+leandJourneyData(UAT)">Salesforce Table and Journey Data (UAT)</h3>
+  <div class=3D"table-wrap">
+   <table class=3D"wrapped confluenceTable">
+    <colgroup>
+     <col>
+     <col>
+     <col>
+    </colgroup>
+    <tbody>
+     <tr>
+      <th scope=3D"col" class=3D"confluenceTh">Intake Request Type</th>
+      <th scope=3D"col" class=3D"confluenceTh">Data Extension UAT</th>
+      <th scope=3D"col" class=3D"confluenceTh">API Event Key UAT</th>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Communications Request</strong></t=
+d>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;UAT&gt;OCM_IntakeForm_Email_JB_UAT</td>
+      <td class=3D"confluenceTd">OCM_IntakeForm_Email_JB_UAT</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Comm Resend Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;UAT&gt;OCM_Resend_Request_UAT</td>
+      <td class=3D"confluenceTd">OCM_Resend_Request_UAT</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Translations Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;UAT&gt;OCM_Translation_Entry_JB_UAT</td>
+      <td class=3D"confluenceTd">OCM_Translation_Entry_JB_UAT</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Support Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;UAT&gt;OCM_SupportRequest_Entry_JB_UAT</td>
+      <td class=3D"confluenceTd">OCM_SupportRequest_Entry_JB_UAT</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Other Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;UAT&gt;OCM_IntakeForm_Email_JB_UAT</td>
+      <td class=3D"confluenceTd">OCM_IntakeForm_Email_JB_UAT</td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <h3 style=3D"text-align: left;" id=3D"SFMCIntakeProcessFlow-SalesforceTab=
+leandJourneyData(PROD)">Salesforce Table and Journey Data (PROD)</h3>
+  <div class=3D"table-wrap">
+   <table class=3D"wrapped confluenceTable">
+    <colgroup>
+     <col>
+     <col>
+     <col>
+    </colgroup>
+    <tbody>
+     <tr>
+      <th class=3D"confluenceTh">Intake Request Type</th>
+      <th class=3D"confluenceTh">Data Extension PROD</th>
+      <th class=3D"confluenceTh">API Event Key PROD</th>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Communications Request</strong></t=
+d>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;Prod&gt;OCM_IntakeForm_Email_JB</td>
+      <td class=3D"confluenceTd">OCM_IntakeForm_Email_JB</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Comm Resend Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;Prod&gt;OCM_Resend_Request_JB</td>
+      <td class=3D"confluenceTd">OCM_Resend_Request_JB</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Translations Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;Prod&gt;OCM_Translation_Entry_JB</td>
+      <td class=3D"confluenceTd">APIEvent-OCM-Translation</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Support Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;Prod&gt;OCM_SupportRequest_Entry_JB</td>
+      <td class=3D"confluenceTd">
+       <p>APIEvent-OCM-SupportRequest</p></td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><strong>Other Request</strong></td>
+      <td class=3D"confluenceTd">Data Extensions&gt;1. New JnJ&gt;SFMC Inta=
+ke Form&gt;Prod&gt;OCM_IntakeForm_Email_JB</td>
+      <td class=3D"confluenceTd">OCM_IntakeForm_Email_JB</td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <p><br></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Power Platform</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCIntakeProcessFlow-PowerPlatformSolution">Power Platform Sol=
+ution</h2>
+  <p><span style=3D"color:#333333;">Below are the details of the Power Plat=
+form Solutions that support the SFMC Intake Process. This documentation cov=
+ers both UAT and Production environments and records the connection referen=
+ces and environment variables that enable seamless integration and consiste=
+nt behavior across versions. Any updates to connections, environment variab=
+les, or solution configuration should be made and documented here to ensure=
+ traceability and reduce deployment risk.</span></p>
+  <h3 id=3D"SFMCIntakeProcessFlow-PowerPlatformSolution(UAT)"><u>Power Plat=
+form Solution (UAT)</u></h3>
+  <p><strong>Display Name: </strong>SFMC Intake Process<strong><br>
+     Solution Environment: </strong>EUS SFMC UAT<strong><br>
+     Solution Link:&nbsp;</strong><a class=3D"external-link" href=3D"https:=
+//make.powerautomate.com/environments/d799e136-e7d5-e22b-8f39-ea8d8b9ded13/=
+solutions" rel=3D"nofollow">https://make.powerautomate.com/environments/d79=
+9e136-e7d5-e22b-8f39-ea8d8b9ded13/solutions</a><strong><br>
+     Package Type: </strong>Unmanaged<strong><br>
+     Version: </strong>1.0.0.3</p>
+  <hr>
+  <h3 id=3D"SFMCIntakeProcessFlow-PowerPlatformSolution(Production)"><u>Pow=
+er Platform Solution (Production)</u></h3>
+  <p><strong>Display Name: </strong>SFMC Intake Process<strong><br>
+     Solution Environment: </strong>EUS SFMC Production<strong><br>
+     Solution Link: </strong><a class=3D"external-link" href=3D"https://mak=
+e.powerautomate.com/environments/fc324ee3-40bf-e1c1-934b-9855c009e301/solut=
+ions" rel=3D"nofollow">https://make.powerautomate.com/environments/fc324ee3=
+-40bf-e1c1-934b-9855c009e301/solutions</a><strong><br>
+     Package Type: </strong>Managed<strong><br>
+     Version: </strong>1.0.0.3</p>
+  <hr>
+  <h3 id=3D"SFMCIntakeProcessFlow-PowerPlatformConnectionReferences"><u>Pow=
+er Platform Connection References</u></h3>
+  <ul>
+   <li>Microsoft Form</li>
+   <li data-uuid=3D"50851ab6-bb17-4ec1-bba3-84a2058137f9">Microsoft Teams</=
+li>
+   <li data-uuid=3D"e124913a-4e0d-4aa2-8abd-cf6d2427e7dd">Microsoft Outlook=
+</li>
+   <li data-uuid=3D"98585572-4639-4ebd-9127-7ecab28786dc">Microsoft Office<=
+/li>
+   <li data-uuid=3D"afca7cfd-0590-45af-9847-73762bd1e10d">Microsoft OneDriv=
+e for Business</li>
+   <li data-uuid=3D"23805b5c-652c-4da0-bdde-afd99ced5a3f">Microsoft SharePo=
+int</li>
+  </ul>
+  <h3 id=3D"SFMCIntakeProcessFlow-PowerPlatformEnvironmentVariables"><u>Pow=
+er Platform Environment Variables</u></h3>
+  <ul>
+   <li data-uuid=3D"2c9efcfc-31cd-4755-8240-44c2a0a7b57a">Jira API Token</l=
+i>
+   <li data-uuid=3D"5a919f38-d295-4c62-9644-ca74b637010e">MS Intake Form ID=
+</li>
+   <li data-uuid=3D"3939b453-e10f-474b-8227-7b3d990cb586">SFMC Client ID an=
+d Secret</li>
+   <li data-uuid=3D"67fa6839-8a14-493f-8312-bc34f8f9df5a">SFMC Folder (wher=
+e to store data)</li>
+   <li data-uuid=3D"290ad47b-5791-404e-90ad-385747fc157e">SFMC Intake JB Ke=
+y Communication</li>
+   <li data-uuid=3D"939c2ca8-51a3-498c-8d22-f41995c458ab">SFMC Intake JB Ke=
+y Resend</li>
+   <li data-uuid=3D"4ef65582-ddc7-4b05-ae28-d23921737d6f">SFMC Intake JB Ke=
+y Support</li>
+   <li data-uuid=3D"c145ef48-bc0b-49e3-8aca-f7d0ed874eb6">SFMC Intake JB Ke=
+y Translation</li>
+   <li data-uuid=3D"29d3ee58-ca44-45f3-a306-6eb0cdd833b2">SharePoint List</=
+li>
+  </ul>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Power Automate</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCIntakeProcessFlow-PowerAutomate">Power Automate</h2>
+  <p><span style=3D"color:#333333;">Below are the details of the Power Auto=
+mate flows that support the SFMC Intake Process. These flows are packaged w=
+ithin a Power Platform Solution, which enables independent versioning and s=
+afer change management =E2=80=94 allowing updates, testing, and troubleshoo=
+ting to occur without impacting production.</span></p>
+  <h3 id=3D"SFMCIntakeProcessFlow-PowerAutomateFlowDetails(UAT)"><u>Power A=
+utomate Flow Details (UAT)</u></h3>
+  <p style=3D"text-align: left;"><strong>Automation Type:</strong><span>&nb=
+sp;Triggered Based on MS Forms Submission</span><br><strong>Automation Name=
+:</strong><span>&nbsp;SFMC Intake Process</span><br><strong>Automation Link=
+:</strong><span>&nbsp;</span><a class=3D"external-link" href=3D"https://mak=
+e.powerautomate.com/environments/d799e136-e7d5-e22b-8f39-ea8d8b9ded13/solut=
+ions/~preferred/flows/269a278a-cbcb-f011-bbd3-7ced8d2113bb/details" rel=3D"=
+nofollow">https://make.powerautomate.com/environments/d799e136-e7d5-e22b-8f=
+39-ea8d8b9ded13/solutions/~preferred/flows/269a278a-cbcb-f011-bbd3-7ced8d21=
+13bb/details</a><br><strong>Environment:</strong><span>&nbsp;</span>EUS SFM=
+C UAT<br><strong>Primary Owner: </strong><a class=3D"confluence-userlink us=
+er-mention" data-username=3D"JFern180" href=3D"/display/~JFern180" data-lin=
+ked-resource-id=3D"969914117" data-linked-resource-version=3D"2" data-linke=
+d-resource-type=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">F=
+ernandez, Juan [GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <hr style=3D"text-align: left;">
+  <h3 style=3D"text-align: left;" id=3D"SFMCIntakeProcessFlow-PowerAutomate=
+FlowDetails(PROD)"><u>Power Automate Flow Details (PROD)</u></h3>
+  <p style=3D"text-align: left;"><strong>Automation Type:</strong><span>&nb=
+sp;Triggered Based on MS Forms Submission</span><br><strong>Automation Name=
+:</strong><span>&nbsp;SFMC Intake Process</span><br><strong>Automation Link=
+:</strong><span> <a class=3D"external-link" href=3D"https://make.powerautom=
+ate.com/environments/fc324ee3-40bf-e1c1-934b-9855c009e301/solutions/~prefer=
+red/flows/269a278a-cbcb-f011-bbd3-7ced8d2113bb/details" rel=3D"nofollow">ht=
+tps://make.powerautomate.com/environments/fc324ee3-40bf-e1c1-934b-9855c009e=
+301/solutions/~preferred/flows/269a278a-cbcb-f011-bbd3-7ced8d2113bb/details=
+</a></span><br><strong>Environment:</strong><span>&nbsp;</span>EUS SFMC Pro=
+duction<br><strong>Primary Owner:</strong><span> <a class=3D"confluence-use=
+rlink user-mention" data-username=3D"JFern180" href=3D"/display/~JFern180" =
+data-linked-resource-id=3D"969914117" data-linked-resource-version=3D"2" da=
+ta-linked-resource-type=3D"userinfo" data-base-url=3D"https://confluence.jn=
+j.com">Fernandez, Juan [GTSUS NON-J&amp;J]</a>&nbsp;</span></p>
+  <hr>
+  <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informati=
+on-macro  confluence-information-macro-warning">
+   <p class=3D"title conf-macro-render">Retired Automations</p><span role=
+=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error confl=
+uence-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>Below are older versions of the Intake Form that have been retired. =
+These links should not be shared to other teams unless for auditing or trou=
+bleshooting purposes.</p>
+   </div>
+  </div>
+  <p style=3D"text-align: left;"><u><strong>Power Automate Flow Details</st=
+rong></u></p>
+  <p style=3D"text-align: left;"><strong>Automation Type:</strong><span>&nb=
+sp;Triggered Based on MS Forms Submission</span><br><strong>Automation Name=
+:</strong><span> SFMC Intake Jira (V2)</span><br><strong>Automation Link:</=
+strong><span> <a class=3D"external-link" href=3D"https://make.powerautomate=
+.com/environments/Default-3ac94b33-9135-4821-9502-eafda6592a35/flows/shared=
+/697f1277-7749-4046-81cd-0ddf69694f21/details" rel=3D"nofollow">https://mak=
+e.powerautomate.com/environments/Default-3ac94b33-9135-4821-9502-eafda6592a=
+35/flows/shared/697f1277-7749-4046-81cd-0ddf69694f21/details</a></span><br>=
+<strong>Environment:</strong><span>&nbsp;</span>Personal Productivity<br><s=
+trong>Primary Owner:</strong><span>&nbsp;</span><a class=3D"confluence-user=
+link user-mention current-user-mention" data-username=3D"KCarpen7" href=3D"=
+/display/~KCarpen7" data-linked-resource-id=3D"353325054" data-linked-resou=
+rce-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"h=
+ttps://confluence.jnj.com">Carpenter, Kyle [GTSUS NON-J&amp;J]</a>&nbsp;</p=
+>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Proposal 2025</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCIntakeProcessFlow-SupportTeamProposal(2025)">Support Team P=
+roposal (2025)</h2>
+  <p>Support requests a change to the SFMC Intake Process. <u><strong>Needs=
+ leadership approval.</strong></u></p>
+  <h3 id=3D"SFMCIntakeProcessFlow-DataverseMSFormResponseStorage">Dataverse=
+ MS Form Response Storage</h3>
+  <p>Remove <a class=3D"external-link" href=3D"https://jnj.sharepoint.com/t=
+eams/ZoomTeamsChangeManagement/Lists/Kyle%20Test%20List/AllItems.aspx?env=
+=3DWebViewList" rel=3D"nofollow">SharePoint list</a> and move to Microsoft =
+Dataverse in order for better management of responses based on type</p>
+  <ul>
+   <li data-uuid=3D"d4e758a3-c0ac-454e-bc38-d558d4ca4066">Majority of the c=
+olumns in the SharePoint are blank and we believe this is under-utilized</l=
+i>
+   <li data-uuid=3D"c0f206d6-b2bd-48cd-a34d-5693ce5e5f8f">Power Apps can be=
+ used to display data better for the end-user than a very large mostly blan=
+k table</li>
+  </ul>
+  <p>:warning: Need to determine what leadership thinks and if/how they use=
+ current SharePoint item</p>
+  <h3 id=3D"SFMCIntakeProcessFlow-VersionControlwithUpdatedFormID">:tick: V=
+ersion Control with Updated Form ID</h3>
+  <p>To make the versioning easier when adding new questions.</p>
+  <ul>
+   <li data-uuid=3D"27babba0-7536-4033-9e2e-99fa3a3abd87">Every major chang=
+e to the intake form would required a new duplicated link to the PROD versi=
+on, to avoid issues with flow being out of date</li>
+  </ul>
+  <p>Want to confirm if this is a good idea, we would only pass along Vanit=
+y Bitly link to OCMs to avoid broken links</p>
+  <h3 id=3D"SFMCIntakeProcessFlow-ChangeVanityLink">Change Vanity Link</h3>
+  <p>Change <a class=3D"external-link" href=3D"http://Bit.ly" rel=3D"nofoll=
+ow">Bit.ly</a> shortlink to tech.jnj - it is more professional</p>
+  <ul>
+   <li data-uuid=3D"b554296c-3383-44f2-9295-1a409cbca5cc">This would requir=
+e a new link to be sent to the entire OCM team, is this a good idea?</li>
+  </ul>
+  <h3 id=3D"SFMCIntakeProcessFlow-FutureIntegrationwithPowerApp">Future Int=
+egration with Power App</h3>
+  <p>Support team looking to do more research with creating a Power App vs.=
+ an MS form to have advanced logic built-in.</p>
+  <ul>
+   <li data-uuid=3D"0c6bdca0-610b-49b5-8ccf-5f29fbf6f435">Is&nbsp;<a class=
+=3D"confluence-userlink user-mention" data-username=3D"DMulvih1" href=3D"/d=
+isplay/~DMulvih1" data-linked-resource-id=3D"353312565" data-linked-resourc=
+e-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"htt=
+ps://confluence.jnj.com">Mulvihill, Dana [GTSUS NON-J&amp;J]</a> working on=
+ a cloud page for this</li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Links</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCIntakeProcessFlow-Links">Links</h2>
+  <h3 id=3D"SFMCIntakeProcessFlow-EUSSharePointRootFolder">EUS SharePoint R=
+oot Folder</h3>
+  <p><a class=3D"external-link" href=3D"https://jnj.sharepoint.com/teams/Zo=
+omTeamsChangeManagement/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=
+=3D0x012000408AD6C3EB449A4F837819559BAF2C08&amp;id=3D%2Fteams%2FZoomTeamsCh=
+angeManagement%2FShared%20Documents%2FSFMC%20Projects" rel=3D"nofollow">SFM=
+C Projects</a></p>
+  <h3 id=3D"SFMCIntakeProcessFlow-OldProduction(PersonalProductivity)">Old =
+Production (Personal Productivity)</h3>
+  <p><a class=3D"external-link" href=3D"https://forms.office.com/Pages/Resp=
+onsePage.aspx?id=3DM0vJOjWRIUiVAur9plkqNdZUDUQs4glDgnVE9ThppcFUQzVNOEkwMk9E=
+M0NUMkVSTk8zS09VWTM1NC4u" rel=3D"nofollow">Microsoft Form - Live Prod Form<=
+/a><br><a class=3D"external-link" href=3D"https://forms.office.com/pages/de=
+signpagev2.aspx?lang=3Den-US&amp;origin=3DOfficeDotCom&amp;route=3DStart&am=
+p;subpage=3Ddesign&amp;id=3DM0vJOjWRIUiVAur9plkqNdZUDUQs4glDgnVE9ThppcFUQzV=
+NOEkwMk9EM0NUMkVSTk8zS09VWTM1NC4u" rel=3D"nofollow">Microsoft Form - Edit P=
+rod Form (SFMC Members Only)</a></p>
+  <p><a class=3D"external-link" href=3D"https://jnj.sharepoint.com/teams/Zo=
+omTeamsChangeManagement/Lists/Kyle%20Test%20List/AllItems.aspx?env=3DWebVie=
+wList" rel=3D"nofollow">SharePoint Responses List</a></p>
+  <h3 id=3D"SFMCIntakeProcessFlow-UAT(Testing)">UAT (Testing)</h3>
+  <p><a class=3D"external-link" href=3D"https://forms.office.com/Pages/Resp=
+onsePage.aspx?id=3DM0vJOjWRIUiVAur9plkqNVghs1ryladHnVY1HEnYCslUNEJKRE81WFQ2=
+ODFOTDZNS01EOThLWkU1NC4u" rel=3D"nofollow">Microsoft Form - Live UAT Form</=
+a><br><a class=3D"external-link" href=3D"https://forms.office.com/Pages/Des=
+ignPageV2.aspx?origin=3DShareFormPage&amp;subpage=3Ddesign&amp;m2=3D1&amp;i=
+d=3DM0vJOjWRIUiVAur9plkqNVghs1ryladHnVY1HEnYCslUNEJKRE81WFQ2ODFOTDZNS01EOTh=
+LWkU1NC4u" rel=3D"nofollow">Microsoft Form - Edit UAT Form (SFMC Members On=
+ly)</a></p>
+  <p><a class=3D"external-link" href=3D"https://jnj.sharepoint.com/teams/Zo=
+omTeamsChangeManagement/Lists/SFMC%20Intake%20Form%20UAT/AllItems.aspx" rel=
+=3D"nofollow">SharePoint Responses List</a></p>
+  <h3 id=3D"SFMCIntakeProcessFlow-Production">Production</h3>
+  <div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-=
+macro  confluence-information-macro-note">
+   <p class=3D"title conf-macro-render">Links are dynamic</p><span role=3D"=
+presentation" class=3D"aui-icon aui-icon-small aui-iconfont-warning conflue=
+nce-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>The links below will change upon every edit of the intake form. For =
+more information, contact support team.</p>
+   </div>
+  </div>
+  <p><a class=3D"external-link" href=3D"https://forms.office.com/Pages/Resp=
+onsePage.aspx?id=3DM0vJOjWRIUiVAur9plkqNVghs1ryladHnVY1HEnYCslUMzlKOUdVUUhY=
+MTNUUDJHMU1ZTDRZQ1laSC4u" rel=3D"nofollow">Microsoft Form - Live PROD Form<=
+/a><br><a class=3D"external-link" href=3D"https://forms.office.com/Pages/De=
+signPageV2.aspx?subpage=3Ddesign&amp;id=3DM0vJOjWRIUiVAur9plkqNVghs1ryladHn=
+VY1HEnYCslUMzlKOUdVUUhYMTNUUDJHMU1ZTDRZQ1laSC4u" rel=3D"nofollow">Microsoft=
+ Form - Edit PROD Form (SFMC Members Only)</a></p>
+  <p><a class=3D"external-link" href=3D"https://jnj.sharepoint.com/teams/Zo=
+omTeamsChangeManagement/Lists/SFMC%20Intake%20Form%20PROD/AllItems.aspx?nps=
+Action=3DcreateList" rel=3D"nofollow">SharePoint Responses List</a></p>
+  <h4 id=3D"SFMCIntakeProcessFlow-ProductionBitlyLink"><a class=3D"external=
+-link" href=3D"https://bit.ly/sfmcintake" rel=3D"nofollow">Production Bitly=
+ Link</a></h4>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCIntakeProcessFlow-Notes">Notes</h2>
+  <p><time datetime=3D"2025-12-03" class=3D"date-past">03 Dec 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"e991a3be-2c87-4fe2-94ae-42c916175571">Edited UAT and PR=
+OD MS Forms with different answers for support squad</li>
+   <li data-uuid=3D"5cddffae-8adb-437b-a83b-bbc12a950070">Created Confluenc=
+e task for Juan to update UAT</li>
+   <li data-uuid=3D"5b3fd26b-8236-416d-9fab-7f1451426e7c">Juan finished sub=
+task, tested all support type paths and all cards were made with correct Ji=
+ra notation</li>
+   <li data-uuid=3D"9e6298eb-5f61-403e-ac74-0bcee63f639f">Pushed to Prod an=
+d retested PROD MS Form, no issues</li>
+   <li data-uuid=3D"1c9219c7-3bed-4c97-b2dd-1bf5c77f0290">Advised Juan to u=
+pdate DOC ID and last task for push to PROD as blocker priority</li>
+  </ul>
+  <p><time datetime=3D"2025-11-26" class=3D"date-past">26 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"77fc36f3-e6c4-482b-818b-478c2669dbf0">Turned off flow f=
+or personal productivity intake form</li>
+   <li data-uuid=3D"b731602e-e5b0-4ded-9ad3-eb111aa996d2">Linda used wrong =
+version not associated with Bitly</li>
+   <li data-uuid=3D"8f0efc93-8fdf-4ae8-9a6f-373072a1f2f1">Spoke with her, t=
+he link Kyle posted on Core team chat redirect to wrong place</li>
+   <li data-uuid=3D"5f66fbeb-ff99-4b03-bc4d-f7bf56c5c699">Kyle found multip=
+le other links on the Bitly website, could not change the redirect link to =
+another Bitly or delete other Bitly links</li>
+   <li data-uuid=3D"92e2be6d-0a2f-4a51-8119-d9cc43cbf384">Made a Cloud page=
+ in Supplier comms which redirects with JavaScript back to final page</li>
+   <li data-uuid=3D"b3d5ab86-8665-4bee-9e1d-9bed0158ea86">Made new tech.jnj=
+.com Bitly link, made announcement to SFMC Leaders and core team to advise =
+this is fixed</li>
+   <li data-uuid=3D"1c68fcbe-b6b1-436c-a517-29aa197852bf">Made comment in o=
+lder intake form that it is deprecated and to go to the new link</li>
+   <li data-uuid=3D"cfc8f035-ed56-48ff-a8b7-79d654b83ecd">Resubmitted form =
+for Linda with new intake URL, no issues, changed Kyle to Linda in Jira tic=
+ket</li>
+  </ul>
+  <p><time datetime=3D"2025-11-25" class=3D"date-past">25 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"35a7b3cb-375c-405e-8085-3a163f853322">Juan was able to =
+create dataverse with table relationship, able to filter and order rows, wi=
+ll eventually be placed into Intake process flow</li>
+   <li data-uuid=3D"0041b7a9-6981-4ca8-a7e6-0e47418aa7fc">Issue with intake=
+ API going to wrong API Key, performed quick triage to update form in PROD =
+to allow this to work, forced update, test was working</li>
+   <li data-uuid=3D"5b9d4929-ee27-4a7b-827c-dafcdbafec6b">QA made mistake a=
+nd deleted question from intake form, asked Juan to duplicate PROD back to =
+UAT to avoid additional work and so QA can continue testing</li>
+   <li data-uuid=3D"4ca4bee7-2109-403c-8fa8-b13542af1aad">Albert finished Q=
+A new version of Jira card and Intake form questions, quick round up with J=
+uan EOD and close this out</li>
+  </ul>
+  <p><time datetime=3D"2025-11-24" class=3D"date-past">24 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"0145e8b1-177d-4525-b2d1-59438f793e5f">Made new spike fo=
+r research and integration into Intake Process</li>
+   <li data-uuid=3D"f5280506-ca17-40f6-9bc7-d45e467b78fd">Made additional s=
+ubtask for Juan to add relationship in Dataverse and implement into Power A=
+utomate test</li>
+  </ul>
+  <p><time datetime=3D"2025-11-21" class=3D"date-past">21 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"d9da23fa-0169-48b6-b7e0-5f77c1019c53">Juan finished set=
+up with new inactive question in communications section, Juan tested and no=
+ issues</li>
+   <li data-uuid=3D"7fdf1aca-8a46-46f8-a6f7-77622b82c360">Kyle realized the=
+ same question should be in the Resend section, was on call with Juan to wo=
+rk on this, resend working without issue</li>
+   <li data-uuid=3D"a43fbc8e-c2c3-4202-8d8e-8aacc9c10f09">Kyle finished wor=
+kflow diagram and placed this onto Confluence</li>
+   <li data-uuid=3D"fafb1955-b3a3-4944-b39f-b377ccf938fe">Created subtask, =
+contacted Yliana with screenshots of Intake Form and send URLs for Jira sto=
+ries to show the data point on the card</li>
+   <li data-uuid=3D"9d88f8ee-9c5e-4a35-a184-461f2e673b00">Created subtask, =
+to move to PROD when Yliana approves, blocked for now</li>
+   <li data-uuid=3D"0a448c62-7384-4a78-a1f3-4264aa490547">Updated both the =
+technical and non-technical Confluence pages</li>
+   <li data-uuid=3D"8b7f1fe1-56b3-40cd-aef4-6959768324c8">Added Juan to all=
+ SFMC Journeys as BCC so he is copied</li>
+  </ul>
+  <p><time datetime=3D"2025-11-20" class=3D"date-past">20 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"ed321614-f464-40b6-bda3-166383eee3b8">Retested UAT scen=
+arios with Juan to ensure all entry api keys are working, few API keys were=
+ missing</li>
+   <li data-uuid=3D"3a6447a8-441d-4782-b32b-5b1b6fd68fb5">Kyle made new API=
+ event keys for UAT and PROD to test all scenarios in both environments</li=
+>
+   <li data-uuid=3D"b30b4331-3877-433e-af9e-942fffa4586e">Issue with photo =
+coming from SharePoint, advised Juan we need to section this off because it=
+ is not working</li>
+   <li data-uuid=3D"c61c1089-6441-4df0-af0b-52f2298930f9">Placed all of the=
+ UAT/PROD data extensions and API Event keys into Confluence</li>
+   <li data-uuid=3D"b530cdea-9522-4b43-b8ae-73a53f7a10a3">Need to advise SF=
+MC Team that they need to use the Bitly link for intake and no other link</=
+li>
+  </ul>
+  <p><time datetime=3D"2025-11-19" class=3D"date-past">19 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"552ec587-6cf5-42bb-bfba-caf6d35d3053">Juan made updates=
+ to the user photo subtask, aligned on naming convention of photo, Juan adj=
+usting logic</li>
+   <li data-uuid=3D"7af258e0-bbfb-429b-9807-22b52deaaf95">Kyle to speak wit=
+h leadership team before changing official Bitly, setup call to explain pro=
+cess</li>
+   <li data-uuid=3D"b7ac7dd7-8b06-455a-9c17-1edb028a3e05">Kyle awaiting ful=
+l apporval of SFMC leadership on additional question for inactive users</li=
+>
+   <li data-uuid=3D"fd61c7cd-d114-4259-951f-dad6807a0726">Kyle created new =
+card for Juan to make new variables for SFMC Journey API keys, setup alignm=
+ent call</li>
+  </ul>
+  <p><time datetime=3D"2025-11-18" class=3D"date-past">18 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"8fde7087-35a7-420c-9eab-8fcdb7907685">Duplicated flow t=
+o PROD, Juan updated Confluence but could not test due to server outage</li=
+>
+   <li data-uuid=3D"29c7db2c-37da-4290-b05c-e3bb52f17ab1">After lunch the o=
+utage was resolved, Kyle/Juan retested flow no issues</li>
+  </ul>
+  <p><time datetime=3D"2025-11-14" class=3D"date-past">14 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"29222af1-3d46-4bc3-b8c4-a34450748220">Juan had issues w=
+ith connection with OneDrive, assisted by having him changes connection to =
+his name</li>
+   <li data-uuid=3D"03e2cc95-61fa-45bb-af52-a1e23582dbb3">Had final testing=
+ call with Juan to confirm all scenarios are working</li>
+   <li data-uuid=3D"3f2b6d76-3517-4e63-aeca-01a4964adca1">Setup call Tuesda=
+y 11/18 to duplicate everything and push to PROD</li>
+  </ul>
+  <p><time datetime=3D"2025-11-13" class=3D"date-past">13 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"d61210ce-8a45-4727-8f71-761fe0634a45">Advise to Juan to=
+ test all scenarios and make sure everything works with UAT MS Form, setup =
+card and call</li>
+  </ul>
+  <p><time datetime=3D"2025-11-11" class=3D"date-past">11 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"1a7b697d-2a44-4f75-bcd5-c5734a15818d">Assigned conditio=
+nal formatting subtask to Juan and assign edit DL template subtask as block=
+er</li>
+   <li data-uuid=3D"b8e99e57-193b-44cd-8e42-66d7d2f716a1">Juan was able to =
+put conditional on filters, unblocked final DL edit task and setup review c=
+all for 11/12</li>
+  </ul>
+  <p><time datetime=3D"2025-11-10" class=3D"date-past">10 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"d8becf32-f64b-47de-a576-6f79e3c91f70">Assisted Juan wit=
+h instructions of how to upload images with binary data into SharePoint</li=
+>
+  </ul>
+  <p><time datetime=3D"2025-10-24" class=3D"date-past">24 Oct 2025</time></=
+p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"1e354d63-7f54-447f-880b-433ba3806403">Issue with Resend=
+s with attachments, logic issue with naming convention, this was solved</li=
+>
+  </ul>
+  <p><time datetime=3D"2025-10-23" class=3D"date-past">23 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"0bf6baea-acb5-44f0-af29-b20989a97ce7">Had call with Mar=
+k who thought it was a good idea to tell OCM to stop sending out Teams card=
+s due to issues with SFMC journey</li>
+   <li data-uuid=3D"1e67037e-21bc-4100-9149-63a0956a6ee0">Removed mention o=
+f Teams in the SFMC Intake Form and skipped over teams section until we hav=
+e a working examples for MS Teams cards</li>
+  </ul>
+  <p><time datetime=3D"2025-10-17" class=3D"date-past">17 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"f0b21627-d991-4f3b-a2e8-cd14f4288592">Was on call with =
+Juan when we found out that we could upload the photo to SharePoint and ret=
+urn the URL, made subtask for him</li>
+  </ul>
+  <p><time datetime=3D"2025-10-13" class=3D"date-past">13 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"f66cd479-e2ba-4766-9411-b3a94cb91434">Made small update=
+ to make sure Yetzabel is no longer mentioned in any question</li>
+  </ul>
+  <p><time datetime=3D"2025-10-08" class=3D"date-past">08 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"6b108c1c-77c2-48a5-9bbe-eacd6b16b03c">Juan updating cha=
+racter counts to avoid SharePoint issues, character count for project name =
+needs to be 240 due to additional date in name of folder</li>
+   <li data-uuid=3D"928d1fa1-5926-4501-b7eb-27a2cb5e93e2">Juan insisted tha=
+t we make a new UAT Form in order more easily make those changes to charact=
+er counts and avoid rework</li>
+   <li data-uuid=3D"16695052-19a0-44a8-a28a-eba5ca6f8962">Advised he needs =
+to update the Confluence page after</li>
+  </ul>
+  <p><time datetime=3D"2025-10-03" class=3D"date-past">03 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"49ec1549-8692-4160-b51b-2b85d2489276">Worked with Juan =
+on adjusting the PA conditional logic, ensured that correct team members we=
+re getting the failed email</li>
+   <li data-uuid=3D"725e3c85-ee5d-4111-ab3c-879c7f6cfc40">Assigned addition=
+al task to Juan to look at the character counts of the SharePoint list and =
+adjust the count in the MS Forms</li>
+  </ul>
+  <p><time datetime=3D"2025-10-01" class=3D"date-past">01 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"5812cb01-6b14-470c-bc2a-79b8cacb3b64">Contacted Dana ab=
+out Cloud Page Intake Form, Dana advised no progress has been made based on=
+ feedback from Vanessa Vazquez</li>
+   <li data-uuid=3D"bd7ec401-d6ea-4f90-91b3-69e4f795eebc">Call with Juan to=
+ update the UAT flow to make new switch/case at start of flow, also updated=
+ the PA activity for API token &gt; <span class=3D"jira-issue resolved" dat=
+a-jira-key=3D"JDUB-43306"> <a href=3D"https://jira.jnj.com/browse/JDUB-4330=
+6" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://jira.jnj.com=
+/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D10316&amp;avatarType=3Dissu=
+etype">JDUB-43306</a> - <span class=3D"summary">Edit Flow - Environment Var=
+iables and Others</span> <span class=3D"aui-lozenge aui-lozenge-subtle     =
+        aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Completed</span> </span></li>
+  </ul>
+  <p><time datetime=3D"2025-09-25" class=3D"date-past">25 Sep 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"3b523bef-93cc-4d7b-9a03-bff4fa73563f">Made initial conf=
+luence page</li>
+   <li data-uuid=3D"5bda5583-afb5-41a5-8c16-fcf9638c547d">Went over with Ju=
+an about improvements to efficient of the PA Flow, created card for him to =
+make updates &gt; <span class=3D"jira-issue resolved" data-jira-key=3D"JDUB=
+-43194"> <a href=3D"https://jira.jnj.com/browse/JDUB-43194" class=3D"jira-i=
+ssue-key"><img class=3D"icon" src=3D"https://jira.jnj.com/secure/viewavatar=
+?size=3Dxsmall&amp;avatarId=3D10316&amp;avatarType=3Dissuetype">JDUB-43194<=
+/a> - <span class=3D"summary">SFMC Intake Form - PA Flow - UAT Version</spa=
+n> <span class=3D"aui-lozenge aui-lozenge-subtle             aui-lozenge-su=
+ccess
+     jira-macro-single-issue-export-pdf">Completed</span> </span></li>
+   <li data-uuid=3D"52054b0b-e3fd-4810-985a-accdb565d778">Created additiona=
+l subtask for Juan to research Dataverse in conjunction with intake form &g=
+t; <span class=3D"jira-issue resolved" data-jira-key=3D"JDUB-43339"> <a hre=
+f=3D"https://jira.jnj.com/browse/JDUB-43339" class=3D"jira-issue-key"><img =
+class=3D"icon" src=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&=
+amp;avatarId=3D10316&amp;avatarType=3Dissuetype">JDUB-43339</a> - <span cla=
+ss=3D"summary">Research Dataverse - Jira API Test</span> <span class=3D"aui=
+-lozenge aui-lozenge-subtle             aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Completed</span> </span></li>
+   <li data-uuid=3D"3170d039-6c36-4dc4-82ca-dabbb3996525">Was asked by Ylia=
+na to remove few words from "Final QA" in email, easily done &gt; <span cla=
+ss=3D"jira-issue resolved" data-jira-key=3D"JDUB-43120"> <a href=3D"https:/=
+/jira.jnj.com/browse/JDUB-43120" class=3D"jira-issue-key"><img class=3D"ico=
+n" src=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=
+=3D10316&amp;avatarType=3Dissuetype">JDUB-43120</a> - <span class=3D"summar=
+y">[QA] Final QA / Smoke Test</span> <span class=3D"aui-lozenge aui-lozenge=
+-subtle             aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Completed</span> </span></li>
+   <li data-uuid=3D"652db5c8-caf7-4aaa-ae12-8a8fb09079ab">Moving from a sin=
+gle standalone Power Automate flow to a Solution-Based Power Automate flow =
+to include variables and variation control</li>
+   <li data-uuid=3D"9a8107a0-3b3b-4bd6-b9a6-ae5bdeee55df">Making a duplicat=
+ed version of the Intake Form for UAT purposes, check issues before they ar=
+ise in PROD version</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+<p><br><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207753_414385864.1765476995743--

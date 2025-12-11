@@ -1,0 +1,28 @@
+.support-tbd
+{
+	background-color:#fff7d6;
+	font-weight: bold;
+}
+.support-tbd:before
+{
+	content: '\1F4C5';
+}
+.support-placeholder
+{
+	background-color:#f9cb9c;
+	font-weight: bold;
+}
+
+.support-placeholder:before
+{
+	content: '\2B55';
+}
+.support-blocker
+{
+	background-color:#fdc5c5;
+	font-weight: bold;
+}
+.support-blocker:before
+{
+	content: '\26D4';
+}

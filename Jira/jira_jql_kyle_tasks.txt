@@ -1,0 +1,3 @@
+JQL to get all tasks not finished, in current project, assigned to me, ordered by due date ASC and then by priority DESC
+
+project = JDUB AND (issuetype in (Bug, Spike, Story, Task, Sub-task, Impediment, Improvement) AND status in (Open, "In Progress", Reopened, "In Review", "In QA Progress", "Dev Complete", Ready) OR issuetype in (Epic) AND "Epic Status" != Done) AND assignee in (currentUser()) ORDER BY due ASC, priority DESC

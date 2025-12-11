@@ -1,0 +1,387 @@
+Date: Thu, 11 Dec 2025 13:31:09 -0500 (EST)
+Message-ID: <1879533465.207768.1765477869196@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207767_1701875787.1765477869196"
+
+------=_Part_207767_1701875787.1765477869196
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Azure Connectors</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Azure Connectors</h1>
+    <div class=3D"Section1">
+        <div role=3D"region" aria-label=3D"Info" class=3D"confluence-inform=
+ation-macro  confluence-information-macro-information">
+ <p class=3D"title conf-macro-render">Progress Ongoing</p><span role=3D"pre=
+sentation" class=3D"aui-icon aui-icon-small aui-iconfont-info-filled conflu=
+ence-information-macro-icon"></span>
+ <div class=3D"confluence-information-macro-body">
+  <p>This improvement process is still ongoing and has not been resolved.</=
+p>
+ </div>
+</div>
+<div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"AzureConnectors-Overview">Overview</h2>
+  <p>Researching Azure Connections in Power Automate. Looking to utilize th=
+is for data collection purposes.</p>
+  <p>Two connectors we are looking to get access to is Azure Blob Storage a=
+nd Azure SQL Database.</p>
+  <h3 id=3D"AzureConnectors-Summary">Summary</h3>
+  <ul>
+   <li data-uuid=3D"9a0af9f4-83ed-4a98-8980-107780492416">The Salesforce su=
+pport team has a production environment in Power Platform that allows for a=
+ccess to the Azure connectors with a block by the Data Loss Policy (DLP)</l=
+i>
+   <li data-uuid=3D"a9257c2c-d29c-4173-9d8f-1720f9027ed0">Salesforce team i=
+s blocked due to security issues related to Azure</li>
+  </ul>
+  <h3 id=3D"AzureConnectors-BusinessUseCases">Business Use Cases</h3>
+  <ul>
+   <li data-uuid=3D"e4241b7c-3c07-4f8f-89ad-245737cb6d17">Synchronize data =
+between SQL and Power Platform by placing snapshot of user database in Powe=
+r Platform Dataverse</li>
+   <li data-uuid=3D"e1b2881a-f119-4d49-892a-009b48cc4003">Synchronize data =
+between SQL and Salesforce using HTTP connector, would no longer need FTP F=
+ile drop</li>
+   <li data-uuid=3D"36431746-e2b6-4b60-befd-eff213fc8a7a">Export data from =
+Salesforce and place this onto SQL table or into Azure Blob Storage</li>
+  </ul>
+  <h3 id=3D"AzureConnectors-NextSteps">Next Steps</h3>
+  <ul>
+   <li data-uuid=3D"6cb6e185-6ced-4675-8baf-03ebda60aa3e">See if <a class=
+=3D"confluence-userlink user-mention" data-username=3D"apoerio" href=3D"/di=
+splay/~apoerio" data-linked-resource-id=3D"98736346" data-linked-resource-v=
+ersion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https:=
+//confluence.jnj.com">Poerio, Anthony [GTSUS]</a> can resolve the error wit=
+h the connector in Power Automate, not sure if this needs to go to an Azure=
+ team</li>
+  </ul>
+  <hr>
+  <h3 id=3D"AzureConnectors-SFMCJiraCard">SFMC Jira Card</h3>
+  <p><span class=3D"jira-issue" data-jira-key=3D"JDUB-40780"> <a href=3D"ht=
+tps://jira.jnj.com/browse/JDUB-40780" class=3D"jira-issue-key"><img class=
+=3D"icon" src=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;a=
+vatarId=3D31995&amp;avatarType=3Dissuetype">JDUB-40780</a> - <span class=3D=
+"summary">Power Automate - Azure Blob/SQL Connector</span> <span class=3D"a=
+ui-lozenge aui-lozenge-subtle             aui-lozenge-default
+     jira-macro-single-issue-export-pdf">Open</span> </span></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Issues</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"AzureConnectors-Issues">Issues</h2>
+  <h3 id=3D"AzureConnectors-BadGatewayError">Bad Gateway Error</h3>
+  <p><strong>Summary:</strong> Cannot use the connector in Power Automate d=
+ue to a denied connection. 'Deny Public Network Access' is set to 'Yes'<br>=
+<strong>Potential Fix:</strong> Use Private Endpoint from inside your virtu=
+al network<br><strong>Azure Documentation:</strong>&nbsp;<a class=3D"extern=
+al-link" href=3D"https://docs.microsoft.com/azure/sql-database/sql-database=
+-private-endpoint-overview#how-to-set-up-private-link-for-azure-sql-databas=
+e" rel=3D"nofollow">https://docs.microsoft.com/azure/sql-database/sql-datab=
+ase-private-endpoint-overview#how-to-set-up-private-link-for-azure-sql-data=
+base</a></p>
+  <div class=3D"code panel pdl" style=3D"border-width: 1px;">
+   <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: =
+1px;">
+    <b>Full Error Response from Power Automate</b>
+   </div>
+   <div class=3D"codeContent panelContent pdl">
+    <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"b=
+rush: json; gutter: false">Failed to retrieve dynamic outputs. As a result,=
+ this operation's outputs might not be visible in subsequent actions. Error=
+ details: The dynamic operation request to API 'sql' operation 'GetPassThro=
+ughNativeQueryMetadata_V2' failed with status code 'BadGateway'. Error resp=
+onse: { "error": { "code": 502, "source": "usa002-004.azure-apihub.net", "c=
+lientRequestId": "00000000-0000-0000-0000-000000000000", "message": "BadGat=
+eway", "innerError": { "status": 502, "message": "Reason: An instance-speci=
+fic error occurred while establishing a connection to SQL Server. Connectio=
+n was denied since Deny Public Network Access is set to Yes (https://docs.m=
+icrosoft.com/azure/azure-sql/database/connectivity-settings#deny-public-net=
+work-access). To connect to this server, use the Private Endpoint from insi=
+de your virtual network (https://docs.microsoft.com/azure/sql-database/sql-=
+database-private-endpoint-overview#how-to-set-up-private-link-for-azure-sql=
+-database).\r\nclientRequestId: 00000000-0000-0000-0000-000000000000", "err=
+or": { "message": "Reason: An instance-specific error occurred while establ=
+ishing a connection to SQL Server. Connection was denied since Deny Public =
+Network Access is set to Yes (https://docs.microsoft.com/azure/azure-sql/da=
+tabase/connectivity-settings#deny-public-network-access). To connect to thi=
+s server, use the Private Endpoint from inside your virtual network (https:=
+//docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overv=
+iew#how-to-set-up-private-link-for-azure-sql-database)." }, "source": "sql-=
+eus2.azconn-eus2-003.p.azurewebsites.net" } } }</pre>
+   </div>
+  </div>
+  <p><br></p>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"AzureConnectors-SupportNotes">Support Notes</h2>
+  <p><time datetime=3D"2025-10-16" class=3D"date-past">16 Oct 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li data-uuid=3D"43879841-f740-4634-b4eb-c5285d0b34db">Moved any plans f=
+or this out to 2026 due to other priorities and other innovation projects b=
+y the SFMC team</li>
+  </ul>
+  <p><time datetime=3D"2025-09-19" class=3D"date-past">19 Sep 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li data-uuid=3D"c8c40084-a3df-4365-adf3-e18fb16be9c2">Asked by Edwin to=
+ input requests for Azure into PPT slides for Mark, presented challenges to=
+ Mark who is looking into getting Azure Access</li>
+  </ul>
+  <p><strong>9/10/25</strong></p>
+  <ul>
+   <li>Pinged Anthony <a class=3D"external-link" href=3D"https://teams.micr=
+osoft.com/l/chat/19:670f53a93e354c0b9c52022d7cf8cdb7@thread.v2/conversation=
+s?context=3D%7B%22contextType%22%3A%22chat%22%7D" rel=3D"nofollow">in chat<=
+/a>, not sure if this can be done by him or need to ask Azure admin</li>
+   <li data-uuid=3D"a9d3f789-dc35-488c-8de5-6a56e7578687">Anthony says he c=
+annot assist with Azure private endpoint, need to contact correct team</li>
+  </ul>
+  <p><strong>8/29/25</strong></p>
+  <ul>
+   <li data-uuid=3D"efbe8935-48d5-45aa-bba9-7296a69ab588">Created initial C=
+onfluence page with notes from previous email correspondence</li>
+   <li data-uuid=3D"82e188cc-4bef-46e0-9e44-afba9adb0322">Emailed Anthony a=
+nd waiting for update, this page will be used for future emails with other =
+teams</li>
+  </ul>
+  <p><strong>7/31/25</strong></p>
+  <ul>
+   <li data-uuid=3D"959f8bc9-444c-4e3d-8e7f-c0afb445b196">Emailed Anthony P=
+oerio about issue related to Azure Blob/SQL connector</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207767_1701875787.1765477869196--

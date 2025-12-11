@@ -1,0 +1,37 @@
+Meeting overview, meeting do's and do' NOTS
+
+Depending on the circumstances, a meeting may or may not be needed…
+
+Is a synchronous decision or real‑time alignment required right now? Is this critical?
+Yes → meeting.
+No → async.
+Do 3+ people need to contribute simultaneously (debate, brainstorm, unblock)?
+Yes → meeting.
+No → async.
+Is the topic sensitive, complex, or likely to cause confusion without tone/body language?
+Yes → meeting.
+No → async.
+
+Simple checklist to determine if meeting is needed:
+
+Do meeting if
+-	Requires fast decision with critical deadline
+-	brainstorming, whiteboarding or Co design that benefits from screen sharing
+-	resolve conflicts have performance conversations or sensitive topics which need proper tone
+-	onboarding, UAT testing or debugging where screen share is a necessity
+-	Kanban call, planning sessions, sharing with stakeholders, looking at roadmaps
+-	Social time, Team cohesion
+-	If message depth goes longer than 6 to 8 back and forth messages, or involves multiple questions
+-	Not getting response via email/chat
+
+do not do meeting if:
+-	quick status updates, progress reports or read only announcements
+-	quick factual questions (dates, links, clarifications, resources, schedules)
+-	involves only one person
+
+Meeting invite template:
+-	title/subject: desired outcome
+-	agenda: 3+ bullets
+-	pre-read links, what to review before call
+-	Output expected, contingency, mention follow ups
+-	Link for organizer to document in jira/Confluence

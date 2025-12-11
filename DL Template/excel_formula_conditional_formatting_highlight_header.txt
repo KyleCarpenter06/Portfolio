@@ -1,0 +1,1 @@
+=IF(COUNTIFS(A:A,"<>",L:L,"")>0,TRUE)

@@ -1,0 +1,631 @@
+Date: Thu, 11 Dec 2025 13:18:06 -0500 (EST)
+Message-ID: <1312608722.207760.1765477086644@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207759_2005692968.1765477086644"
+
+------=_Part_207759_2005692968.1765477086644
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Rita&#39;s List Automation/Synchronization</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Rita&#39;s List Automation/Synchronization</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"Rita'sListAutomation/Synchronization-Overview">Overview</h2>
+  <p class=3D"line-reveal">This page describes the automation and list=E2=
+=80=91synchronization process that brings =E2=80=9CRita=E2=80=99s List=E2=
+=80=9D into Salesforce Marketing Cloud (SFMC).</p>
+  <p>Rita Kirk is the Senior Manager for VIP Service and owns communication=
+s and change=E2=80=91management campaigns sent to Executive Committee membe=
+rs and other VIP users. She maintains a managed Excel spreadsheet that is u=
+pdated monthly.</p>
+  <div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-=
+macro  confluence-information-macro-note">
+   <p class=3D"title conf-macro-render">IMPORTANT</p><span role=3D"presenta=
+tion" class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>It is critical that the EUS Salesforce team <u><strong>never sends</=
+strong></u> to these recipients unless Rita Kirk explicitly authorizes the =
+send.</p>
+   </div>
+  </div>
+  <h3 class=3D"line-reveal" id=3D"Rita'sListAutomation/Synchronization-Purp=
+oseofthispage">Purpose of this page</h3>
+  <ul class=3D"line-reveal">
+   <li class=3D"line-reveal" data-uuid=3D"61cef0c6-748d-43e6-8bf9-2437f080d=
+5a5">Document the automated sync process from the source spreadsheet to SFM=
+C.</li>
+   <li class=3D"line-reveal" data-uuid=3D"ee9cca23-f162-4106-bfed-d8df2a0e4=
+7cd">Define validation checkpoints and controls to ensure data quality and =
+compliance.</li>
+   <li class=3D"line-reveal" data-uuid=3D"4d548f73-c1d7-4733-a508-59b3afeaf=
+653">Provide the authoritative location for the current list (see the <a hr=
+ef=3D"#Rita'sListAutomation/Synchronization-Links">Links</a> tab).</li>
+  </ul>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-BusinessUseCase">Business =
+Use Case</h3>
+  <ul>
+   <li data-uuid=3D"0b565400-7225-408d-9e25-bed81bd76abc">Any communication=
+ sent out of the Salesforce platform (Email, SMS, MS Teams Card, Nexthink, =
+etc...)</li>
+  </ul>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-QuickSynopsisofSteps">Quic=
+k Synopsis of Steps</h3>
+  <ol>
+   <li data-uuid=3D"69e0b95b-8c7a-4358-8e90-fcc8da9be63e">Confirm the sprea=
+dsheet is the current, approved version and that the monthly update has bee=
+n completed by Rita</li>
+   <li data-uuid=3D"55f0af58-2996-4d50-8f93-9b4a5833af63">Ensure the Excel =
+file was ingested by the Data Collaboration Team with Azure SQL</li>
+   <li data-uuid=3D"7787601f-d2ab-492e-994e-3db34e96d5f9">Confirm the JNJ D=
+L Templates has the most updated view of records for one-off sends</li>
+   <li data-uuid=3D"464a7941-4fc6-4a82-87b2-729b8a7f1616">Confirm the Sales=
+force automation run and records landed in the intended Salesforce data ext=
+ension and that row counts match the source</li>
+  </ol>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-SynchronizationSpike">Sync=
+hronization Spike</h3>
+  <p><span class=3D"jira-issue" data-jira-key=3D"JDUB-43346"> <a href=3D"ht=
+tps://jira.jnj.com/browse/JDUB-43346" class=3D"jira-issue-key"><img class=
+=3D"icon" src=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;a=
+vatarId=3D31995&amp;avatarType=3Dissuetype">JDUB-43346</a> - <span class=3D=
+"summary">Rita's List Synchronization </span> <span class=3D"aui-lozenge au=
+i-lozenge-subtle             aui-lozenge-default
+     jira-macro-single-issue-export-pdf">Open</span> </span></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Data Table</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"Rita'sListAutomation/Synchronization-DataTable">Data Table</h2>
+  <p>Data Table and location information for Rita's List.</p>
+  <p>Below data includes the raw table in Azure SQL Database, the location =
+this is being pushed to in SFTP and final output in the Salesforce Data Ext=
+ension.</p>
+  <div class=3D"table-wrap">
+   <table class=3D"confluenceTable">
+    <colgroup>
+     <col>
+     <col>
+    </colgroup>
+    <tbody>
+     <tr>
+      <th scope=3D"col" class=3D"confluenceTh">List Name</th>
+      <th scope=3D"col" class=3D"confluenceTh">List Location</th>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">SSMS Database Name</td>
+      <td class=3D"confluenceTd">eusazramtprod</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">SSMS Table Name</td>
+      <td class=3D"confluenceTd">dbo.EC_VIP_Support</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">SFMC Table</td>
+      <td class=3D"confluenceTd">Data Extensions&gt;Templates&gt;Ritas_VIP_=
+List</td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Automation Steps</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"Rita'sListAutomation/Synchronization-AutomationSteps">Automatio=
+n Steps</h2>
+  <ol>
+   <li>Every day at 5:15 PM EST, automation runs from End User Collaboratio=
+n Services, code looks at naming convention of the tab in Excel with curren=
+t month and year<br>
+    <div class=3D"code panel pdl" style=3D"border-width: 1px;">
+     <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width=
+: 1px;">
+      <b>Concatenation Function</b>
+     </div>
+     <div class=3D"codeContent panelContent pdl">
+      <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D=
+"brush: js; gutter: false">@concat(utcNow('MMM'),' ',utcNow('yyyy'),' EC EC=
+-1 ALL')</pre>
+     </div>
+    </div></li>
+   <li>Data is sent in CSV file to the Salesforce SFTP in the Import Folder=
+</li>
+   <li>Salesforce Automation listens for new files in Import folder, automa=
+tion is triggered</li>
+   <li>Automation imports CSV data into Salesforce, overwrites the data ext=
+ension (Data Extensions&gt;Templates&gt;Ritas_VIP_List)</li>
+  </ol>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Synchronization Checklist</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"Rita'sListAutomation/Synchronization-SyncChecklist">Sync Checkl=
+ist</h2>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-ChecklistOverview">Checkli=
+st Overview</h3>
+  <p><strong>Frequency:</strong> Monthly<br><strong>Time to Complete:</stro=
+ng> 30 minutes</p>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-ChecklistItems">Checklist =
+Items</h3>
+  <ol>
+   <li data-uuid=3D"ac7de00e-fefe-4fbd-a6c0-6f479b8496c1">Open <a class=3D"=
+external-link" href=3D"https://jnj-my.sharepoint.com/:x:/p/rkirk_its/EUpO0f=
+yizBdFvwca2IosScYBjmjmXrqEYfZwpkXybO47mA?e=3D4%3AIzdFbC&amp;at=3D9&amp;CID=
+=3DABD26196-BAFF-4C57-909C-A35D73588E80&amp;wdLOR=3Dc8E1C6BE9-03EE-4D55-B82=
+0-A9C01C3E6667" rel=3D"nofollow">Rita's list</a>, confirm the deduplicated =
+count in the most updated tab=20
+    <ul>
+     <li data-uuid=3D"14d3507d-d0e4-4969-bb30-925433432fb2">Tab is made eve=
+ry month, look for the latest month in the current year on the bottom</li>
+     <li data-uuid=3D"c416d138-044d-41e1-bff7-f609bbf00953">:warning: If th=
+e latest month is not the current month, place in blocker and contact <a cl=
+ass=3D"external-link" href=3D"mailto:RKirk@its.jnj.com" rel=3D"nofollow">RK=
+irk@its.jnj.com</a> via Teams</li>
+     <li data-uuid=3D"7a0f9104-18de-4355-bdae-cb6f1ec333bf">Open Excel work=
+book in the Jira attachment, copy all emails in Column D into the "Ritas" t=
+ab, then deduplicate</li>
+     <li data-uuid=3D"58742759-1065-47d3-b132-f082b0fb8192">Record the resu=
+lt in Jira ticket table, Item #1</li>
+    </ul></li>
+   <li>Open SSMS, confirm the number from Raw table matches Rita's List=20
+    <ul>
+     <li data-uuid=3D"fd0544de-adb2-4642-a96a-7aea6334a015">After verificat=
+ion, go to "eusazramtprod" and expand "Tables" then go to the Table, "dbo.E=
+C_VIP_Support"</li>
+     <li data-uuid=3D"479dd430-c43d-4833-a6bb-67a8cdbe335c">Right click on =
+the table and select , "Select Top 1000 Rows"</li>
+     <li data-uuid=3D"eb30d971-122a-432a-85ab-e2e055430a27">Get the total n=
+umber of rows</li>
+     <li data-uuid=3D"85ed80bb-df42-45d6-a8f7-ce28ee6a01d1">Record the resu=
+lt in Jira ticket table, Item #2</li>
+     <li data-uuid=3D"29be8b8f-911f-4200-99c8-5ce98dd55bf6">:warning: If th=
+e first two numbers do not match, notify support team leader</li>
+    </ul></li>
+   <li>Compare records between SSMS and Rita's Excel=20
+    <ul>
+     <li data-uuid=3D"02f309f1-1aae-4767-9244-3f2aad34254e">In SSMS in the =
+raw table from Step 2, click on the header for Email to highlight the entir=
+e column</li>
+     <li data-uuid=3D"748ae38a-00ab-44a8-aa5c-fb31bd052b41">Right click and=
+ select copy</li>
+     <li data-uuid=3D"f7266677-9c5f-472c-b596-7a09a87aa14b">Go back to the =
+Excel and go to the same first tab and paste into Column B on the top</li>
+     <li data-uuid=3D"bae5f4e0-1b60-47b7-ba72-31ae1d3200a9">Now with these =
+two data sets, compare them by going selecting all (Ctrl+A) then going to T=
+op Bar &gt; "Conditional Formatting" &gt; "Highlight Cell Values" &gt; "Dup=
+licate Values" &gt; Change "Duplicate" to "Unique" and hit okay</li>
+     <li data-uuid=3D"b83d9c14-d034-4d8d-94cc-a76020ddc272">If there are ZE=
+RO RED cells, this means the datasets match</li>
+     <li data-uuid=3D"13415a9d-122b-47b7-af3a-430a6e2eae4d">Record the resu=
+lt in Jira ticket table, Item #3</li>
+     <li data-uuid=3D"856860e4-4b4b-40fe-b502-8cf7a3ec9afe">:warning: If th=
+e datasets do not match, notify support team leader</li>
+    </ul></li>
+   <li>In SSMS, confirm the number from the table combined table view=20
+    <ul>
+     <li data-uuid=3D"05b91e9b-95a4-4ada-b43b-dc4ae1428a5b">In "eusazramtpr=
+od" expand "Views" then go to the Table, "dbo.vw_usermanagerinfo"</li>
+     <li data-uuid=3D"d09f4de7-ca72-49ea-b0fd-e7794e50a1be">Right click on =
+the table and select , "Select Top 1000 Rows"</li>
+     <li data-uuid=3D"7f237bf5-9c18-415e-b2dd-185560111968">Paste in the fo=
+llowing query into the query box and select "Execute"<br>
+      <div class=3D"code panel pdl" style=3D"border-width: 1px;">
+       <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-wid=
+th: 1px;">
+        <b>Code to get Rita's VIP</b>
+       </div>
+       <div class=3D"codeContent panelContent pdl">
+        <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=
+=3D"brush: sql; gutter: true">SELECT TOP (1000) *
+  FROM [dbo].[vw_usermanagerinfo]
+  WHERE VIP =3D 'TRUE'</pre>
+       </div>
+      </div></li>
+     <li data-uuid=3D"bf7542a2-aebd-4da1-8560-a22b00b0d9eb">Get the total n=
+umber of rows</li>
+     <li data-uuid=3D"4abf429a-a394-45b3-98cc-074440f8cbbb">Record the numb=
+er in Jira ticket table, Item #4</li>
+     <li data-uuid=3D"bb9d3fca-9a88-43c2-ac67-0226c737b646">:warning: If th=
+is number does not match the others, notify support team leader</li>
+    </ul></li>
+   <li>In Salesforce, confirm the number count matches in the Data Extensio=
+n=20
+    <ul>
+     <li data-uuid=3D"348af474-3f73-47cf-afbe-c1f423b7ce19">Go to Salesforc=
+e Marketing Cloud &gt; Blue Cloud in Top Left &gt; Email Studio &gt; "Subsc=
+ribers" &gt; "Data Extensions" then navigate to <u>Data Extensions&gt;Templ=
+ates&gt;Ritas_VIP_List</u></li>
+     <li data-uuid=3D"fb352b07-204c-4c20-a4ee-bd82ae75896c">Confirm the tot=
+al count in this data extension</li>
+     <li data-uuid=3D"b6d3e893-3951-47ce-ac42-458f758f0bc1">Record the numb=
+er in Jira ticket table, Item #5</li>
+     <li data-uuid=3D"b00fb893-63a6-4382-a61d-ad6a1626550d">:warning: If th=
+is number does not match the others, notify support team leader</li>
+    </ul></li>
+  </ol>
+  <p>:information: Lastly, if all items are complete without issues, notate=
+ as a comment in the chat for support leader to review before closing.</p>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Stakeholders</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"Rita'sListAutomation/Synchronization-Stakeholders">Stakeholders=
+</h2>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-SalesforceMarketingCloudSu=
+pportTeam">Salesforce Marketing Cloud Support Team</h3>
+  <p><a href=3D"https://confluence.jnj.com/spaces/VBPG/pages/963375086/Supp=
+ort+Squad#Members" rel=3D"nofollow" style=3D"text-align: left;">Click Here =
+for Support Team Members</a></p>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-EndUserCollaborationTeam">=
+End User Collaboration Team</h3>
+  <p><a class=3D"confluence-userlink user-mention" data-username=3D"apoerio=
+" href=3D"/display/~apoerio" data-linked-resource-id=3D"98736346" data-link=
+ed-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-=
+url=3D"https://confluence.jnj.com">Poerio, Anthony [GTSUS]</a> - Manager En=
+d User Collab Team<br><a class=3D"confluence-userlink user-mention" data-us=
+ername=3D"SRedd121" href=3D"/display/~SRedd121" data-linked-resource-id=3D"=
+344652375" data-linked-resource-version=3D"1" data-linked-resource-type=3D"=
+userinfo" data-base-url=3D"https://confluence.jnj.com">Reddy, Syam [GTSUS N=
+ON-J&amp;J]</a> - End User Collab Team</p>
+  <h3 id=3D"Rita'sListAutomation/Synchronization-OtherStakeholders">Other S=
+takeholders</h3>
+  <p><a class=3D"confluence-userlink user-mention" data-username=3D"RKirk" =
+href=3D"/display/~RKirk" data-linked-resource-id=3D"118396917" data-linked-=
+resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=
+=3D"https://confluence.jnj.com">Kirk, Rita [ITS JJCUS]</a> - Senior Manager=
+ VIP Service</p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Links</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"Rita'sListAutomation/Synchronization-Links">Links</h2>
+  <p><a class=3D"external-link" href=3D"https://jnj-my.sharepoint.com/:x:/p=
+/rkirk_its/EUpO0fyizBdFvwca2IosScYBjmjmXrqEYfZwpkXybO47mA?e=3D4%3AIzdFbC&am=
+p;at=3D9&amp;CID=3DABD26196-BAFF-4C57-909C-A35D73588E80&amp;wdLOR=3Dc8E1C6B=
+E9-03EE-4D55-B820-A9C01C3E6667" rel=3D"nofollow">Rita's List Excel</a></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"Rita'sListAutomation/Synchronization-Notes">Notes</h2>
+  <p><time datetime=3D"2025-11-21" class=3D"date-past">21 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"e9d10e3b-f8d9-4967-be3b-65be23ccf141">Updated Documenta=
+tion for upcoming KT 11/24, to be assigned to Ale</li>
+  </ul>
+  <p><time datetime=3D"2025-11-07" class=3D"date-past">07 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"63a150f0-e1b7-4dbb-bc2c-285ecc5b1afc">November ready to=
+ be checked, assigned to Juan, complete</li>
+   <li data-uuid=3D"318d558b-e662-452c-b414-afd54406932c">Advised Juan to a=
+lign with Rita Kirk about timing of updates so that the support team can sy=
+nc accordingly</li>
+  </ul>
+  <p><time datetime=3D"2025-10-14" class=3D"date-past">14 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"31cd4c6a-c8ab-4f99-acf5-1391ee7cc209">Reviewed sync sub=
+task from Juan, help him to manually update the SFMC data extension, no iss=
+ues</li>
+  </ul>
+  <p><time datetime=3D"2025-10-13" class=3D"date-past">13 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"8d5536c4-6216-431d-a7d0-fbaad09ab329">Got update from R=
+ita's list that it was updated in Excel, re-assigned October sync to Juan</=
+li>
+  </ul>
+  <p><time datetime=3D"2025-09-29" class=3D"date-past">29 Sep 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"5af9e381-848b-4322-a86b-fd59bce6dc34">Discussed with Ju=
+an about Dataverse research and list synchronization</li>
+   <li data-uuid=3D"78ede5a5-5c67-4b0d-a1a1-d8bcb4b63b1c">Made new subtasks=
+ for Juan for Rita's List, also made notes to maybe make automation with pr=
+oper permissions</li>
+  </ul>
+  <p><time datetime=3D"2025-09-26" class=3D"date-past">26 Sep 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"2bded95e-1637-4551-8258-6258428301a9">Created tab for l=
+ist synchronization</li>
+   <li data-uuid=3D"d4aec059-e2ea-41e7-8641-cbbe361b1304">Made list synchro=
+nization epic and spike in Jira, included a Excel for cross-checking</li>
+   <li data-uuid=3D"5e6af1a2-7ba6-4bc1-ad11-614ddce11f50">Setup KT call wit=
+h Juan on Monday</li>
+  </ul>
+  <p><time datetime=3D"2025-09-22" class=3D"date-past">22 Sep 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li data-uuid=3D"792bc2c8-f8a7-474a-a8e0-21803a06c5e6">Syam got back via=
+ email, checked if SSMS is showing correct numbers now</li>
+   <li data-uuid=3D"6fcda597-53af-4c8d-9e41-99221b6f28c2">No issues with SS=
+MS Tables or DL templates</li>
+   <li data-uuid=3D"fc1f4e23-0168-42d1-be1b-86bb6ed8cca2">Refreshed Rita's =
+list in SFMC, was 135 before, now 136</li>
+   <li data-uuid=3D"2109a897-2ef6-48b1-81a0-c79e0aa201d2">Added additional =
+columns, JobGroup caused error with ambiguous reference, edited name to VIP=
+JobGroup which fixed automation references</li>
+  </ul>
+  <p><time datetime=3D"2025-09-19" class=3D"date-past">19 Sep 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li data-uuid=3D"48db4eb7-87b4-47af-ae61-c6ad25072195">Sent Syam email w=
+ith data issue, seeing inconsistency with numbers between Rita's Excel and =
+Azure SQL</li>
+  </ul>
+  <p><time datetime=3D"2025-06-13" class=3D"date-past">13 Jun 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li>Made this Confluence page with most important tabs</li>
+   <li>Need to work on workflow diagram before closing Jira card</li>
+  </ul>
+  <p><time datetime=3D"2025-06-12" class=3D"date-past">12 Jun 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li>Spoke with Syam Reddy about how Rita's list data was pulled in new m=
+onths</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207759_2005692968.1765477086644--

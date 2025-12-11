@@ -1,0 +1,10 @@
+Confluence future project overview:
+-	Azure integration
+	- 	Azure connectors
+	-	Input and output flows
+	-	SFMC team member list automation
+-	SFMC Metrics to Power Bi
+-	Jira Metrics to Power Bi
+-	SFMC Enhanced Intake Form
+-	Version Control with Word/Jira
+-	Toggle Held Subscribers

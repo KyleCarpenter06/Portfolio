@@ -1,0 +1,10 @@
+Jira Agile/Kanban Process:
+-	Have 15 minute stand up plus a card baseboard where work is pulled between columns based on project status
+-	we have a continuous flow as work is assigned as capacity permits
+-	the short daily stand up is to address surface blockers and coordinate efforts between team members
+-	have flexibility to mix support tickets and plan requests on the same board
+-	our projects allow changes to be introduced anytime rather than before current week
+-	Blockers: Blockers can be internal or external facing (ex: stakeholder does not have approved content yet, story in blocker)
+-	Leadership team has reviews every Monday and Friday to go over workload and availability of each development squad and QA (review Jira metrics)
+-	Leadership team does monthly presentation to director and other key stakeholders regarding wins and discuss improvements
+-	entire Salesforce team does a monthly retrospective to understand sentiment of team and work on improvement

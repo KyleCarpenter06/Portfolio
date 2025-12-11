@@ -1,0 +1,86 @@
+there are different project types in jira. Story, spike, bug, tasks, subtask and epic that the SFMC uses.
+
+Stories are for communications (email, SMS, teams)
+Sub tasks are checklist items done by the development team for communications, this also includes support tickets
+spikes are to address technical issues and non-standard tasks such as hypercare
+Tasks Are items that are attached to stories such as Validation of send as well as reporting, also used for support tickets
+Bugs are used to address issues with QA testing for communications and other projects, bugs are linked to stories
+Epics far to house all different Jura card types such as stories, tasks and spikes
+All Jira issues regardless of type has time tracking to be reviewed by leadership monhtly
+
+Descriptions of Stories for communications:
+-	Link to intake response details
+-	link to common SharePoint folder
+-	project overview
+-	campaign details (communication channel, sender profile, exclusions, send time, approver list, BCC list)
+-	links and paths (link to content, link to distribution list, breadcrumb to Salesforce data extensions and journeys
+-	additional notes
+-	Assignee is the team leader
+-	requester is the stakeholder who filled out intake form
+
+Standardized Sub task list for communications:
+-	discovery call with client (get distribution list, get content, confirm approval process, confirm stakeholders, confirm due dates)
+-	QA validation checklist
+-	test distribution list creation
+-	e-mail contact creation
+-	peer review by another developer (test email, manual validation checks)
+-	QA review by QA team (using QA checklist)
+-	QA team raises bugs, development team fixes bugs
+-	If necessary, Development team prepares content for translation
+-	If necessary, content submitted to translation vendor
+-	if necessary, content is returned from translation vendor and assembled in multiple languages
+-	e-mail sent to client for approval (team leader gathers feedback)
+-	email ID added to special output Data extension for reporting
+-	final QA/smoke test by QA team
+-	journey created by developer
+-	QA validates journey
+-	Team leader Conducts final review and activates journey
+
+additional tasks for stories:
+-	Communication is validated by support team with journey builder and e-mail studio
+-	direct report for communication sent to stakeholder or link to power BI report
+
+Descriptions of Tasks for Support tickets:
+-	Requester
+-	project name, project leader
+-	support priority, support type, support description
+-	whether or not this is a repeat ticket
+-	link to intake response details
+
+Standardized sub task list for Power BI setup for support team ticket:
+-	discovery/research (review goals, Stakeholders, data requirements, previous projects, important links, risks, assumptions, constraints, schedule and deadlines)
+-	create confluence page
+-	Create UAT Elements as necessary (data extensions, automation, power automate flow)
+-	define hypercare checklist
+-	UAT testing with stakeholders
+-	move to prod/hypercare
+
+Standardized sub task list for API integration setup for support team ticket:
+-	Discovery/research (review goals, Stakeholders, data requirements, previous projects, important links, risks, assumptions, constraints, schedule and deadlines)
+-	create confluence page
+-	Create UAT Elements as necessary (data extensions)
+-	Test UAT API endpoint in Bruno or postman
+-	define hypercare checklist
+-	UAT testing with stakeholders
+-	move to prod/hypercare
+
+for the support team:
+-	priority of the support ticket is dependent on the due date
+-	all support tickets are linked to confluence pages for documentation purposes
+
+full discovery checklist:
+Define project goals - what is the purpose of the support task
+Review stakeholders - what groups/sector are involves and who will do sign-off
+Review data requirements - what data points are required for the communications team
+Review existing projects - was this approach done before? avoids reinventing the wheel and uncovers gaps
+Gather important links - what are the data source, what are links, who owns them, get source of truth
+Risks, assumptions, and constraints - define blockers early to advise parties
+Project schedules and timelines - get project schedule from SFMC team leader, OCM or project owner
+Priority and deadlines - review the urgency, can we meet the deadlines?
+
+
+
+
+
+
+

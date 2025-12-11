@@ -1,0 +1,46 @@
+GET AUTOMATION ID FROM NAME:
+Type: Post
+Endpoint: https://webservice.s7.exacttarget.com/Service.asmx
+Body: 
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>Automation</ObjectType>
+                <Properties>ProgramID</Properties>
+                <Properties>Name</Properties>
+                <Filter xsi:type="SimpleFilterPart" xmlns:ns1="http://exacttarget.com/wsdl/partnerAPI">
+                    <Property>Name</Property>
+                    <SimpleOperator>equals</SimpleOperator>
+                    <Value>{{Automation Name}}</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+FIRE AUTOMATION:
+Type: Post
+Endpoint: https://mc9chhxcrh236jtxg07b35fsqk-4.soap.marketingcloudapis.com/Service.asmx
+Body:
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">Perform</a:Action>
+        <a:To>https://mc9chhxcrh236jtxg07b35fsqk-4.soap.marketingcloudapis.com/Service.asmx</a:To>
+        <fueloauth xmlns="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </s:Header>
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <PerformRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI" xmlns:ns2="urn:fault.partner.exacttarget.com">
+            <Action>start</Action>
+            <Definitions>
+                <Definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Automation">
+                    <ObjectID>{{Automation ID}}</ObjectID>
+                </Definition>
+            </Definitions>
+        </PerformRequestMsg>
+    </s:Body>
+</s:Envelope>

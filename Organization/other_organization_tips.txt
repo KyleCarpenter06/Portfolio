@@ -1,0 +1,50 @@
+Organization tips:
+
+Group / team organization in Microsoft Teams
+	- Clear team and channel structure reduces noise and confusion and speeds up collaboration
+	- Proper channel separation (by project, function, or phase) keeps conversations contextual and searchable
+	- channel templates for recurring project types (kickoff, daily-standup, blockers, deliverables)
+	- Use consistent naming conventions (e.g., ProjectCode_Main, ProjectCode_Resources)
+	- Attach important documents into channel (schedule, distribution list, sharepoint docs folder)
+	
+E-mail folders and rules in Outlook
+	- predictable folder structure and automated rules enable fast triage, reduce cognitive load, and help maintain Inbox Zero
+	- Rules/filters route messages which make it easy to prioritize and find items for follow-up
+	- Folder Naming convention is simple project name, placed into parent folders organized by year
+	- Additional non-project folders (ex: jira updates, workflow error messages, test emails)
+	- Folders are organized in favorites based on criticality
+	
+Parent pages, subpages, and local tabs in Atlassian Confluence
+	- logical page hierarchy makes content discoverable and helps newcomers navigate project knowledge quickly
+	- Local tabs (or modular tabs in macros) can present different views (overview, specs, attachments) without clutter
+	- Site map example: Spaces > parent pages > subpages > local tabs > content
+	- Seperate section for templates which are copied and placed into active pages/folders
+	- When Confluence page no longer needed, page is moved to archive section
+	
+Bookmark organization in Chrome/Edge
+	- Top links in bar (SFMC, Confluence, Jira, Power Automate, AI Tools)
+	- Top folders in bar (Email help, productivity links, HR links, Project Folders)
+	- Similar to Outlook Folders, bookmarked folders are organized by name
+	- Use standard naming convention for parent folders and individual content links
+	- Bookmark map example: Main Project > sub-project > links
+	- Link examples: Jira Epic, Confluence Parent page, project Schedule, content
+	- Projects no longer active are archived into yearly folders, example (2025 > Project name > sub project > links)
+	
+Confluence Work Dashboards with AppFire Macro
+	- Macro uses JQL in order to summarize tasks for specific team
+	- Columns are customizable (ex: type, priority, name, status, due date, assignee, notes)
+	- Can summarize tasks that need to be done for current day, week, month
+	- Can have filters based on project, type, priority, assignee, date, status, and can have order by
+	- Great for quick analysis to show direct report or for Kanban standups
+	
+Placing Jira references/links in Confluence
+	- Linking live Jira issues into Confluence pages (via the Jira Issue/Filter macro) provides real-time status and traceability between documentation and work items
+	- The main epic, story or task is linked to the main overview section in Confluence
+	- This reduces lookup time, avoids copy/paste errors, and creates an auditable trail
+	- Support notes section in Confluence can have links that lead back to individual Jira issues (ex: bugs or subtasks)
+	
+Placing Jira and Confluence links in Outlook meeting invites
+	- Link placed at bottom of invite, ensures all participants have context before the meeting
+	- Maintains single source of truth, organizer does not have repeat content across platforms
+	- Reduces downtime for meeting organizer to search for the link in Jira/Confluence
+	- Helps to verify access rights before sending so attendees can open linked resources

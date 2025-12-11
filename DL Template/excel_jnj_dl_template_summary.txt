@@ -1,0 +1,23 @@
+Power Query Steps:
+	- source sql query to merge tables from Azure SQL
+	- Language lowercase: convert language to lowercase to match case exactly
+	- Add Lang 11: Adds new column to show their preferred language based on 11 language SOP
+	- Add Lang 24: Adds new column to show their preferred language based on 24 language SOP
+	- Reorder Lang: Places language columns closer to left side of the sheet
+	- Remove Lang: removes unwanted lowercase language from the final sheet
+	- Convert WWID to Numbers: converts text to number for easier searching of this column
+	- Full null region values: Adds new region column, defaults to ASPAC if user is found but no region, else UNKNOWN
+	- Full null country values: Adds new country column, defaults to UNKNOWN if country not listed or user is not found
+	- Remove region and country: removes these two columns so only one of each exists
+	- Rename region and country: renames "Region2" and "Country2" to "region" and "country" for simplicity
+	- Full null Manager WWID, Email, Full Name: Looks for null values and converts to "unknown" if possible
+	- Reorder: reorders all columns
+
+Connection Info:
+	- Background Refresh Enabled
+	- Data refreshed when opening file
+	- Data removed from external data range before saving workbook
+	- Refresh this connection on refresh all
+	
+Additional info:
+	- VBA code added to prevent the template from being updated in template folder

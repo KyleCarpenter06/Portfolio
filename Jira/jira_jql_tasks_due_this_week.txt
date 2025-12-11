@@ -1,0 +1,3 @@
+JQL to summarize all tasks for all card types not completed and due date is this week
+
+assignee IN (kcarpen7,jfern180) AND duedate >=startOfWeek() AND duedate <endOfWeek() AND status != Completed ORDER BY duedate ASC

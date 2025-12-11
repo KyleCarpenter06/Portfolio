@@ -1,0 +1,16 @@
+=LET(
+  lastRow, MAX(2, IFERROR(LOOKUP(2, 1/('FULL DL'!A:A<>""), ROW('FULL DL'!A:A)), 1)),
+  data, 'FULL DL'!A2:INDEX('FULL DL'!A:Y, lastRow, 17),
+  statusOk, IF(Controls!B2="All",
+              'FULL DL'!C2:INDEX('FULL DL'!C:C, lastRow)='FULL DL'!C2:INDEX('FULL DL'!C:C, lastRow),
+              'FULL DL'!C2:INDEX('FULL DL'!C:C, lastRow)=Controls!B2),
+  language11Ok, IF(Controls!B3="All",
+              'FULL DL'!E2:INDEX('FULL DL'!E:E, lastRow)='FULL DL'!E2:INDEX('FULL DL'!E:E, lastRow),
+              'FULL DL'!E2:INDEX('FULL DL'!E:E, lastRow)=Controls!B3),
+  filtered, FILTER(data, statusOk * language11Ok, "No data or filters are set to blank"),
+  clean, IF( AND( ROWS(filtered)=1, COLUMNS(filtered)=1, filtered="No data or filters are set to blank"),
+            filtered,
+            MAP(filtered, LAMBDA(x, IF(x=0, "", x)))
+         ),
+  clean
+)

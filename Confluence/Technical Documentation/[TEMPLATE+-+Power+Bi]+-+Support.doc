@@ -1,0 +1,1728 @@
+Date: Thu, 11 Dec 2025 13:20:41 -0500 (EST)
+Message-ID: <955714227.207766.1765477241448@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207765_1962620002.1765477241448"
+
+------=_Part_207765_1962620002.1765477241448
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>[TEMPLATE - Power Bi] - Support</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>[TEMPLATE - Power Bi] - Support</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css" rel=3D"preload" id=3D"custom-styles">
+.support-tbd{=09background-color:#fff7d6;=09font-weight: bold;}.support-tbd=
+:before{=09content: '\1F4C5';}.support-placeholder{=09background-color:#f9c=
+b9c;=09font-weight: bold;}.support-placeholder:before{=09content: '\2B55';}=
+.support-blocker{=09background-color:#fdc5c5;=09font-weight: bold;}.support=
+-blocker:before{=09content: '\26D4';}
+</style>
+<script>
+const header =3D $("#header");
+const fixedHeader =3D "fixed-header";
+$(window).on("scroll", () =3D> {=20
+     if(window.pageYOffset > header.outerHeight()){
+          if(!header.hasClass(fixedHeader)){
+               header.addClass(fixedHeader);=20
+          }
+     } else {=20
+          header.removeClass(fixedHeader);=20
+     }
+});
+</script>
+<div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-ma=
+cro  confluence-information-macro-note">
+ <p class=3D"title conf-macro-render">Page Under Construction</p><span role=
+=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-warning con=
+fluence-information-macro-icon"></span>
+ <div class=3D"confluence-information-macro-body">
+  <p>This support page is currently under construction. Check back later fo=
+r any updates.</p>
+ </div>
+</div>
+<div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informati=
+on-macro  confluence-information-macro-warning">
+   <p class=3D"title conf-macro-render">Missing Important Data</p><span rol=
+e=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error conf=
+luence-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <div>
+     <p>The page or tab is missing data and contains either elements/areas =
+with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nbsp=
+; <span class=3D"support-placeholder inline-first-p"> Placeholder </span> &=
+nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </spa=
+n></p>
+    </div>
+   </div>
+  </div>
+  <h2 id=3D"id-[TEMPLATEPowerBi]Support-Overview">Overview</h2>
+  <div>
+   <p>This page is dedicated to the support work for the&nbsp; <span class=
+=3D"support-placeholder inline-first-p">Place support work title here</span=
+> <span style=3D"color:#172b4d;">&nbsp;project. Support work involves&nbsp;=
+</span> <span class=3D"support-placeholder inline-first-p">Outline support =
+work</span></p>
+  </div>
+  <h3 class=3D"auto-cursor-target" id=3D"id-[TEMPLATEPowerBi]Support-JiraAc=
+tionItems">Jira Action Items</h3>
+  <div class=3D"bv-pdf-tabs">
+   <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline"=
+>Open Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module-751518587" class=3D"refresh-module-id jira-ta=
+ble">
+     <p></p>
+     <div id=3D"jira-issues-751518587" style=3D"width: 100%;  overflow: aut=
+o;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">T</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">P</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Summary</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Status</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Due</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Assignee</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Latest Summary</th>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=
+=3D"nofollow" href=3D"https://jira.jnj.com/secure/IssueNavigator.jspa?reset=
+=3Dtrue&amp;jqlQuery=3Dproject+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%=
+28%29+AND+parent+IN+%28%22JDUB-24975%22%29+AND+status+%21%3D+%22Completed%2=
+2+ORDER+BY+due+ASC%2C+priority+DESC++++++++++++++&amp;src=3Dconfmacro"> <sp=
+an>No issues found</span> </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Closed Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module-281089757" class=3D"refresh-module-id jira-ta=
+ble">
+     <p></p>
+     <div id=3D"jira-issues-281089757" style=3D"width: 100%;  overflow: aut=
+o;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"type">T</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"priority">P</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"summary">Summary</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"status">Status</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"due">Due</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"assignee">Assignee</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"customfield_12037">Latest Summary</span></th>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-25007?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/major.svg" alt=3D=
+"High" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-25007?src=3Dconfmacro"> Setup UAT Data Extensi=
+ons </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 11, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27231?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27231?src=3Dconfmacro"> Missing Scenario Data =
+- Nasuni &gt; SecureZone </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 12, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27656?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/critical.svg" alt=
+=3D"Critical" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27656?src=3Dconfmacro"> Send Ginnas API Data f=
+or Testing </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 13, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-26057?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/major.svg" alt=3D=
+"High" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-26057?src=3Dconfmacro"> Setup Power Automate F=
+low </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 14, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27338?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/major.svg" alt=3D=
+"High" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27338?src=3Dconfmacro"> Incorrect Data - Box '=
+AbiomedURL' </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 14, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27113?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/critical.svg" alt=
+=3D"Critical" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27113?src=3Dconfmacro"> Review Code for Data T=
+ables </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 20, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27297?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/critical.svg" alt=
+=3D"Critical" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27297?src=3Dconfmacro"> Setup SFMC Automation =
+- Pilot T-Minus </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 20, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-28031?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/critical.svg" alt=
+=3D"Critical" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-28031?src=3Dconfmacro"> Activate Pilot Journey=
+ </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 20, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27273?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27273?src=3Dconfmacro"> Switch to PROD for Pil=
+ot Batch </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 20, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27290?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27290?src=3Dconfmacro"> Hypercare Checkpoint -=
+ Pilot T-28 </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 21, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27291?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27291?src=3Dconfmacro"> Hypercare Checkpoint -=
+ Pilot T-22 </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 22, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27271?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/critical.svg" alt=
+=3D"Critical" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27271?src=3Dconfmacro"> Setup Automation Type =
+- Rescheduled </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 26, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-28314?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-28314?src=3Dconfmacro"> Hypercare Check - Resc=
+heduled </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 26, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-28263?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/major.svg" alt=3D=
+"High" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-28263?src=3Dconfmacro"> Send Nicole Backlog Em=
+ails </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Nov 27, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Frias, Lautaro =
+[GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-28310?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-28310?src=3Dconfmacro"> Adjust AMPScript - BCC=
+/Leaders </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Dec 04, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Frias, Lautaro =
+[GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-28448?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-28448?src=3Dconfmacro"> Abiomed Box Nasuni - C=
+ode Enhancement </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Dec 05, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Frias, Lautaro =
+[GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27292?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27292?src=3Dconfmacro"> Hypercare Checkpoint -=
+ Pilot T-7 </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Dec 09, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27295?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27295?src=3Dconfmacro"> Setup T-Minus Journey =
+</a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Dec 09, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27233?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27233?src=3Dconfmacro"> Abiomed Box/Nasuni - U=
+AT Scenario Testing </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Dec 09, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-27293?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-27293?src=3Dconfmacro"> Hypercare Checkpoint -=
+ Pilot T-Prior </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Dec 11, 2024</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <span>S=
+howing 20 out of</span> <a rel=3D"nofollow" title=3D"View all matching issu=
+es in Jira." href=3D"https://jira.jnj.com/secure/IssueNavigator.jspa?reset=
+=3Dtrue&amp;jqlQuery=3Dproject+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%=
+28%29+AND+parent+IN+%28%22JDUB-24975%22%29+AND+status+%3D+%22Completed%22+O=
+RDER+BY+due+ASC%2C+priority+DESC++++++++++++++&amp;src=3Dconfmacro"> 90 iss=
+ues </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div>
+   <p><br></p>
+  </div>
+  <h3 id=3D"id-[TEMPLATEPowerBi]Support-SupportTask">Support Task</h3>
+  <p><span class=3D"support-placeholder inline-first-p"> Place Main Support=
+ Jira Task Here </span> <br></p>
+  <p><br></p>
+  <hr>
+  <div role=3D"region" aria-label=3D"Info" class=3D"confluence-information-=
+macro  confluence-information-macro-information">
+   <p class=3D"title conf-macro-render">Overview - What is in this Section?=
+</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfo=
+nt-info-filled confluence-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>The overview tab is designed to inform the user of the overall key w=
+ork done by the support team including the current/former tasks as well as =
+the open and closed subtasks for the project. The page also includes any pe=
+nding tasks for the Confluence page itself. <span style=3D"color:#333333;">=
+For any additional questions, please contact the support team by visiting t=
+he <a href=3D"#id-[TEMPLATEPowerBi]Support-Stakeholders">stakeholders</a> s=
+ection.</span></p>
+   </div>
+  </div>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Support Work</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <div class=3D"bv-pdf-tabs">
+   <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline"=
+>Summary</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Missing Important Data</p><span r=
+ole=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error co=
+nfluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <div>
+       <p>The page or tab is missing data and contains either elements/area=
+s with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nb=
+sp; <span class=3D"support-placeholder inline-first-p"> Placeholder </span>=
+ &nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </s=
+pan></p>
+      </div>
+     </div>
+    </div>
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-SummaryofWork">Summary of Work</h=
+2>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-Overview.1">Overview</h3>
+    <div>
+     <p>The goal of the support team for this project is to&nbsp; <span cla=
+ss=3D"support-placeholder inline-first-p"> Brief statement of the support t=
+eam's purpose and objectives. </span></p>
+    </div>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-ImportantDates">Important Dates</=
+h3>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <colgroup>
+       <col>
+       <col>
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Start/Finish Dates of Supp=
+ort Work</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">First Communication Date</=
+th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Summary - What is this Section?</=
+p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont=
+-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>The summary page is designed to inform the user of a summarized vi=
+ew of the work being done by the Salesforce Marketing Cloud Support team fo=
+r this particular project. All upper-level key points would be mentioned he=
+re. Any additional information regarding data flows, automations, agreement=
+s, notes and other information can be found on the subsequent tabs. <span s=
+tyle=3D"color:#333333;">For any additional questions, please contact the su=
+pport team by visiting the <a href=3D"#id-[TEMPLATEPowerBi]Support-Stakehol=
+ders">stakeholders</a> section.</span></p>
+     </div>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline"> Agreement</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Missing Important Data</p><span r=
+ole=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error co=
+nfluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <div>
+       <p>The page or tab is missing data and contains either elements/area=
+s with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nb=
+sp; <span class=3D"support-placeholder inline-first-p"> Placeholder </span>=
+ &nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </s=
+pan></p>
+      </div>
+     </div>
+    </div>
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-Agreement(SLA)">Agreement (SLA)</=
+h2>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-ScopeofSupport">Scope of Support<=
+/h3>
+    <p><strong>What <u><span style=3D"color:#22a06b;">IS IN</span></u> scop=
+e:</strong></p>
+    <ul>
+     <li data-uuid=3D"7fea1ccb-708c-4a69-b9d9-09f5cde7e256"><span style=3D"=
+color:#333333;">All data stored in Salesforce Data Extensions must align ex=
+actly with what is visible in the Power BI reports produced by the Data Col=
+laboration team</span></li>
+     <li data-uuid=3D"abdad75a-5692-4027-b329-3f42e5ea52e4"><span style=3D"=
+color:#333333;">Testing and troubleshooting related to data transfers betwe=
+en Power BI and Salesforce via Power Automate, conducted in collaboration w=
+ith the data team</span></li>
+     <li data-uuid=3D"3504a9db-d103-4799-8a16-56d2a29aa6c5"><span style=3D"=
+color:#333333;">Testing and troubleshooting of Power Automate workflows tha=
+t affect data, irrespective of the data received by data team</span></li>
+     <li data-uuid=3D"8fa43bef-ddf6-4392-86f0-cdce8fe2a588"><span style=3D"=
+color:#333333;">Data exclusions defined by the support team prior to automa=
+tion testing</span></li>
+     <li data-uuid=3D"71ae85c1-9d5b-4181-9416-74fab4c4d20f"><span style=3D"=
+color:#333333;">Data quality checks, validation rules, and reconciliation p=
+rocesses to ensure data integrity across Salesforce, Power Automate, and Po=
+wer BI</span></li>
+     <li data-uuid=3D"b235ad42-0f5a-47b8-832f-4fb022a9008a"><span style=3D"=
+color:#333333;">Documentation, change control, and data lineage for end-to-=
+end data flows, including field mappings, versioning, and release notes</sp=
+an></li>
+    </ul>
+    <div>
+     <p><span class=3D"support-placeholder inline-first-p"> Define any othe=
+r tasks, products, systems or services are in scope, fill in bulleted list =
+here </span></p>
+    </div>
+    <p><br></p>
+    <p><strong>What <span style=3D"color:#c9372c;"><u>IS NOT IN</u></span>&=
+nbsp;scope:</strong></p>
+    <ul>
+     <li data-uuid=3D"253971ae-f1c2-422e-9b7a-2cf68dffd5f4"><span style=3D"=
+color:#333333;">Conditional logic or integrations implemented within Salesf=
+orce Journey Builder</span></li>
+     <li data-uuid=3D"711cdbe1-a1f0-4b00-b2d3-45a2711cb66d">Invalid or blan=
+k data originating from the source Power BI for non-required fields (if any=
+); this logic should be corrected on the data side before reaching SFMC</li=
+>
+     <li data-uuid=3D"6184723b-b368-4ffc-b0f5-45a5ff3bf19f"><span style=3D"=
+color:#333333;">Any email-send errors that are unrelated to the incoming da=
+ta in SFMC Data Extensions</span></li>
+     <li data-uuid=3D"2290ed9c-8f37-4540-9f6c-13fa8a95dcf4"><span style=3D"=
+color:#333333;">Data or automation changes that have not been approved by t=
+he data support team</span></li>
+     <li class=3D"line-reveal" data-uuid=3D"5f7bf684-b2fb-4a8e-aeea-cf07bb5=
+32f00">Changes to data schemas, mappings, or field definitions that are not=
+ covered by formal change control and approval</li>
+     <li class=3D"line-reveal" data-uuid=3D"bdf63dc6-5e21-42a1-875d-dfe0213=
+da25e">Issues arising from external systems or connectors not maintained by=
+ the data support team</li>
+    </ul>
+    <div>
+     <p><span class=3D"support-placeholder inline-first-p"> Define any othe=
+r tasks, products, systems or services are&nbsp;<u><strong>NOT</strong></u>=
+ in scope, fill in bulleted list here </span></p>
+    </div>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-SupportTimelines">Support Timelin=
+es</h3>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <colgroup>
+       <col>
+       <col>
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Checkpoint</th>
+        <th scope=3D"col" class=3D"confluenceTh">Date/Time</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Discovery/Research/Alignment</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> Number of =
+business day(s) to complete </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Developing/Testing</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> Number of =
+business day(s) to complete </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Expected UAT Completion Date</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Expected PROD Ready Date</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">First Communication Release Date</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-SupportHypercare">Support Hyperca=
+re</h3>
+    <p style=3D"text-align: left;">More information about support hypercare=
+ can be found in the<span>&nbsp;</span><a href=3D"https://confluence.jnj.co=
+m/spaces/VBPG/pages/1121776444/Copilot+Chat+Survey+-+Support#CopilotChatSur=
+veySupport-Hypercare" rel=3D"nofollow">hypercare section</a>.</p>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-SupportChannels">Support Channels=
+</h3>
+    <p>Support team could be reached by email or through MS teams chat. <a =
+href=3D"https://confluence.jnj.com/spaces/VBPG/pages/963375086/Support+Squa=
+d#Members" rel=3D"nofollow">Click here for support team information.</a></p=
+>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-SupportCoverage">Support Coverage=
+</h3>
+    <p>Support is available during normal Monday through Friday business ho=
+urs (9AM - 5PM) in the US Eastern Time Zone (GMT-4 or GMT-5 based on daylig=
+ht savings)</p>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Agreement - What is this Section?=
+</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfo=
+nt-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p><span style=3D"color:#333333;">This page defines the scope of Sale=
+sforce Marketing Cloud support for the support team, the communications tea=
+m, and other relevant stakeholders. It clarifies in-scope activities and pr=
+ovides supplementary information, such as completion timelines, coverage ho=
+urs and key links.&nbsp;<span style=3D"color:#333333;">For any additional q=
+uestions, please contact the support team by visiting the <a href=3D"#id-[T=
+EMPLATEPowerBi]Support-Stakeholders">stakeholders</a> section.</span></span=
+></p>
+     </div>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Data</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Missing Important Data</p><span r=
+ole=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error co=
+nfluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <div>
+       <p>The page or tab is missing data and contains either elements/area=
+s with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nb=
+sp; <span class=3D"support-placeholder inline-first-p"> Placeholder </span>=
+ &nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </s=
+pan></p>
+      </div>
+     </div>
+    </div>
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-Data">Data</h2>
+    <h3 style=3D"text-align: left;" id=3D"id-[TEMPLATEPowerBi]Support-Sales=
+forceDataExtensionLocations">Salesforce Data Extension Locations</h3>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <colgroup>
+       <col>
+       <col>
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"confluenceTh">SFMCTest API</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> 'SFMCTest'=
+ Location in SFMC </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">UAT API</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> 'UAT' Loca=
+tion in SFMC </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">PROD API</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> 'PROD' Location TB=
+D </span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-SalesforceDataExtensionInputTable=
+Fields">Salesforce Data Extension Input Table Fields</h3>
+    <div class=3D"table-wrap">
+     <table class=3D"fixed-width wrapped confluenceTable">
+      <colgroup>
+       <col style=3D"width: 15.8628%;">
+       <col style=3D"width: 13.9004%;">
+       <col style=3D"width: 11.6097%;">
+       <col style=3D"width: 14.7181%;">
+       <col style=3D"width: 17.9888%;">
+       <col style=3D"width: 13.5733%;">
+       <col style=3D"width: 12.3468%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;vertical-align: top;">
+         <p title=3D"">Field Name</p></th>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;vertical-align: top;">
+         <p title=3D"">Data Type</p></th>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;vertical-align: top;">Required/PK</t=
+h>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;vertical-align: top;">Column Type</t=
+h>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;vertical-align: top;">Responsibility=
+</th>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;vertical-align: top;">Default Value<=
+/th>
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Notes</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Index</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#333333;">Number</s=
+pan></td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">:white_check=
+_mark:&nbsp;</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Column<=
+/td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Collabo=
+ration</td>
+        <td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;"><span style=3D"color:#8590a2;" tit=
+le=3D"">N/A - Required</span></td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd"><span style=
+=3D"color:#172b4d;" title=3D"">&nbsp;</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">:white_check=
+_mark:&nbsp;=F0=9F=94=91</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Column<=
+/td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Collabo=
+ration</td>
+        <td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"=
+grey" style=3D"text-align: left;"><span style=3D"color:#8590a2;" title=3D""=
+>N/A - Required</span></td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd"><span style=
+=3D"color:#172b4d;" title=3D"">&nbsp;</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">DataEnabled</td>
+        <td class=3D"confluenceTd">Boolean</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">:white_check=
+_mark:</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Column<=
+/td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Collabo=
+ration</td>
+        <td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;"><span style=3D"color:#8590a2;" tit=
+le=3D"">N/A - Required</span></td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd"><span style=
+=3D"color:#172b4d;" title=3D"">&nbsp;</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd"><span style=3D"color:#333333;">SFMCEnabl=
+ed</span></td>
+        <td class=3D"confluenceTd">Boolean</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">:white_check=
+_mark:&nbsp;</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Audit Column=
+</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">SFMC</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">TRUE</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd"><span style=3D"color:#333333;">CreatedBy=
+</span></td>
+        <td class=3D"confluenceTd">Text (500)</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">:white_check=
+_mark:&nbsp;</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Audit Column=
+</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Collabo=
+ration</td>
+        <td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;"><span style=3D"color:#8590a2;" tit=
+le=3D"">N/A - Required</span></td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd"><span style=
+=3D"color:#172b4d;" title=3D"">&nbsp;</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd"><span style=3D"color:#333333;">CreatedDa=
+te</span></td>
+        <td class=3D"confluenceTd">Date</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">:white_check=
+_mark:&nbsp;</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Audit Column=
+</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">SFMC</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Current Date=
+</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd"><span style=3D"color:#333333;">UpdatedDa=
+te</span></td>
+        <td class=3D"confluenceTd">Date</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">:white_check=
+_mark:&nbsp;</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Audit Column=
+</td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd">Data Collabo=
+ration</td>
+        <td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=
+=3D"#f4f5f7" style=3D"text-align: left;"><span style=3D"color:#8590a2;">N/A=
+ - Required</span></td>
+        <td style=3D"text-align: left;" class=3D"confluenceTd"><span style=
+=3D"color:#172b4d;">&nbsp;</span></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 style=3D"text-align: left;" id=3D"id-[TEMPLATEPowerBi]Support-Archi=
+vedSalesforceDataExtensionLocations">Archived Salesforce Data Extension Loc=
+ations</h3>
+    <p>In addition to the main data extensions, there are also data extensi=
+ons labeled as "Archive" which are designed to preserve records coming from=
+ the PBI report. In case there is a failure of the Power Bi report and this=
+ issue causes a chain-reaction issue with Salesforce team, we can use the A=
+rchived tables as a backup.</p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <colgroup>
+       <col>
+       <col>
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"confluenceTh">SFMCTest API Archive</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> 'SFMCTest'=
+ Archive Location in SFMC </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">UAT API Archive</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> 'UAT' Arch=
+ive Location in SFMC </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">PROD API Archive</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> 'PROD' Archive Loc=
+ation TBD </span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Data - What is this Section?</p><=
+span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-in=
+fo-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p><span style=3D"color:#333333;">This page defines the data aspects =
+of the support integration and request. This includes but is not limited to=
+ data extension locations in Salesforce, incoming data fields including aud=
+it fields and any important notes related to updates and changes. <span sty=
+le=3D"color:#333333;">For any additional questions, please contact the supp=
+ort team by visiting the <a href=3D"#id-[TEMPLATEPowerBi]Support-Stakeholde=
+rs">stakeholders</a> section.</span></span></p>
+     </div>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Automation</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Missing Important Data</p><span r=
+ole=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error co=
+nfluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <div>
+       <p>The page or tab is missing data and contains either elements/area=
+s with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nb=
+sp; <span class=3D"support-placeholder inline-first-p"> Placeholder </span>=
+ &nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </s=
+pan></p>
+      </div>
+     </div>
+    </div>
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-Automation">Automation</h2>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-AutomationOverview">Automation Ov=
+erview</h3>
+    <p>The automation built by the support team uses Power Automate to extr=
+act data from the Power Bi report built by the data collaboration team.</p>
+    <div>
+     <p><span class=3D"support-placeholder inline-first-p"> Any other relev=
+ant information to add? </span></p>
+    </div>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-AutomationComponents">Automation =
+Components</h3>
+    <ul>
+     <li data-uuid=3D"44de53e0-8eb0-4fbb-bcf0-15d8ce84f128">Fetches current=
+ data from the&nbsp;Power BI report, uses Power Bi Dax Query built in Power=
+ Bi Desktop</li>
+     <li data-uuid=3D"167905a4-888b-457d-9b18-9f240b21c5e9">Separates impor=
+tant/non-important data by looking at the columns required for the communic=
+ation, places into two separate groups</li>
+     <li data-uuid=3D"ee4a8d31-982c-4b32-bbca-84718e054bd5">Uses separate S=
+alesforce automation (see below), performs refresh of the main data table i=
+n Salesforce, only inserts most current data and places the rest into an ar=
+chived table</li>
+     <li data-uuid=3D"ee3fca6e-c9a0-4f39-af49-24da7c431065">Flow designed t=
+o catch any major data issue and will notify the support team upon flow fai=
+lure</li>
+    </ul>
+    <div>
+     <p><span class=3D"support-placeholder inline-first-p"> List out any ot=
+her important components of the flow here. </span></p>
+    </div>
+    <p><br></p>
+    <hr>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-PowerAutomateFlowDetails-UAT">Pow=
+er Automate Flow Details - UAT</h3>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <colgroup>
+       <col>
+       <col>
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Automation Type</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> Automation=
+ Type and when triggered </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Automation Name</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> [Project N=
+ame] - Power BI Extract </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Automation Link</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> Link to Po=
+wer BI UAT Flow </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Environment</th>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">EUS SFMC =
+UAT</span></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Primary Owner</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> Power Auto=
+mate Owner of Flow </span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-PowerAutomateFlowDetails-PROD">Po=
+wer Automate Flow Details - PROD</h3>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <colgroup>
+       <col>
+       <col>
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"confluenceTh">Automation Type</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> Automation=
+ Type and when triggered (same as UAT) </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Automation Name</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> [Project N=
+ame] - Power BI Extract (same as UAT) </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Automation Link</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> TBD </span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Environment</th>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">EUS SFMC =
+Production</span></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Primary Owner</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> Power Auto=
+mate Owner of Flow (same as UAT) </span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <hr>
+    <h3 style=3D"text-align: left;" id=3D"id-[TEMPLATEPowerBi]Support-Sales=
+forceClearAutomationLocations">Salesforce Clear Automation Locations</h3>
+    <p>To perform a clean refresh of the table in Salesforce, a separate "c=
+lear" automation is ran every time there is an update from Power BI.</p>
+    <div class=3D"table-wrap">
+     <table class=3D"confluenceTable">
+      <colgroup class=3D"">
+       <col class=3D"">
+       <col class=3D"">
+      </colgroup>
+      <tbody class=3D"">
+       <tr class=3D"">
+        <th class=3D"confluenceTh">UAT Clear Automation</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-placeholder inline-first-p"> 'UAT' Sale=
+sforce Clear Automation Location </span></p>
+         </div></td>
+       </tr>
+       <tr class=3D"">
+        <th class=3D"confluenceTh">PROD Clear Automation</th>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"support-tbd inline-first-p"> 'PROD' Salesforce =
+Clear Automation Location TBD </span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Automation - What is this Section=
+?</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p><span style=3D"color:#333333;">This tab defines the automation asp=
+ect of the support integration and request. Included here are the primary f=
+unctions of the automation as well as additional flow details from Power Au=
+tomate. These details include the type of automation, the solution environm=
+ent, the link to Power Platform and who owns the flow. For any additional q=
+uestions, please contact the support team by visiting the <a href=3D"#id-[T=
+EMPLATEPowerBi]Support-Stakeholders">stakeholders</a> section.</span></p>
+     </div>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Hypercare</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Missing Important Data</p><span r=
+ole=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error co=
+nfluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <div>
+       <p>The page or tab is missing data and contains either elements/area=
+s with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nb=
+sp; <span class=3D"support-placeholder inline-first-p"> Placeholder </span>=
+ &nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </s=
+pan></p>
+      </div>
+     </div>
+    </div>
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-Hypercare">Hypercare</h2>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-HypercareTask">Hypercare Task</h3=
+>
+    <p><span class=3D"support-placeholder inline-first-p"> Place Any Hyperc=
+are Jira Task(s) Here </span></p>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-HypercareSchedule">Hypercare Sche=
+dule</h3>
+    <div>
+     <p>Support team will follow a <span class=3D"support-placeholder inlin=
+e-first-p"> Use Standard or custom hypercare procedure here? Need to unders=
+tand requirements and determine correct process. Should follow based off sc=
+hedule. </span></p>
+    </div>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-HypercareChecklist">Hypercare Che=
+cklist</h3>
+    <ol>
+     <li>
+      <p><span class=3D"support-placeholder inline-first-p"> Create detail =
+hypercare checklist steps here </span></p></li>
+     <p><br></p>
+    </ol>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-HypercareDocuments">Hypercare Doc=
+uments</h3>
+    <ol>
+     <li>
+      <p><span class=3D"support-placeholder inline-first-p"> Place elements=
+ that need to go into Jira here </span></p></li>
+     <p><br></p>
+    </ol>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Hypercare - What is in this Secti=
+on?</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-ico=
+nfont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>The Hypercare tab contains instructional information for the suppo=
+rt team to perform routine checks for the project post-launch. For addition=
+al information on the hypercare process,&nbsp;<span style=3D"color:#172b4d;=
+">see<span> the&nbsp;</span></span><a href=3D"https://confluence.jnj.com/sp=
+aces/VBPG/pages/1107224028/Support+Hypercare" rel=3D"nofollow" style=3D"tex=
+t-align: left;">Support Hypercare Confluence page</a><span style=3D"color:#=
+172b4d;">.&nbsp;</span><span style=3D"color:#333333;">For any additional qu=
+estions, please contact the support team by visiting the <a href=3D"#id-[TE=
+MPLATEPowerBi]Support-Stakeholders">stakeholders</a> section.</span></p>
+     </div>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Stakeholders</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Missing Important Data</p><span r=
+ole=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error co=
+nfluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <div>
+       <p>The page or tab is missing data and contains either elements/area=
+s with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nb=
+sp; <span class=3D"support-placeholder inline-first-p"> Placeholder </span>=
+ &nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </s=
+pan></p>
+      </div>
+     </div>
+    </div>
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-Stakeholders">Stakeholders</h2>
+    <p><span class=3D"support-placeholder inline-first-p"> Other team membe=
+rs of the project - <a href=3D"https://confluence.jnj.com/spaces/VBPG/pages=
+/1075718790/Copilot+Chat+-+Support#Stakeholders" rel=3D"nofollow">Example F=
+ormat</a> </span></p>
+    <h3 id=3D"id-[TEMPLATEPowerBi]Support-SFMCSupportTeam">SFMC Support Tea=
+m</h3>
+    <p><a href=3D"https://confluence.jnj.com/spaces/VBPG/pages/963375086/Su=
+pport+Squad#Members" rel=3D"nofollow">Click Here for Support Team Members</=
+a></p>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Stakeholders - What is in this Se=
+ction?</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-=
+iconfont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>The Stakeholders tab contains contact information for the support =
+team and all relevant parties of the project. Contacts are grouped by depar=
+tment. To get the additional contact details of a specific user, hover over=
+ their name.</p>
+     </div>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Links</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Missing Important Data</p><span r=
+ole=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error co=
+nfluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <div>
+       <p>The page or tab is missing data and contains either elements/area=
+s with a&nbsp; <span class=3D"support-tbd inline-first-p"> TBD </span> ,&nb=
+sp; <span class=3D"support-placeholder inline-first-p"> Placeholder </span>=
+ &nbsp;or&nbsp; <span class=3D"support-blocker inline-first-p"> Blocker </s=
+pan></p>
+      </div>
+     </div>
+    </div>
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-Links">Links</h2>
+    <p><span class=3D"support-tbd inline-first-p"> TBD - Power BI Report, S=
+chedule, Workflow Diagrams, etc... </span> <br></p>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Hypercare - What is in this Secti=
+on?</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-ico=
+nfont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>The Links section contains all important hyperlinks for the projec=
+t. They may include project schedules, data/metrics reports, documentation =
+any other resources relevant to the support team. <span style=3D"color:#333=
+333;">For any additional questions, please contact the support team by visi=
+ting the <a href=3D"#id-[TEMPLATEPowerBi]Support-Stakeholders">stakeholders=
+</a> section.</span></p>
+     </div>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Notes</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <h2 id=3D"id-[TEMPLATEPowerBi]Support-SupportNotes">Support Notes</h2>
+    <p><span class=3D"support-placeholder inline-first-p"> Place support no=
+tes here - <a href=3D"https://confluence.jnj.com/spaces/VBPG/pages/11409269=
+15/ITCI+Credentials+-+Support#Notes" rel=3D"nofollow">Example Format</a> </=
+span> <br></p>
+    <p><br></p>
+    <hr>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <p class=3D"title conf-macro-render">Support Notes - What is in this S=
+ection?</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui=
+-iconfont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>This is the tab that contains the individual notes done by the sup=
+port team on any given day. Notes are organized by date and by user. <span =
+style=3D"color:#333333;">For any additional questions, please contact the s=
+upport team by visiting the <a href=3D"#id-[TEMPLATEPowerBi]Support-Stakeho=
+lders">stakeholders</a> section.</span></p>
+     </div>
+    </div>
+   </div>
+   <p><br></p>
+  </div>
+ </div>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207765_1962620002.1765477241448--

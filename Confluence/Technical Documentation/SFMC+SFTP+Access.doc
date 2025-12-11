@@ -1,0 +1,765 @@
+Date: Thu, 11 Dec 2025 13:16:09 -0500 (EST)
+Message-ID: <1184593845.207752.1765476969870@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207751_2124720034.1765476969870"
+
+------=_Part_207751_2124720034.1765476969870
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SFMC SFTP Access</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SFMC SFTP Access</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCSFTPAccess-Overview">Overview</h2>
+  <p>This Confluence page outlines the process and guidelines around the SF=
+TP connection to Salesforce</p>
+  <h3 id=3D"SFMCSFTPAccess-WhatisanSFTP">What is an SFTP</h3>
+  <p>SFTP (Secure File Transfer Protocol) is a standard network protocol us=
+ed to transfer files between a client and a server over a computer network.=
+ It allows users to upload, download, and manage files on a remote server e=
+asily.</p>
+  <p>The SFTP for Salesforce is essential for data integration, automations=
+, backup &amp; storage, and reporting &amp; analysis.</p>
+  <h3 id=3D"SFMCSFTPAccess-ReasonsforSFTP:">Reasons for SFTP:</h3>
+  <ul>
+   <li data-uuid=3D"205ac905-ea8d-4629-b678-86e87c2fba42">Large Datasets=20
+    <ul>
+     <li data-uuid=3D"6bdec43f-c686-4d7d-ab7e-5c6b7c18d7f0">Any export from=
+ a Data Extension larger than 20MB (megabytes) will not download into your =
+local machine with a CSV, this needs to be exported to the Salesforce FTP</=
+li>
+    </ul></li>
+   <li>Setting up ETLs=20
+    <ul>
+     <li data-uuid=3D"ddb64b6d-ccc1-475b-9606-dabbca0f483f">In order to set=
+up and test ETL (Extract, Transform and Load) from other data sources into =
+Salesforce, you need access to the FTP</li>
+     <li data-uuid=3D"fe314286-298a-4257-ab97-eb5664ff303e">Incoming ETL Ex=
+amples: JNJ User Data, Password Reset, ISRM</li>
+     <li data-uuid=3D"619ede52-a860-46de-a85e-add207dff9be">Outgoing ETL Ex=
+amples: SFMC Data View Extract to SQL (Power BI Report)</li>
+    </ul></li>
+   <li>Not Sent Reports=20
+    <ul>
+     <li data-uuid=3D"466508a1-9658-4fff-8867-bfb8a3f6957b">Essential expor=
+t needed to analyze any individual send issues post go-live, this is to get=
+ who failed due to users being held due to prior bounces or email build err=
+ors</li>
+    </ul></li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Getting Access</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCSFTPAccess-GettingAccess">Getting Access</h2>
+  <p>Access to the FTP requires a third-party program on your machine. Exam=
+ples are FileZilla, WinSCP or Cyberduck.</p>
+  <h3 id=3D"SFMCSFTPAccess-Instructions(FileZilla)">Instructions (FileZilla=
+)</h3>
+  <ol>
+   <li data-uuid=3D"edaf83b8-c0d9-4cc4-8be2-84f37bd42c98">Download the Wind=
+ows Installer Package from the <a class=3D"external-link" href=3D"https://f=
+ilezilla-project.org/" rel=3D"nofollow">FileZilla home page</a></li>
+   <li data-uuid=3D"edaf83b8-c0d9-4cc4-8be2-84f37bd42c98">Pass through J&am=
+p;J security, a window will pop-up asking why you are installing, you can s=
+elect "I am installing this program to support a business need", then conti=
+nue</li>
+   <li data-uuid=3D"aecd9ed8-60fd-4cdb-a4b7-d7f9e280a5b6">Setup the connect=
+ion by going to "File" &gt; "Site Manager" &gt; "New Site"</li>
+   <li data-uuid=3D"6cdf5df2-ba00-446c-a05d-8fc63b4f96f9">Go to the <a clas=
+s=3D"external-link" href=3D"https://jnj.sharepoint.com/:w:/r/teams/ZoomTeam=
+sChangeManagement/Shared%20Documents/SFMC%20Projects/TEMPLATES%20%26%20NOTE=
+S/Passwords/EUS%20SFMC%20Password%20Sheet.docx?d=3Dw3880fbcc88fa4d8bb1cef57=
+1bbdd28d7&amp;csf=3D1&amp;web=3D1&amp;e=3D5vWNeX" rel=3D"nofollow">Password=
+ Sheet</a>, enter the Credentials for the J&amp;J Technology Main section</=
+li>
+   <li data-uuid=3D"9205402d-41d8-463e-9a5f-4e69b1e7534a">Click "Connect"</=
+li>
+  </ol>
+  <div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-=
+macro  confluence-information-macro-note">
+   <p class=3D"title conf-macro-render">Connection Issues</p><span role=3D"=
+presentation" class=3D"aui-icon aui-icon-small aui-iconfont-warning conflue=
+nce-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>If you have connection issues where it says "Not Authorized" or the =
+request timed out you need to confirm you have access to the SFTP. You can =
+do this by checking your status in IAM.</p>
+    <ul>
+     <li data-uuid=3D"69cbce77-c05b-4dbe-8b51-a6c76f062151">Go to "<a class=
+=3D"external-link" href=3D"http://iam.jnj.com" rel=3D"nofollow">iam.jnj.com=
+</a>", login with your credentials</li>
+     <li data-uuid=3D"24c06613-6e9c-48bc-a3a0-7cf1605bd4f0">Go to top left,=
+ "Request" &gt; "My Requests" &gt; "Request History" button &gt; Look for "=
+ITS-APP-ZSCALER-ZIA-Filesharing-exemption-perm"</li>
+     <li data-uuid=3D"8b59b282-0be8-4245-a8c2-558cc6550606">You can see her=
+e if the request is pending, denied or approved</li>
+    </ul>
+    <p>If the request group is not showing or if the request does not say a=
+pproved, you need to <a href=3D"https://confluence.jnj.com/spaces/VBPG/page=
+s/1079921954/SFMC+SFTP+Access#ExceptionRequest" rel=3D"nofollow">request ap=
+proval by following the step here</a>.</p>
+   </div>
+  </div>
+  <p><br></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Exception Request</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCSFTPAccess-SafeDataExceptionRequest">Safe Data Exception Re=
+quest</h2>
+  <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informati=
+on-macro  confluence-information-macro-warning">
+   <p class=3D"title conf-macro-render">Contact SFMC Leadership</p><span ro=
+le=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-error con=
+fluence-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>Please contact SFMC Leadership before doing the steps below. Getting=
+ SFTP access approval requires Director, VP and ISRM Approval.&nbsp;</p>
+   </div>
+  </div>
+  <div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-=
+macro  confluence-information-macro-note">
+   <p class=3D"title conf-macro-render">Important Information</p><span role=
+=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-warning con=
+fluence-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <ul>
+     <li data-uuid=3D"6fae1516-5117-4d12-8177-01e35ee82929">All information=
+ must be submitted in ENGLISH. Requests in other languages will not be acce=
+pted</li>
+     <li data-uuid=3D"f620f318-e800-44bc-9bd4-7dc0ff1ea06a">Safe Data Excep=
+tion should not be used for personal data transfer purposes</li>
+     <li data-uuid=3D"888abd27-f8d5-4a02-af52-08c7c67c30cb">All approved ex=
+ceptions will be <strong>valid for a duration of one year</strong></li>
+    </ul>
+   </div>
+  </div>
+  <h3 id=3D"SFMCSFTPAccess-RequestExceptionInstructions">Request Exception =
+Instructions</h3>
+  <ol>
+   <li data-uuid=3D"f20fce2e-623e-4861-8e4b-55b1f6dcf047">Go to IRIS and fi=
+ll out a <a class=3D"external-link" href=3D"https://jnjprod.service-now.com=
+/iris?id=3Dsc_cat_item&amp;table=3Dsc_cat_item&amp;sys_id=3D8e2b0288dbef8e1=
+0260309ccd39619f7" rel=3D"nofollow">Safe Data Exception Request</a></li>
+   <li data-uuid=3D"1dce43ed-f3bc-4550-8d91-905d1fa3a64c">Fill out the Info=
+rmation as follows:=20
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 61.1079%;">
+      <colgroup class=3D"">
+       <col class=3D"" style=3D"width: 24.4802%;">
+       <col class=3D"" style=3D"width: 30.7183%;">
+       <col class=3D"" style=3D"width: 44.8015%;">
+      </colgroup>
+      <tbody class=3D"">
+       <tr class=3D"">
+        <th class=3D"confluenceTh">Question</th>
+        <th class=3D"confluenceTh">Answer</th>
+        <th class=3D"confluenceTh">Notes</th>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Request For</td>
+        <td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=
+=3D"#f4f5f7"><span style=3D"color:#8590a2;" title=3D"">Pre-filled</span></t=
+d>
+        <td class=3D"confluenceTd">You should see your name and WWID alread=
+y populated in this page</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the Group Operating Company<br>
+          (GOC) / Sector:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">JJT</span></td>
+        <td class=3D"confluenceTd">End User Services is part of J&amp;J Tec=
+hnology (JJT)</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Function:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">JJT</span></td>
+        <td class=3D"confluenceTd">End User Services is part of J&amp;J Tec=
+hnology (JJT)</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the Region:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">NA/LATAM/EMEA/ASPAC</span></td>
+        <td class=3D"confluenceTd">Select the Region you reside in</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the Exception Process:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Safe Data File Sharing</span></td>
+        <td class=3D"confluenceTd">SFTP is used to share files, mainly CSV =
+files</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the file-sharing provider(s):</td=
+>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">SFTP&nbsp;</span></td>
+        <td class=3D"confluenceTd">Only select SFTP here</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the reason for requesting an exem=
+ption<br>
+          to use an external file-sharing provider:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">&nbsp;Any other not listed above<br>
+           (with valid business justification)</span></td>
+        <td class=3D"confluenceTd">Another box will then appear below</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">If other, please specify</td>
+        <td class=3D"confluenceTd">SFTP required in order to export large d=
+atasets, perform QA tests and pass data between programs</td>
+        <td class=3D"confluenceTd">See Reasons in Overview Tab</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the frequency of use:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Daily</span></td>
+        <td class=3D"confluenceTd">We use this service every day</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the estimated number of files to =
+be shared:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Less than 100</span></td>
+        <td class=3D"confluenceTd">We do not expect to share many files to =
+flow through SFTP, the most we analyze daily is less than 10</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Has the third-party has been assessed by=
+ the Third-Party Risk Due Diligence process?</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Yes</span></td>
+        <td class=3D"confluenceTd">You can see more documentation here, <a =
+href=3D"/spaces/VBPG/pages/993767436/SFMC+Outgoing+Data+to+Azure#SFMCOutgoi=
+ngDatatoAzure-Current">SFMC Outgoing Data to Azure#Current</a></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Select the highest data classification:<=
+/td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Highly Restricted PII Type III</span></td>
+        <td class=3D"confluenceTd">We are sometimes sending personal phone =
+numbers, home addresses and SharePoint folder URLs</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Specify the information you will share:<=
+/td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Employee data to be imported into Salesforce for data cross-checking, exp=
+ort of SFMC email metrics</span></td>
+        <td class=3D"confluenceTd">See Reasons in Overview Tab</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Will you be sharing or receiving files?<=
+/td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Both</span></td>
+        <td class=3D"confluenceTd">We are sending data to Azure to be made =
+into Power BI reports, we are receiving data from Azure in order to analyze=
+ this and re-insert back into Salesforce</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Explain why you need this access:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">To analyze exported data from Salesforce for analysis, also send and rece=
+ive data with Azure SQL Datalake Database</span></td>
+        <td class=3D"confluenceTd">See Reasons in Overview Tab</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Describe how you will use this access:</=
+td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">SFTP will be used to analyze exported distribution lists and move data be=
+tween Azure SQL Datalake Database</span></td>
+        <td class=3D"confluenceTd">See Reasons in Overview Tab</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Describe the business process this acces=
+s supports:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">This is an Extract, Transform and Load (ETL) process that imports/exports=
+ data from Salesforce into Azure SQL</span></td>
+        <td class=3D"confluenceTd">You can see more documentation here, <a =
+href=3D"/spaces/VBPG/pages/993767436/SFMC+Outgoing+Data+to+Azure#SFMCOutgoi=
+ngDatatoAzure-Current">SFMC Outgoing Data to Azure#Current</a></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Specify the file types you will upload:<=
+/td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">CSV</span></td>
+        <td class=3D"confluenceTd">The files that export from Salesforce an=
+d also that we get from Azure SQL are all Comma Separated Value (CSV) files=
+</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Explain why the current J&amp;J options =
+don't meet your needs:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Azure Blob Storage connector blocked in Salesforce Admin portal, Google C=
+loud Storage and Amazon S3 are not J&amp;J approved tools, Salesforce conne=
+ctor blocked in Power Automate</span></td>
+        <td class=3D"confluenceTd"><a href=3D"/spaces/VBPG/pages/993767436/=
+SFMC+Outgoing+Data+to+Azure#SFMCOutgoingDatatoAzure-May25Issue">SFMC Outgoi=
+ng Data to Azure#May25Issue</a></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Provide a detailed business justificatio=
+n for this exception process request:</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#172b4d;" title=3D"=
+">Export large datasets, analyze data errors, cross-check data and segment =
+for marketing campaigns</span></td>
+        <td class=3D"confluenceTd">See Reasons in Overview Tab</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">Exception request start date:</td>
+        <td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=
+=3D"#f4f5f7"><span style=3D"color:#8590a2;" title=3D"">Pre-filled</span></t=
+d>
+        <td class=3D"confluenceTd">Today's date</td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd"><span class=3D"sp-field-label-padding ng=
+-binding" style=3D"color:#172b4d;" title=3D"">Exception valid to:</span></t=
+d>
+        <td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=
+=3D"#f4f5f7"><span style=3D"color:#8590a2;" title=3D"">Pre-filled</span></t=
+d>
+        <td class=3D"confluenceTd">One year from today's date</td>
+       </tr>
+      </tbody>
+     </table>
+    </div></li>
+   <li data-uuid=3D"7b891834-37a2-4bba-8fac-21ca0c8352f4">Check the box bel=
+ow the last textbox for the agreements</li>
+   <li data-uuid=3D"b8cd4a15-805b-4980-b78f-bf107d5fadc2">Select the "<u><s=
+trong>Order Now</strong></u>" button on the right side</li>
+   <li data-uuid=3D"8c14c19f-ccd7-418e-a78f-58f713f3df77">After the request=
+ has been submitted, you can preview the request with these steps:=20
+    <ul>
+     <li>Go to "<a class=3D"external-link" href=3D"http://iam.jnj.com" rel=
+=3D"nofollow">iam.jnj.com</a>", login with your credentials</li>
+     <li>Go to top left, "Request" &gt; "My Requests" &gt; "Request History=
+" button &gt; Look for "ITS-APP-ZSCALER-ZIA-Filesharing-exemption-perm"</li=
+>
+     <li>You can see here if the request is pending, denied or approved, cl=
+ick the workflow tab to see the change request in progress</li>
+    </ul></li>
+  </ol>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCSFTPAccess-Notes">Notes</h2>
+  <p><time datetime=3D"2025-10-02" class=3D"date-past">02 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"e31fc6a8-6fdf-44ad-a885-e07ef54fce76">Spoke with Edwin,=
+ Edwin says this needs to be SFTP and maybe Data cloud, needs to talk with =
+Carolina and Vanessa</li>
+   <li data-uuid=3D"49fe38e8-6cb4-4022-ba98-1b710d37d4ff">Archived Improvem=
+ents page</li>
+  </ul>
+  <p><time datetime=3D"2025-09-26" class=3D"date-past">26 Sep 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"b655af10-173b-4870-9b97-55457e6a574d">Edwin put thought=
+s in the Improvements tab, Kyle responded, waiting on any developments</li>
+  </ul>
+  <p><time datetime=3D"2025-09-24" class=3D"date-past">24 Sep 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li data-uuid=3D"b53cced7-0b12-4c1e-95c3-f541b2820254">Spoke with Edwin =
+about ways around SFTP, he needs to review my ideas in Confluence, sent him=
+ link</li>
+   <li data-uuid=3D"b4c83d6f-9999-41cb-b398-174f55a3f01a">Kyle rescheduled =
+call for next week</li>
+  </ul>
+  <h3 id=3D"SFMCSFTPAccess-9/11/25">9/11/25</h3>
+  <ul>
+   <li data-uuid=3D"96772a4d-0920-4ec8-b3f9-b66fe35ac9d0">Filled out instru=
+ctions for getting FTP access in Confluence, added page for access vs reque=
+st submission</li>
+   <li data-uuid=3D"b4a648a7-a5a3-4fa6-ba7f-c493233c670e">Need to ask Leade=
+rship if they should all have access or to designate someone from each team=
+ to do this, need to setup a Spike with leadership as subtasks and meeting =
+if needed</li>
+  </ul>
+  <h3 id=3D"SFMCSFTPAccess-8/25/25">8/25/25</h3>
+  <ul>
+   <li data-uuid=3D"97b6ae22-73b4-44b8-9d00-0a6cad71499b">Kyle created conf=
+luence page, will ping Leadership to evaluate if leaders will have access o=
+r if they should be delegated</li>
+  </ul>
+  <h3 id=3D"SFMCSFTPAccess-8/21/25">8/21/25</h3>
+  <ul>
+   <li data-uuid=3D"bde6979d-1f76-47d8-8f5d-92a32422fdd5">Kyle reached out =
+to Mark about more users who should have access</li>
+   <li data-uuid=3D"43e066db-17f8-426f-8715-fb8ac4ac93a7">Mark says no choi=
+ce but have to do Safe Data requests manually, but need to think of alterna=
+tives</li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Archive</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <div class=3D"bv-pdf-tabs">
+   <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline"=
+>Improvements</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div role=3D"region" aria-label=3D"Warning" class=3D"confluence-informa=
+tion-macro  confluence-information-macro-warning">
+     <p class=3D"title conf-macro-render">Archived Page - 10/02/2025</p><sp=
+an role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-erro=
+r confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>This tab has been archived, content on this page is no longer bein=
+g considered.</p>
+     </div>
+    </div>
+    <h2 id=3D"SFMCSFTPAccess-Improvements">Improvements</h2>
+    <h3 id=3D"SFMCSFTPAccess-MarkComments">Mark Comments</h3>
+    <p>Mark does not want to have to do this every year, looking for any al=
+ternatives to move forward.</p>
+    <h3 id=3D"SFMCSFTPAccess-KyleIdeas">Kyle Ideas</h3>
+    <ol>
+     <li data-uuid=3D"52a56b03-f567-4675-a102-7b7a57679d7b">Large Datasets =
+can be extracted using a Power Automate loop and then exported to a locatio=
+n in SharePoint=20
+      <ul>
+       <li>Something like this can be automated with a SFMC cloud page whic=
+h has access to the data extensions in SFMC, this can fire a Power Automate=
+ flow with an API using SSJS</li>
+      </ul></li>
+     <li data-uuid=3D"f6b27eec-fe4b-44d3-9fa4-429830e7b8fc">Incoming ETL co=
+uld be managed with Azure SQL Connector and then upserted into SFMC Data Ex=
+tensions=20
+      <ul>
+       <li>Support team is looking into this currently &gt; <span class=3D"=
+jira-issue" data-jira-key=3D"JDUB-40780"> <a href=3D"https://jira.jnj.com/b=
+rowse/JDUB-40780" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https=
+://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D31995&amp;av=
+atarType=3Dissuetype">JDUB-40780</a> - <span class=3D"summary">Power Automa=
+te - Azure Blob/SQL Connector</span> <span class=3D"aui-lozenge aui-lozenge=
+-subtle             aui-lozenge-default
+     jira-macro-single-issue-export-pdf">Open</span> </span></li>
+      </ul></li>
+     <li data-uuid=3D"d7f7fc36-8b4c-4ab7-962c-c9852265d53b">Outgoing ETL, P=
+ower Automate can trigger SFMC automations to get SFMC Data views, use Azur=
+e SQL connector to insert or from data blob=20
+      <ul>
+       <li><a class=3D"confluence-userlink user-mention" data-username=3D"E=
+Ariza4" href=3D"/display/~EAriza4" data-linked-resource-id=3D"999499073" da=
+ta-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" dat=
+a-base-url=3D"https://confluence.jnj.com">Ariza, Edwin [GTSUS NON-J&amp;J]<=
+/a> advised this is not a good idea and this should be done with SFTP, not =
+sure if this can be updates</li>
+      </ul></li>
+     <li data-uuid=3D"f813fb3e-1e66-477f-bbe6-976f16fc68ac">Not Sent could =
+be gathered from both a SOQL query "WHERE REASON =3D Held" from "_Suppresse=
+d" table for held users, and then "WHERE Status =3D Error" from "_Job" tabl=
+e for to get build errors=20
+      <ul>
+       <li>This could be automated from a combination of a cloud page with =
+SSJS and Power Automate which can extract this data and could be downloaded=
+ elsewhere<br><br><br></li>
+      </ul></li>
+    </ol>
+    <p><strong>Edwin's comments:</strong></p>
+    <p>It is important to consider that the best practice in SFMC will alwa=
+ys be to use the SFTP.&nbsp;<br>
+      However, we are aware of the dependency on JnJ's security policies. <=
+br>
+      The use of API services is intended for 'trickle' or real-time integr=
+ations, and there is a contractual issue regarding API usage that is distin=
+ct from SFTP usage. <br>
+      It is important to consider this element: 'Throttling: Salesforce res=
+erves the right to throttle API calls if usage negatively impacts system pe=
+rformance or security.' Although it would be possible to use the API to ext=
+ract data, there is a risk of impact from its improper use with Salesforce.=
+ This action could be taken while we do not have the licensing and while th=
+e permissions for the SFTP are being managed and enabled. It is also import=
+ant to validate the record limits that can be retrieved per API call with e=
+ach new release, as these can change<br><br>
+      Therefore, I recommend using these workarounds only if there is a del=
+ay in the SFTP approval. Otherwise, the time saved by not requesting SFTP p=
+ermissions will be consumed by the contractual charges Salesforce makes for=
+ API calls and the risk of their audits<strong><br></strong></p>
+    <p><strong>Kyle's response 9/26:</strong></p>
+    <p>Few things to note:</p>
+    <ul>
+     <li data-uuid=3D"1f187d0e-214b-4c97-bba6-4ac1b3e7c030">If SFTP is the =
+best practice always, then a conversation needs to be had with Mark and Van=
+essa because likely we need to have a exception for Safe Data in order to n=
+ot have to escalate to the VP to get SFTP access</li>
+     <li data-uuid=3D"d7c96ead-06c8-4852-9fc4-53e88c562f80">The amount of A=
+PI calls from the above workaround would be likely no more than 50 per day,=
+ most of them coming from Inputs and Outputs of data, if we have enterprise=
+ edition we have 200M calls/year and 2500 calls per minute, I don't think w=
+e will get throttled</li>
+     <li data-uuid=3D"10312c9a-c450-41f5-b758-35486ba6cb3f">Your point abou=
+t the record limit (payload size) is valid, however we can easily have some=
+thing like Power Automate break this into smaller chunks/batches per call, =
+the current limit is 4MB</li>
+     <li data-uuid=3D"54cca453-a48e-4e8b-9610-9d6532a42b4a">There really is=
+ no delay with getting SFTP approval, this usually takes no more than 1-2 b=
+usiness days and I have written this down on the other tab</li>
+    </ul>
+    <p><a class=3D"confluence-userlink user-mention" data-username=3D"EAriz=
+a4" href=3D"/display/~EAriza4" data-linked-resource-id=3D"999499073" data-l=
+inked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-ba=
+se-url=3D"https://confluence.jnj.com">Ariza, Edwin [GTSUS NON-J&amp;J]</a> =
+let me know if we should consider workaround or if you prefer to talk with =
+Mark/Vanessa about your findings.<br>
+      Currently a few of us such as myself, Juan Fernandez, Holwan and Seba=
+stian have SFTP access. The rest would need approval. Thanks.</p>
+   </div>
+  </div>
+  <p><br></p>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207751_2124720034.1765476969870--

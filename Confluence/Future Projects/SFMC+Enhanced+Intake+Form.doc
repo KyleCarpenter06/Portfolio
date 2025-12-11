@@ -1,0 +1,549 @@
+Date: Thu, 11 Dec 2025 13:32:59 -0500 (EST)
+Message-ID: <353826982.207778.1765477979938@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207777_1928876943.1765477979938"
+
+------=_Part_207777_1928876943.1765477979938
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SFMC Enhanced Intake Form</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SFMC Enhanced Intake Form</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCEnhancedIntakeForm-Overview">Overview</h2>
+  <p>This page is dedicated to the work done by support team to enhance the=
+ current Intake Form for a better overall experience.</p>
+  <h3 id=3D"SFMCEnhancedIntakeForm-Objective">Objective</h3>
+  <p>Create enhanced Intake form with Power App connected with Jira/API</p>
+  <h3 id=3D"SFMCEnhancedIntakeForm-Benefits/Features">Benefits/Features</h3=
+>
+  <ul>
+   <li data-uuid=3D"5ee159b2-c1cb-40e6-b3a6-15fe03094b6b">Improved user int=
+erface, OCM to know what is in flight (in-progress epic/stories)</li>
+   <li data-uuid=3D"0b1daca2-a7f7-47a5-b4a6-abbb5d078b3d">Ability for OCM t=
+o add additional stories (emails/teams) onto already made projects (epics)<=
+/li>
+   <li data-uuid=3D"a09e8e0e-f637-4b19-813d-09091c0152bb">Have advanced log=
+ic with questions and sections, simplify additional questions</li>
+   <li data-uuid=3D"cd1ae6e6-bd13-4931-b2b3-8e4aa92d718a">Connection to SFM=
+C Jira using API, show the SFMC Team working on project</li>
+  </ul>
+  <h3 id=3D"SFMCEnhancedIntakeForm-BusinessUseCases">Business Use Cases</h3=
+>
+  <ul>
+   <li data-uuid=3D"2e244fac-e2f0-439c-aea0-2fdcbd263b7e">OCM Leader to sta=
+rt brand new project (Make an epic)</li>
+   <li data-uuid=3D"f9342d7d-1a0d-4729-a787-c2bc29ca3b38">OCM Leader lookin=
+g to add-on additional communications to running project (make a story)</li=
+>
+   <li data-uuid=3D"8be1d330-6bd1-417b-ba3c-59963921a264">OCM Leader lookin=
+g to see the status of a project (no changes made to Jira)</li>
+  </ul>
+  <h3 id=3D"SFMCEnhancedIntakeForm-TotalApproximateTimeline">Total Approxim=
+ate Timeline</h3>
+  <p>2-3 Months or more, Collab with Power App Team (Shruti)</p>
+  <h3 id=3D"SFMCEnhancedIntakeForm-Milestones">Milestones</h3>
+  <ul>
+   <li data-uuid=3D"ed3db16e-9729-4cd3-9b5c-b56565868e6a">Demo/Testing (1-2=
+ months)</li>
+   <li data-uuid=3D"90b42c40-8a1b-4932-a876-b8b14b6df9cb">MVP1 Ready (about=
+ 2 weeks)</li>
+   <li data-uuid=3D"9e938621-0c70-48e2-9204-8995dbbc4d7e">MVP2 Ready (about=
+ 2 weeks)</li>
+  </ul>
+  <h3 id=3D"SFMCEnhancedIntakeForm-ImprovementIssue">Improvement Issue</h3>
+  <p><span class=3D"jira-issue" data-jira-key=3D"JDUB-36905"> <a href=3D"ht=
+tps://jira.jnj.com/browse/JDUB-36905" class=3D"jira-issue-key"><img class=
+=3D"icon" src=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;a=
+vatarId=3D31995&amp;avatarType=3Dissuetype">JDUB-36905</a> - <span class=3D=
+"summary">Power Apps - Enhanced Intake Form</span> <span class=3D"aui-lozen=
+ge aui-lozenge-subtle             aui-lozenge-default
+     jira-macro-single-issue-export-pdf">Open</span> </span></p>
+  <h3 class=3D"auto-cursor-target" id=3D"SFMCEnhancedIntakeForm-ActionItems=
+">Action Items</h3>
+  <div class=3D"bv-pdf-tabs">
+   <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline"=
+>Open Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module--320256585" class=3D"refresh-module-id jira-t=
+able">
+     <p></p>
+     <div id=3D"jira-issues--320256585" style=3D"width: 100%;  overflow: au=
+to;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">T</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">P</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Summary</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Status</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Due</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Assignee</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Latest Summary</th>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=
+=3D"nofollow" href=3D"https://jira.jnj.com/secure/IssueNavigator.jspa?reset=
+=3Dtrue&amp;jqlQuery=3Dproject+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%=
+28%29+AND+parent+%3D+%22JDUB-36905%22+AND+status+%21%3D+%22Completed%22+ORD=
+ER+BY+due+ASC%2C+priority+DESC+++++++++++++++&amp;src=3Dconfmacro"> <span>N=
+o issues found</span> </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Closed Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module-1170729330" class=3D"refresh-module-id jira-t=
+able">
+     <p></p>
+     <div id=3D"jira-issues-1170729330" style=3D"width: 100%;  overflow: au=
+to;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"type">T</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"priority">P</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"summary">Summary</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"status">Status</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"due">Due</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"assignee">Assignee</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"customfield_12037">Latest Summary</span></th>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36907?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36907?src=3Dconfmacro"> Create Presentation De=
+ck </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+></td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36906?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36906?src=3Dconfmacro"> Research Approach </a>=
+</td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+></td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=
+=3D"nofollow" title=3D"View all matching issues in Jira." href=3D"https://j=
+ira.jnj.com/secure/IssueNavigator.jspa?reset=3Dtrue&amp;jqlQuery=3Dproject+=
+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%28%29+AND+parent+%3D+%22JDUB-36=
+905%22+AND+status+%3D+%22Completed%22+ORDER+BY+due+ASC%2C+priority+DESC++++=
++++++++++++++&amp;src=3Dconfmacro"> 2 issues </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div>
+   <p><br></p>
+  </div>
+  <p><br></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Idea</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCEnhancedIntakeForm-Idea">Idea</h2>
+  <h3 id=3D"SFMCEnhancedIntakeForm-CurrentStatus">Current Status</h3>
+  <p>As of <time datetime=3D"2025-11-25" class=3D"date-past">25 Nov 2025</t=
+ime> , this innovation project has not started. This project was pushed to =
+backlog of projects in 2026.</p>
+  <h3 id=3D"SFMCEnhancedIntakeForm-ActionPlanSteps">Action Plan Steps</h3>
+  <ol>
+   <li data-uuid=3D"a35a4a9e-e11e-4c44-83dd-85ab8ba0b05a">Planning, Discove=
+ry, Research=20
+    <ul>
+     <li data-uuid=3D"e31fa423-df4c-4d3f-9d0f-87792f57d7b1">What SFMC Squad=
+ will work on this?</li>
+     <li data-uuid=3D"cdb96e9e-edfd-4ec6-ba4c-788c07a200a3">Could this invo=
+lve the Data Collaboration Team? (Shruti, Prabhat, Subhashree have done Pow=
+er Apps before)</li>
+     <li data-uuid=3D"810928be-9b1f-4082-84a3-3623816839e3">Need to researc=
+h Power Platform and how to connect APIs with Jira to view cards in progres=
+s</li>
+    </ul></li>
+   <li>E2E Testing&nbsp;=20
+    <ul>
+     <li data-uuid=3D"a2ba36b2-9c5b-431f-a2d0-39ddf898c0cc">Test in UAT Pow=
+er Platform Environment</li>
+     <li data-uuid=3D"0fea40d3-8df7-4d11-9e61-8bd126c104ca">Test with local=
+ SFMC team first before showing to OCM/Peter/Sim/Mark</li>
+     <li data-uuid=3D"b52ffa3a-9e7d-46b1-b156-631f5a3f7571">Move to MVP1</l=
+i>
+    </ul></li>
+   <li data-uuid=3D"c4a521a5-455c-4caf-abd4-d78461a0cba9">MVP1 and Monitori=
+ng=20
+    <ul>
+     <li data-uuid=3D"f97ed7c3-5857-49cd-8c9b-17c54a615786">Launch in PROD =
+with the OCM Team as a test</li>
+     <li data-uuid=3D"13ea743f-6ac3-4fca-86ae-79b96d988495">Find issues/bug=
+s/blockers, write them down and identify</li>
+    </ul></li>
+   <li data-uuid=3D"e742fb5f-9831-43ee-aef9-d42710581ae6">Scaling and Optim=
+izing=20
+    <ul>
+     <li data-uuid=3D"73118611-bfe5-4dc5-b79e-96150627eaba">Create bug/tick=
+ets to fix minor issues</li>
+     <li data-uuid=3D"79f2db1b-4906-4a45-9623-27bd006f364b">Make continuous=
+ improvements</li>
+     <li data-uuid=3D"afa66714-23ff-4c82-b800-2a5a5712204f">Address Blocker=
+s</li>
+    </ul></li>
+   <li data-uuid=3D"eff2f6ee-ad20-4707-93f5-24f5e960be83">MVP2 Phase=20
+    <ul>
+     <li data-uuid=3D"412b8c7b-d58b-44e0-a937-ee3da4c5af24">Full Launch of =
+link</li>
+    </ul></li>
+  </ol>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Links</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCEnhancedIntakeForm-Links">Links</h2>
+  <p><a class=3D"external-link" href=3D"https://jnj.sharepoint.com/:p:/r/te=
+ams/ZoomTeamsChangeManagement/Shared%20Documents/SFMC%20Projects/support_te=
+am/Documents/Innovation%20Projects/Support%20Team%20Innovation%20Projects.p=
+ptx?d=3Dw37b1afe2994d4784b9cdbb307eaeec30&amp;csf=3D1&amp;web=3D1&amp;e=3DL=
+7Ja8P" rel=3D"nofollow">PowerPoint for Support Team Innovation Projects</a>=
+ (see pages 7 and 8)</p>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCEnhancedIntakeForm-Notes">Notes</h2>
+  <p><time datetime=3D"2025-11-25" class=3D"date-past">25 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"f5dec5de-1084-4fa2-a5d8-c8f7f16c58d8">Jira spike assign=
+ed to Ale, Kyle leaving J&amp;J</li>
+  </ul>
+  <p><time datetime=3D"2025-11-24" class=3D"date-past">24 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"a797534b-f90e-4771-afe6-79d584c122e4">Kyle prepared thi=
+s Confluence ahead of KT</li>
+  </ul>
+  <p><time datetime=3D"2025-07-17" class=3D"date-past">17 Jul 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"c5385db8-7142-4586-845e-406676450a40">Was placed into b=
+acklog for possible innovation project for 2026</li>
+  </ul>
+  <p><time datetime=3D"2025-05-22" class=3D"date-past">22 May 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"3b3c169b-67d0-4c72-a99d-ebc90784a103">Kyle made a prese=
+ntation deck to present to Yetzabel regarding idea to make Intake Form with=
+ Power Apps</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207777_1928876943.1765477979938--

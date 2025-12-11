@@ -1,0 +1,367 @@
+Date: Thu, 11 Dec 2025 13:31:12 -0500 (EST)
+Message-ID: <117922577.207770.1765477872504@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207769_860146685.1765477872504"
+
+------=_Part_207769_860146685.1765477872504
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Input and Outputs Flows</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Input and Outputs Flows</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"InputandOutputsFlows-Overview">Overview</h2>
+  <p>Need to improve overall process of handling data from other incoming s=
+ources. This is for Power Automate.</p>
+  <p>There are various aspects of Power Automate which we can improve for s=
+upport purposes.</p>
+  <ul>
+   <li data-uuid=3D"40628e46-58de-4c39-b64f-2a183667b195">Dataverse</li>
+   <li data-uuid=3D"db7f90c4-e99d-4417-b234-8eb8adca98e8">Securing Client I=
+D/Secret</li>
+   <li data-uuid=3D"61b346fd-63e5-4175-8c6d-8da96d9cd311">Data Handling (lo=
+okups)</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-KeyTakeaways">Key Takeaways</h3>
+  <ul>
+   <li data-uuid=3D"696b6f50-95af-41bf-8d15-5f653167c475">Need to begin to =
+make tables to store for access in PA flows (Kyle)</li>
+   <li data-uuid=3D"f2db9296-0bc1-44ea-9ffa-99180e915863">Need to get acces=
+s to SQL connector to bring data in Dataverse (Azure Admin)</li>
+   <li data-uuid=3D"09d65d86-f413-4cab-87ef-22e822e6ab99">Need to get acces=
+s to Azure Key Vault Connector (Azure Admin)</li>
+   <li data-uuid=3D"24fbd4c8-ed8b-4d99-8695-fa63d41d27a8">Need to get acces=
+s to create Azure functions (Azure Admin)</li>
+   <li data-uuid=3D"e9149889-a799-409b-b93b-fe4c42c25e16">Need to get acces=
+s to Azure API Management (Azure Admin)</li>
+   <li data-uuid=3D"618030c8-b00d-4d5f-aac3-c7d5463fb9e5">Need to get acces=
+s to Microsoft Entra ID to get tenant ID for <a class=3D"external-link" hre=
+f=3D"https://techcommunity.microsoft.com/discussions/microsoftforms/query-f=
+orms-api-to-get-scores-or-results-from-form-submission/3893866" rel=3D"nofo=
+llow">proper access to Forms API</a>, then we could use this to call Forms =
+API and get questions from Intake</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-HelpfulLinks">Helpful Links</h3>
+  <p><a class=3D"external-link" href=3D"https://sourcecode.jnj.com/pages/AS=
+X-NAJF/cloudx-patterns/master/browse/docs/#/azure_2_0/services/" rel=3D"nof=
+ollow">Cloudx Azure 2.0 Services Documentation</a></p>
+  <p><a class=3D"external-link" href=3D"https://cloudx.jnj.com/" rel=3D"nof=
+ollow">Cloudx Console</a> - See usage and pricing</p>
+  <p><a class=3D"external-link" href=3D"https://appdevtools.jnj.com/project=
+access" rel=3D"nofollow">AppDev Tools</a> - see who has access</p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Improvements</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"InputandOutputsFlows-ImprovementPoints">Improvement Points</h2>
+  <h3 id=3D"InputandOutputsFlows-Dataverse">Dataverse</h3>
+  <ul>
+   <li data-uuid=3D"bb1d08b8-e486-44ef-ac61-c528c795d95e">Dataverse great f=
+or storing individual flow data (flow name, emails for errors, emails for r=
+eporting)</li>
+   <li data-uuid=3D"a061c2c3-e750-4007-a1df-31d9837d1882">Dataverse great f=
+or easy access, built-in security, can manage who can read/write data</li>
+   <li data-uuid=3D"2eb46b61-7a51-4514-a844-fbf226b446ac">Easy for duplicat=
+ion and large data volumes</li>
+   <li data-uuid=3D"4a5f40e2-767e-4843-acfb-94ffebdc7dac">Create automation=
+ that can bring in data from SQL and store this inside of Dataverse</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-SecuringClientID/Secret">Securing Client I=
+D/Secret</h3>
+  <ul>
+   <li data-uuid=3D"e0c9984a-0f52-4901-afe8-3cb605fed8bc">Should not store =
+client ID and client secret in Dataverse, should be in Azure Key Vault conn=
+ector</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-DataHandling/Lookups">Data Handling/Lookup=
+s</h3>
+  <ul>
+   <li data-uuid=3D"19cbe5c7-805a-48c5-9866-6830ab391970">Need to deploy an=
+ azure function, write code to call HTTP trigger</li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"InputandOutputsFlows-SupportNotes">Support Notes</h2>
+  <p><time datetime=3D"2025-10-16" class=3D"date-past">16 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"be585ea4-d7a4-4085-84f8-65546d1953c1">Moved any plans f=
+or this out to 2026 due to other priorities and other innovation projects b=
+y the SFMC team</li>
+  </ul>
+  <p><time datetime=3D"2025-09-19" class=3D"date-past">19 Sep 2025</time>&n=
+bsp;</p>
+  <ul>
+   <li data-uuid=3D"f9220946-8385-45a5-8432-7325fb040aa3">Asked by Edwin to=
+ input requests for Azure into PPT slides for Mark, presented challenges to=
+ Mark who is looking into getting Azure Access</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-9/15/25">9/15/25</h3>
+  <ul>
+   <li data-uuid=3D"355c6589-44a4-4115-b4e8-e976ebc0dcce">Pinged Syam and s=
+ee if he can grant ownership access, need to go to Anthony</li>
+   <li data-uuid=3D"8e2816e9-ca85-4e39-bdde-79d26473de76">Started chat, Ant=
+hony says we need to get our own CloudX account</li>
+   <li data-uuid=3D"22d952ec-b95e-4a82-af07-7d1e9a04262d">Kyle started chat=
+ with Mark/Edwin to explain VPCx request, waiting on update</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-9/11/25">9/11/25</h3>
+  <ul>
+   <li data-uuid=3D"a17e534c-b8bf-486f-a1f6-9aac828921f4">Contacted Dennis/=
+Frank about Azure assistance, they said to go to VPCx/Cloudx/Xena</li>
+   <li data-uuid=3D"7540b13f-676f-48da-bdef-5ab8315a6d64">Contacted Stuart/=
+Lawrence from ISRM, Lawrence guided me to appdevtools, found out Syam is ow=
+ner of resource group</li>
+   <li data-uuid=3D"39dba7bf-4fac-40ac-8c1b-7dc8279e6f58">Updated overview =
+page with links and bookmarked links</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-9/2/25">9/2/25</h3>
+  <ul>
+   <li data-uuid=3D"6f99b7a5-015d-4caf-9fe5-dbaf9aaab684">Created this conf=
+luence page, will follow up tomorrow with contacting Dennis/Frank for assis=
+tance</li>
+  </ul>
+  <h3 id=3D"InputandOutputsFlows-8/28/25">8/28/25</h3>
+  <ul>
+   <li data-uuid=3D"9a3f5beb-9986-47b0-b309-3adfe3162dcb">Got some importan=
+t info from AI to better understand how to improve and what support team ca=
+n benefit from</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_207769_860146685.1765477872504--

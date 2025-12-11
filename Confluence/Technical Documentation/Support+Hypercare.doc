@@ -1,0 +1,563 @@
+Date: Thu, 11 Dec 2025 13:18:41 -0500 (EST)
+Message-ID: <1508968595.207762.1765477121540@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207761_603699328.1765477121540"
+
+------=_Part_207761_603699328.1765477121540
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Support Hypercare</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Support Hypercare</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SupportHypercare-Overview">Overview</h2>
+  <h3 id=3D"SupportHypercare-DefinitionofHypercare">Definition of Hypercare=
+</h3>
+  <p>Hypercare is a phase in project management and service delivery that o=
+ccurs immediately after the launch of a new product, system, or service. It=
+ typically involves heightened support and communication to address any iss=
+ues users may encounter right after implementation. This period is critical=
+ for ensuring campaigns are running effectively according to our quality st=
+andards. This evidently builds trust with project managers as we mitigate i=
+ssues before they are caught by end-users.</p>
+  <p>Each support project involving the support team includes a dedicated h=
+ypercare phase to ensure data integrity, smooth adoption, and controlled st=
+abilization after changes or deployments.&nbsp;Every project will define a =
+Hypercare Checklist (data standards, readiness activities) and a Hypercare =
+Type (the method and intensity of hypercare) tailored to project requiremen=
+ts.</p>
+  <h3 id=3D"SupportHypercare-ImportanceofHypercare">Importance of Hypercare=
+</h3>
+  <p><strong>Immediate Support:</strong> It provides project leads and chan=
+ge managers with direct access to help when they need it most, helping to r=
+esolve issues quickly and reducing frustration.<br><strong>Risk Mitigation:=
+</strong> Identifying and addressing potential problems before they escalat=
+e helps reduce risks associated with operational disruptions.<br><strong>Fe=
+edback Gathering:</strong> Hypercare is an excellent opportunity to gather =
+feedback from issues which can be used future projects.<br><strong>Document=
+ation:</strong> Any notes on Confluence can be shared with project leads an=
+d can be used when doing audit checks for campaign metrics or testing.</p>
+  <h3 id=3D"SupportHypercare-ExamplesofHypercare">Examples of Hypercare</h3=
+>
+  <ul>
+   <li data-uuid=3D"893b0373-594f-439c-bbee-189616c4257d">Verify data compl=
+eteness and accuracy against source systems</li>
+   <li data-uuid=3D"589f077a-b2e4-4539-a06d-00b79e71c032">Cross-verify data=
+ across multiple systems or modules</li>
+   <li data-uuid=3D"fbed6498-bc29-486b-8e26-64830b0ea244"><span style=3D"co=
+lor:#333333;">Run data quality reports to identify missing, invalid, or inc=
+onsistent data</span></li>
+   <li data-uuid=3D"5d286b41-cd56-4c71-a049-3d84b41aac3f"><span style=3D"co=
+lor:#333333;">Ensure data loads and updates are completing within acceptabl=
+e timeframes</span></li>
+   <li data-uuid=3D"321b8840-a362-4eac-8e4d-5cc9d4441c61"><span style=3D"co=
+lor:#333333;">Proactive monitoring to review alerts for failed data loads o=
+r errors</span></li>
+   <li data-uuid=3D"4e6b95f2-b04b-4240-bf08-2a5300dedb97">Monitor automatio=
+n response times and look for potential slow downs&nbsp;</li>
+   <li data-uuid=3D"e915b410-840e-4d11-9389-a9ef8d2c2272">Regular updates t=
+o stakeholders on hypercare status</li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Types</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SupportHypercare-Types">Types</h2>
+  <p>There are different types of hypercare that is done by the support tea=
+m, each has a different purpose based on project requirements.</p>
+  <h3 id=3D"SupportHypercare-Standard">Standard</h3>
+  <p><span style=3D"color:#333333;">Standard hypercare is a predefined, fou=
+r-level support model designed to ensure rapid detection, containment, and =
+resolution of issues after go-live. <a href=3D"#SupportHypercare-Levels">Le=
+vels</a> progress from Level 1 (the most critical) to Level 4 (final stabil=
+ization). Level 1 is actively monitored with daily checks until stability c=
+riteria are met and we can step down to Level 4 which is checked monthly or=
+ quarterly. This framework is intended for ongoing projects without a fixed=
+ end date or schedule, providing a scalable path to sustained reliability a=
+nd project success.</span></p>
+  <h3 id=3D"SupportHypercare-Scheduled">Scheduled</h3>
+  <p><span style=3D"color:#333333;">Scheduled hypercare is a calendar-drive=
+n post-go-live support model that aligns activities and resources to predef=
+ined project milestones. Unlike level-based hypercare, there are no escalat=
+ion tiers; support intensity and deliverables are scheduled to match the pr=
+oject timeline. This approach is intended for projects with a fixed end dat=
+e, with the flexibility to insert additional milestones as the project scop=
+e expands or evolves.</span></p>
+  <h3 id=3D"SupportHypercare-Troubleshooting"><span style=3D"color:#333333;=
+">Troubleshooting</span></h3>
+  <p><span style=3D"color:#333333;">Troubleshooting hypercare is a dedicate=
+d post-development track designed to address issues that occur after go-liv=
+e. In this phase, monitoring is intensified to accelerate detection and rem=
+ediation until all issues are resolved. For projects operating under Standa=
+rd hypercare, the process escalates to Level 1 to contain and resolve the i=
+ssue, then transitions back to its original level once the fix is validated=
+. All issues and remediation actions are captured in Jira and Confluence.</=
+span></p>
+  <h3 id=3D"SupportHypercare-Enhancement"><span style=3D"color:#333333;">En=
+hancement</span></h3>
+  <p>Enhancement hypercare is a specialized post-release support track acti=
+vated when improvements are introduced to an already-existing project or fe=
+ature. Its focus is on ensuring smooth adoption, compatibility, and perform=
+ance of the enhanced capabilities, along with effective knowledge transfer =
+to users and support teams. During this process, the hypercare checklist ma=
+y change to accommodate new elements of the automation or process.&nbsp;</p=
+>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Levels</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SupportHypercare-LevelsofHypercare">Levels of Hypercare</h2>
+  <p>Based on the project and criticality of the message or campaign, vario=
+us levels of hypercare should be defined by the support team. See the struc=
+tured breakdown below.</p>
+  <div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-=
+macro  confluence-information-macro-note">
+   <p class=3D"title conf-macro-render">Important to Note - Level Variation=
+</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfo=
+nt-warning confluence-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>Exact items to check when performing hypercare changes from project =
+to project. What is checked during hypercare should be the same across all =
+levels, the variation is based on the time frame window.</p>
+   </div>
+  </div>
+  <div role=3D"region" aria-label=3D"Note" class=3D"confluence-information-=
+macro  confluence-information-macro-note">
+   <p class=3D"title conf-macro-render">Important to Note - Level Downgrade=
+</p><span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfo=
+nt-warning confluence-information-macro-icon"></span>
+   <div class=3D"confluence-information-macro-body">
+    <p>The goal of the support team is to not only perform quality checks o=
+n the data but to have a reprioritization process so the team can focus on =
+other tasks. After multiple checks have been performed without issues, the =
+level of priority will get downgraded to a lower level from level 1 to leve=
+l 4 until the project has concluded. If issues or changes arise, the level =
+will get re-upgraded accordingly.</p>
+   </div>
+  </div>
+  <h3 id=3D"SupportHypercare-Level1-CriticalHypercare">:red_circle: Level 1=
+ - Critical Hypercare</h3>
+  <p><strong>Summary:</strong> Immediate, hands-on support for high-impact =
+issues, sometimes outside of business hours<br><strong>Communication:</stro=
+ng> Usually done via MS Teams chat or via call for immediate response<br><s=
+trong>Date/Time Performed:</strong> Multiple times per week or Daily</p>
+  <p><strong>Scenarios when Level 1 Hypercare is Performed:</strong></p>
+  <ul>
+   <li data-uuid=3D"24088c7c-6946-4246-bf0b-68b0b1f5abaa">First Communicati=
+on of Important Campaign (Pilot for Acquisition or Security Issue)</li>
+   <li data-uuid=3D"2c381346-8b5e-4c12-94d8-002d1bd6a195">Critical Checkpoi=
+nt of Large Campaign (T-0 Event)</li>
+   <li data-uuid=3D"831ccd53-4426-46f1-a299-1ccbb5a9e295">Critical issues f=
+ound related to support work</li>
+   <li data-uuid=3D"1aeb1e62-2df8-4b4c-a14f-97c8e5670625">Resolving escalat=
+ed issues (repeat support ticket opened)</li>
+   <li data-uuid=3D"5c41b039-3372-4e0b-a779-c4102b3db42b">Significant chang=
+e in automation (Power Automate flow, data extension new column, etc...)</l=
+i>
+   <li data-uuid=3D"4178b868-37d2-47a3-9d40-0477f4275644">Data involves VIP=
+ users</li>
+  </ul>
+  <h3 id=3D"SupportHypercare-Level2-EnhancedHypercare">:orange_circle: Leve=
+l 2 - Enhanced Hypercare</h3>
+  <p><strong>Summary:</strong> Weekly hypercare check to provide support du=
+ring key checkpoint times, during business hours<br><strong>Communication:<=
+/strong> Can be done via MS Teams chat or via email if necessary<br><strong=
+>Date/Time Performed:</strong> Weekly, usually midweek on Wednesday or duri=
+ng a quiet period</p>
+  <p><strong>Scenarios for Level 2 Hypercare:</strong></p>
+  <ul>
+   <li data-uuid=3D"e94b465c-d032-4e2a-86e2-32a8a6097e51">After Level 1 Hyp=
+ercare was done without issues</li>
+   <li data-uuid=3D"120d075d-8a7b-436e-b893-011dc8eeec0d">Second or third w=
+eek after campaign launch</li>
+   <li data-uuid=3D"a5a61c4d-38fb-4e72-b403-d95f63c99fdf">Issues found with=
+ data unrelated to support team</li>
+   <li data-uuid=3D"f625b06a-acb8-4f40-bc27-62e37abc9fe4">Small changes to =
+project schedule or check for one-off issues</li>
+  </ul>
+  <h3 id=3D"SupportHypercare-Level3-StandardHypercare">:yellow_circle: Leve=
+l 3 - Standard Hypercare</h3>
+  <p><strong>Summary:</strong> Monthly hypercare check to provide lower lev=
+el support, during business hours<br><strong>Communication:</strong> Not us=
+ually required at this level, only communicate via MS Teams if there are is=
+sues<br><strong>Date/Time Performed:</strong> Monthly, usually first week o=
+f month on Wednesday or during a quiet period</p>
+  <p><strong>Scenarios for Level 3 Hypercare:</strong></p>
+  <ul>
+   <li data-uuid=3D"5c1ef3a2-5b06-4a8a-b972-aa2fe5dee68b">After Level 2 Hyp=
+ercare was done without issues</li>
+   <li data-uuid=3D"110f6304-7397-4264-b9bf-a20a79f58de8">One month or more=
+ after campaign launch</li>
+   <li data-uuid=3D"dafd37e8-9756-4e24-9f72-34682c6d67b5">Project has a set=
+ schedule and data can be checked monthly</li>
+  </ul>
+  <h3 id=3D"SupportHypercare-Level4-Low-LevelHypercare">:green_circle: Leve=
+l 4 - Low-Level Hypercare</h3>
+  <p><strong>Summary:</strong> Quarterly hypercare check to provide , durin=
+g business hours<br><strong>Communication:</strong> Not required at this le=
+vel, only communicate via MS Teams if there are issues<br><strong>Date/Time=
+ Performed:</strong> Quarterly, usually first month of quarter on Wednesday=
+ or during a quiet period</p>
+  <p><strong>Scenarios for Level 4 Hypercare:</strong></p>
+  <ul>
+   <li data-uuid=3D"99818448-ed3d-4540-a1fa-a48f3a66ca73">After Level 3 Hyp=
+ercare was done without issues</li>
+   <li data-uuid=3D"24358095-14bf-4f3c-9bcc-93acb8e4264e">Three month or mo=
+re after campaign launch</li>
+   <li data-uuid=3D"2edf0e8d-698c-4b41-8158-8c86fab24afe">Project has a set=
+ schedule and data can be checked quarterly</li>
+   <li data-uuid=3D"df755072-8782-4c4f-b05f-ed0d341eb7e7">Project has no en=
+d-date, or an undefined end-date</li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Helpful Tips</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SupportHypercare-HelpfulTips">Helpful Tips</h2>
+  <p>Tips below can assist with hypercare.</p>
+  <h3 style=3D"text-align: left;" id=3D"SupportHypercare-CompareDatasetsusi=
+ngtheExcel'VLOOKUP'Function">Compare Datasets using the Excel 'VLOOKUP' Fun=
+ction</h3>
+  <ol>
+   <li data-uuid=3D"1da3df38-f1a9-4f0f-9e40-bcbf0410f0d5">Create an Excel F=
+ile with multiple columns or tabs</li>
+   <li data-uuid=3D"0c507596-d541-4a40-ad37-11a60d86e14e">Go to the top of =
+the spreadsheet and go to the far-right more column, first row</li>
+   <li data-uuid=3D"34f4481a-c12a-46e4-96d7-b9821e7853f5">On the next empty=
+ header cell, name it what you want to compare (i.e. - 'Present' or 'Found'=
+)</li>
+   <li data-uuid=3D"b970ae47-24c5-4db6-9527-150362460683">In the next row r=
+ight below the header, put in the VLOOKUP function=20
+    <ul>
+     <li data-uuid=3D"8ba41e07-2407-4d08-bafd-1ffae314df19">For getting Tru=
+e/False values to see if there is a match, use this:&nbsp;<u><em>=3DIFERROR=
+(VLOOKUP(B2, A:A,1,FALSE) =3D B2,"FALSE")</em></u><br>
+      <ul>
+       <li data-uuid=3D"8b83ae81-26c6-451e-9975-0a4f8cbbfdfe">This formula =
+is designed to look at the value in the cell B2 and see if it exists anywhe=
+re in the 'A' Column</li>
+       <li data-uuid=3D"798b7dc2-fffc-4e4f-8918-47df1b87ebac">For comparing=
+ datasets in different tabs, use this: <u><em>=3DIFERROR(VLOOKUP(B2, Second=
+Table!A:A,1,FALSE) =3D B2,"FALSE")</em></u></li>
+      </ul></li>
+     <li data-uuid=3D"fc87778b-78d5-4fdb-ba3e-d038475cab49">For returning t=
+he actual value itself in that row instead of True/False, use this:&nbsp;<u=
+><em>=3DIFERROR(VLOOKUP(D2, A:C,2,FALSE),"")</em></u><br>
+      <ul>
+       <li data-uuid=3D"1152b7fd-01a4-41f0-8190-9a32deb1cd83">This formula =
+is designed to look at the value in the cell D2 and see if it exists anywhe=
+re in the 'A' Column, the value returned if found will be the record in the=
+ same row in the 'B' Column<u><em><br></em></u></li>
+       <li data-uuid=3D"138508fb-ff71-4284-a33e-9774fda25de4">If you need t=
+o return a different value, then adjust the number '2' next to the lookup c=
+olumn range "A:C", for example, '3' would get column 'C'</li>
+      </ul></li>
+    </ul></li>
+  </ol>
+  <h3 id=3D"SupportHypercare-HighlightDuplicate/UniqueValuesinExcel">Highli=
+ght Duplicate/Unique Values in Excel</h3>
+  <ol>
+   <li data-uuid=3D"6f4bea8f-8ebd-4899-ba35-1421f1315aa5">Open the Excel fi=
+le and select the column that you would like to see duplicates</li>
+   <li data-uuid=3D"4520ec72-a5a9-46fe-b356-c858f1607182">Go to "Home" and =
+then "Conditional Formatting" &gt; "Highlight Cell Rules" &gt; "Duplicate V=
+alues"</li>
+   <li data-uuid=3D"e9198b0c-e347-498c-846b-02df2a74cd0b">A box will appear=
+ asking if you would like to select duplicates or unique values as well as =
+what color you would like to display, select "OK"</li>
+   <li data-uuid=3D"1a814590-8425-46b8-91b9-2316647716e5">Check for duplica=
+tes by pressing "Ctrl+A" to select all, then filter by going to "Home" &gt;=
+ "Sort and Filter", arrows will appear in the headers</li>
+   <li data-uuid=3D"14b5d58c-89e3-4de7-b323-9fdd025cea0e">Select the arrow =
+on the row you want to filter and select "Filter by Color", you can then se=
+lect the color which contains either duplicates or uniques</li>
+  </ol>
+  <h3 id=3D"SupportHypercare-RemoveDuplicateValuesinExcel">Remove Duplicate=
+ Values in Excel</h3>
+  <ol>
+   <li data-uuid=3D"3bb40da3-0ffb-43d3-be4c-9c99a2d2a0b7">Open the Excel fi=
+le and select the column(s) you want to deduplicate values</li>
+   <li data-uuid=3D"2ef6b867-8951-4626-853a-9bff71e3df0c">Go to the top of =
+the screen and select, "Data" &gt; "Remove Duplicates"</li>
+   <li data-uuid=3D"464900ce-bf32-4b8b-a48d-c8465d8001b4">A box will pop-up=
+ if you have more than one column which will deduplicate based on those val=
+ues, select "OK" to continue</li>
+   <li data-uuid=3D"c05a8248-bb91-43aa-9b37-01c407643a6d">If there are any =
+duplicates found then they will be removed from the table</li>
+  </ol>
+  <h3 style=3D"text-align: left;" id=3D"SupportHypercare-HowtoCreateanExcel=
+PivotTable">How to Create an Excel Pivot Table</h3>
+  <ol style=3D"text-align: left;">
+   <li data-uuid=3D"c5f6ed86-d2cb-442f-9c30-3f286552a53a">Select all the da=
+ta in the table (Ctrl+A), this highlights all fields</li>
+   <li data-uuid=3D"f377463b-ae36-4981-8334-f1b2c29a53a8">Go to top bar in =
+Excel, "Insert" &gt; "Pivot Table" &gt; "select Ok", this makes a new tab f=
+or the table</li>
+   <li data-uuid=3D"291a8bab-b0dd-4469-acfa-d4318dd1d02f">Assemble Pivot ta=
+ble, look on right side for "Pivot Table Fields"</li>
+   <li data-uuid=3D"3bb9c14d-c33b-4531-b62d-c0ba59cb62d2">Drag the appropri=
+ate fields into the "Rows" or "Columns" box depending on the data you want =
+to summarize</li>
+   <li data-uuid=3D"bba9ecf3-1358-4f5b-afc9-1601f5ba0d14">You can drag fiel=
+ds into "Filters" if you want to filter based on dates, Booleans, text or n=
+umeric fields</li>
+  </ol>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Page Updates</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SupportHypercare-PageUpdates">Page Updates</h2>
+  <p><time datetime=3D"2025-11-03" class=3D"date-past">03 Nov 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"937e6cd0-8843-4913-872f-aa41a643d8c2">Edited confluence=
+ page to include more info on type of hypercare based on project</li>
+  </ul>
+  <p><time datetime=3D"2025-09-23" class=3D"date-past">23 Sep 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"123e40b9-b813-46b3-8001-949ac76d5908">Made initial Conf=
+luence page, included more details on examples of hypercare, levels and tip=
+s</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207761_603699328.1765477121540--

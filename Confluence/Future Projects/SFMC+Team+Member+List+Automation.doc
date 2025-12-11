@@ -1,0 +1,384 @@
+Date: Thu, 11 Dec 2025 13:31:15 -0500 (EST)
+Message-ID: <202630647.207772.1765477875741@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207771_1222552565.1765477875741"
+
+------=_Part_207771_1222552565.1765477875741
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SFMC Team Member List Automation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SFMC Team Member List Automation</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCTeamMemberListAutomation-Overview">Overview</h2>
+  <p>Proposal from the Support Squad, have a combined Shared Mailbox for th=
+e EUS SFMC Team</p>
+  <h3 id=3D"SFMCTeamMemberListAutomation-AutomatedIdea">Automated Idea</h3>
+  <ul>
+   <li data-uuid=3D"c196a31c-bce9-40a3-8e74-e54b0dba6629"><span>All members=
+ of the SFMC team should be inside a SharePoint List</span></li>
+   <li data-uuid=3D"07243d42-19c6-44d6-9c27-fb9e5a5f805a">Some Members (Lea=
+ders) are added to Security Group setup with permissions for full access to=
+ the mailbox</li>
+   <li data-uuid=3D"059080b2-1cc1-441e-8ada-b5de80f4182d">Members are added=
+ programmatically to the security group via Power Automate with connection =
+to Azure AD Admin</li>
+  </ul>
+  <h3 id=3D"SFMCTeamMemberListAutomation-WhatCanBeSyncedtotheSharePointList=
+">What Can Be Synced to the SharePoint List</h3>
+  <ul>
+   <li data-uuid=3D"ca687858-34ab-45c7-acdb-b9177a828405">Shared Mailbox Em=
+ail</li>
+   <li data-uuid=3D"c7ece038-05d2-4e6c-8f46-45f2da860c32">Power Automate fl=
+ows (ex: Intake, Support Errors)</li>
+   <li data-uuid=3D"9f57aae1-49ec-4294-a138-a29bbf81b2ac">DL Templates (may=
+be connected to Shared Mailbox Email)</li>
+   <li data-uuid=3D"d9b44928-da14-4eac-84ca-5259ea4f0bf1">BCC List in SFMC<=
+/li>
+   <li data-uuid=3D"81fc9bfe-a1a1-4eec-bf6b-4a82e2126693">Confluence Pages<=
+/li>
+  </ul>
+  <h3 id=3D"SFMCTeamMemberListAutomation-Roadblocks/Challenges">Roadblocks/=
+Challenges</h3>
+  <ul>
+   <li data-uuid=3D"29aa9f37-093e-483f-bbcd-781043ca36a9">Need to determine=
+ what mailbox should we use</li>
+   <li data-uuid=3D"589b0de3-e671-4925-bd34-3b6c735efd0e">Do not have any p=
+ermissions with Azure</li>
+  </ul>
+  <hr>
+  <p><strong>Jira Card to Track Work:</strong> <span class=3D"jira-issue" d=
+ata-jira-key=3D"JDUB-43517"> <a href=3D"https://jira.jnj.com/browse/JDUB-43=
+517" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://jira.jnj.c=
+om/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D31995&amp;avatarType=3Dis=
+suetype">JDUB-43517</a> - <span class=3D"summary">SFMC Team Member List Aut=
+omation</span> <span class=3D"aui-lozenge aui-lozenge-subtle             au=
+i-lozenge-default
+     jira-macro-single-issue-export-pdf">Open</span> </span></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">JJT EUS SFMC Mailbox</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCTeamMemberListAutomation-JJTEUSSFMCMailbox">JJT EUS SFMC Ma=
+ilbox</h2>
+  <h3 id=3D"SFMCTeamMemberListAutomation-Overview.1">Overview</h3>
+  <p>As of April 7th, 2025, this shared mailbox is assigned to the current =
+members of Salesforce Marketing Cloud End User Services team.<br>
+    All members of the team have full access.</p>
+  <h3 id=3D"SFMCTeamMemberListAutomation-Background&amp;BusinessUseCase">Ba=
+ckground &amp; Business Use Case</h3>
+  <p>Currently for both internal automations and regular project sends, ind=
+ividual emails are listed on SFMC DL templates as well as SFMC data extensi=
+ons for larger projects. This creates the mundane task of having to update =
+the email list in multiple places if there is a change to the team.</p>
+  <h3 id=3D"SFMCTeamMemberListAutomation-Objective">Objective</h3>
+  <p>To simplify the process of updating SFMC team members to receive email=
+s if there is any change to the team.</p>
+  <h3 id=3D"SFMCTeamMemberListAutomation-StepstoTake">Steps to Take</h3>
+  <p>:warning: Research the best way to manage add/removing members from th=
+is mailbox, use AI, can this be done with Azure? Can this be automated from=
+ the SharePoint list?</p>
+  <p>Create business outlook forwarding rules that do the following:</p>
+  <p>Forward to SFMC Leaders ONLY any email to JJT EUS Inbox for project se=
+nds<br>
+    Send the "New Project" email to all SFMC Team members<br>
+    Send "Do Not Reply" messages back to any user who emails the inbox</p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCTeamMemberListAutomation-Notes&amp;Updates">Notes &amp; Upd=
+ates</h2>
+  <p><time datetime=3D"2025-10-27" class=3D"date-past">27 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <p>Juan finished with initial list, pinged Leadership for them to add the=
+mselves</p>
+  <p>Setup reminder for week of 1Windo1/3</p>
+  <p><time datetime=3D"2025-10-23" class=3D"date-past">23 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"29481876-505f-4f7a-bc9a-e71f1dc31f96">Spoke with Caro, =
+need to have a list of SharePoint of all SFMC team members, does not need t=
+o have a tech discovery</li>
+   <li data-uuid=3D"e09c1b69-e7ee-49ab-8c2c-c63946f625de">Assigned Juan to =
+begin working on the SharePoint list, moved to new spike</li>
+  </ul>
+  <p><time datetime=3D"2025-10-09" class=3D"date-past">09 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"cd4234fe-66d7-4a46-aa83-66ed5c09d69a">Yetz emphasized t=
+hat a Shared mailbox or shared account should be used for Jira access token=
+s that cannot expire</li>
+   <li data-uuid=3D"5e5cd6ee-393f-4062-baf8-8053c2ff4833">Setup reminder to=
+ contact Caro at 1/15/26 to get new token, token expires end of year 2026</=
+li>
+  </ul>
+  <p><time datetime=3D"2025-10-02" class=3D"date-past">02 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"57b6d4ee-e649-440e-ac72-056d5b6736b3">Set due date to 1=
+0/9, will talk more about this with Carolina in coming weeks</li>
+  </ul>
+  <p><time datetime=3D"2025-10-01" class=3D"date-past">01 Oct 2025</time>&n=
+bsp;</p>
+  <p><a class=3D"confluence-userlink user-mention current-user-mention" dat=
+a-username=3D"KCarpen7" href=3D"/display/~KCarpen7" data-linked-resource-id=
+=3D"353325054" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://confluence.jnj.com">Carpenter, Kyle =
+[GTSUS NON-J&amp;J]</a>&nbsp;</p>
+  <ul>
+   <li data-uuid=3D"1ec8f98e-c3f5-4dba-a569-754ad6c7bd06">Made initial conf=
+luence page after research in Gen AI</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207771_1222552565.1765477875741--

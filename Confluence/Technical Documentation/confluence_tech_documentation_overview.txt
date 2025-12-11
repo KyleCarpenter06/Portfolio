@@ -1,0 +1,9 @@
+Confluence technical documentation overview:
+-	SFMC exporting process, access to SFTP
+-	SFMC DL templates
+-	SFMC intake process (both intake process and intake process flow word docs)
+-	power automate versioning and deployment with power platform
+-	hypercare procedure
+-	data synchronization procedure
+-	how to run not set reports
+-	support template with tab examples and placeholders

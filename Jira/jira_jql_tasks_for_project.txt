@@ -1,0 +1,3 @@
+JQL used in individual confluence pages to show all open tasks for current project
+
+project = JDUB AND issuetype in subTaskIssueTypes() AND parent = "JDUB-41774" AND status != "Completed" ORDER BY due ASC, priority DESC              

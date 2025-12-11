@@ -1,0 +1,765 @@
+Date: Thu, 11 Dec 2025 13:33:24 -0500 (EST)
+Message-ID: <1430056247.207780.1765478004921@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207779_590194407.1765478004921"
+
+------=_Part_207779_590194407.1765478004921
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Toggle Held Subscribers</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Toggle Held Subscribers</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">S=
+ummary</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"ToggleHeldSubscribers-Summary">Summary</h2>
+  <p>This page is devoted to documenting work related to the toggling of He=
+ld Subscribers in Salesforce</p>
+  <h3 id=3D"ToggleHeldSubscribers-Problem">Problem</h3>
+  <p>End users in Salesforce are marked as "Inactive/Held" when they are ac=
+tive users in JJEDS. This is very likely because these users were inactive =
+for sometime and then reactivated later. See attached images for proof.</p>
+  <h3 id=3D"ToggleHeldSubscribers-Solution">Solution</h3>
+  <p>Build an automation with Automation Studio using SSJS to reactivate an=
+y held users in JNJ Database if their status is active in JJEDS.</p>
+  <ul>
+   <li>Part of the solution to get the users in the JNJ Database using an S=
+QL query can be found here<br><a class=3D"external-link" href=3D"https://ji=
+ra.jnj.com/browse/JDUB-22667" rel=3D"nofollow">https://jira.jnj.com/browse/=
+JDUB-22667</a></li>
+   <li>Part of SSJS solution is already tested in Cloud Page that Holwan bu=
+ilt.<br>
+     Cloud Page Location:=20
+    <ins>J&amp;J Technology &gt; Cloud Pages &gt; Testing &gt; TEST-H&amp;M=
+ &gt; UpdateStatusAllsubscribers</ins><br>
+     Live Page URL: <a class=3D"external-link" href=3D"https://cloud.inform=
+.jnj.com/UpdateStatusAllsubscribers" rel=3D"nofollow">https://cloud.inform.=
+jnj.com/UpdateStatusAllsubscribers</a></li>
+  </ul>
+  <h3 id=3D"ToggleHeldSubscribers-Benefits">Benefits</h3>
+  <ul>
+   <li>Reduce conflicts/errors within Journey Builder</li>
+   <li>Ensure data consistency with JJEDS platform (JNJ DL Template inside =
+SFMC)</li>
+   <li>Strengthen relationship and trust between SFMC, OCMs and JNJ End use=
+rs</li>
+  </ul>
+  <h3 id=3D"ToggleHeldSubscribers-ProjectManager">Project Manager</h3>
+  <ul>
+   <li>Alejandro - Team C</li>
+   <li>Kyle - Support</li>
+  </ul>
+  <h3 id=3D"ToggleHeldSubscribers-ProjectTeam(s)">Project Team(s)</h3>
+  <ul>
+   <li>Team C Developers</li>
+   <li>Support Team</li>
+  </ul>
+  <h3 id=3D"ToggleHeldSubscribers-TimeEstimation">Time Estimation</h3>
+  <ul>
+   <li>4 weeks</li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Technical Details</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"ToggleHeldSubscribers-TechnicalDetails">Technical Details</h2>
+  <h3 id=3D"ToggleHeldSubscribers-DataExtensionLocations">Data Extension Lo=
+cations</h3>
+  <p><strong>Active Subscribers in JJEDS:</strong>&nbsp;Data Extensions&gt;=
+Templates&gt;Master_JNJ_DL_DataLake</p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Support</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"ToggleHeldSubscribers-SupportTask">Support Task</h2>
+  <p><span class=3D"jira-issue resolved" data-jira-key=3D"JDUB-36105"> <a h=
+ref=3D"https://jira.jnj.com/browse/JDUB-36105" class=3D"jira-issue-key"><im=
+g class=3D"icon" src=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmal=
+l&amp;avatarId=3D10318&amp;avatarType=3Dissuetype">JDUB-36105</a> - <span c=
+lass=3D"summary">Cybersecurity Transformation Accelerator - Support</span> =
+<span class=3D"aui-lozenge aui-lozenge-subtle             aui-lozenge-succe=
+ss
+     jira-macro-single-issue-export-pdf">Completed</span> </span></p>
+  <p></p>
+  <div id=3D"refresh-module--869073943" class=3D"refresh-module-id jira-tab=
+le">
+   <p></p>
+   <div id=3D"jira-issues--869073943" style=3D"width: 100%;  overflow: auto=
+;" class=3D"jira-issues">
+    <table class=3D"aui">
+     <tbody>
+      <tr></tr>
+      <tr>
+       <th style=3D"text-align: left;" class=3D"jira-macro-table-underline-=
+pdfexport">=CE=A3 Time Spent</th>
+       <th style=3D"text-align: left;" class=3D"jira-macro-table-underline-=
+pdfexport">=CE=A3 Remaining Estimate</th>
+      </tr>
+      <tr class=3D"rowNormal">
+       <td class=3D"jira-macro-table-underline-pdfexport">7.25h</td>
+       <td class=3D"jira-macro-table-underline-pdfexport">0h</td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+   <p></p>
+  </div>
+  <p></p>
+  <h2 class=3D"auto-cursor-target" id=3D"ToggleHeldSubscribers-ActionItems"=
+>Action Items</h2>
+  <div class=3D"bv-pdf-tabs">
+   <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline"=
+>Open Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module--2088871726" class=3D"refresh-module-id jira-=
+table">
+     <p></p>
+     <div id=3D"jira-issues--2088871726" style=3D"width: 100%;  overflow: a=
+uto;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">T</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">P</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Summary</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Status</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Due</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Assignee</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Latest Summary</th>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=
+=3D"nofollow" href=3D"https://jira.jnj.com/secure/IssueNavigator.jspa?reset=
+=3Dtrue&amp;jqlQuery=3Dproject+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%=
+28%29+AND+parent+%3D+%22JDUB-36105%22+AND+status+%21%3D+%22Completed%22+ORD=
+ER+BY+due+ASC%2C+priority+DESC+++++++++++&amp;src=3Dconfmacro"> <span>No is=
+sues found</span> </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Closed Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module--197618954" class=3D"refresh-module-id jira-t=
+able">
+     <p></p>
+     <div id=3D"jira-issues--197618954" style=3D"width: 100%;  overflow: au=
+to;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"type">T</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"priority">P</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"summary">Summary</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"status">Status</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"due">Due</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"assignee">Assignee</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"customfield_12037">Latest Summary</span></th>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-35755?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-35755?src=3Dconfmacro"> Support Intake Call - =
+Team A </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>May 07, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36029?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36029?src=3Dconfmacro"> Get UAT Table from SFM=
+C Team </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>May 09, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36090?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/major.svg" alt=3D=
+"High" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36090?src=3Dconfmacro"> Create SharePoint List=
+ </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>May 13, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36092?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36092?src=3Dconfmacro"> QA Power Automate Flow=
+ </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>May 15, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36614?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/blocker.svg" alt=
+=3D"Blocker" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36614?src=3Dconfmacro"> External Legal PA Flow=
+ - Bulk Test </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>May 16, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36633?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/blocker.svg" alt=
+=3D"Blocker" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36633?src=3Dconfmacro"> Confirm Cloud Page API=
+ Calls </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>May 19, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36091?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/blocker.svg" alt=
+=3D"Blocker" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36091?src=3Dconfmacro"> Create Power Automate =
+Flow </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>May 19, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-39270?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-39270?src=3Dconfmacro"> Create Simple Power Au=
+tomate Flow </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 08, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36615?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36615?src=3Dconfmacro"> KT with Team A </a></t=
+d>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 08, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-39592?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-39592?src=3Dconfmacro"> Power Automate Changes=
+ </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 09, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-39593?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-39593?src=3Dconfmacro"> PA Flow Email Updates =
+</a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 14, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-39887?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/major.svg" alt=3D=
+"High" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-39887?src=3Dconfmacro"> Email and Data Issues =
+7/15 </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 15, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36093?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/critical.svg" alt=
+=3D"Critical" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36093?src=3Dconfmacro"> Move to PROD </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 16, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-36613?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/blocker.svg" alt=
+=3D"Blocker" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-36613?src=3Dconfmacro"> Create Power Automate =
+Flow - 2nd Version </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+></td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Fernandez, Juan=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-37666?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/minor.svg" alt=3D=
+"Medium" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-37666?src=3Dconfmacro"> Address SharePoint HTT=
+P Error </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+></td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=
+=3D"nofollow" title=3D"View all matching issues in Jira." href=3D"https://j=
+ira.jnj.com/secure/IssueNavigator.jspa?reset=3Dtrue&amp;jqlQuery=3Dproject+=
+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%28%29+AND+parent+%3D+%22JDUB-34=
+154%22+AND+status+%3D+%22Completed%22+ORDER+BY+due+ASC%2C+priority+DESC++++=
+++++++++&amp;src=3Dconfmacro"> 15 issues </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div>
+   <p><br></p>
+  </div>
+  <h2 class=3D"auto-cursor-target" id=3D"ToggleHeldSubscribers-MeetingNotes=
+">Meeting Notes</h2>
+  <h3 id=3D"ToggleHeldSubscribers-Notes5/16/25:">Notes 5/16/25:</h3>
+  <ul>
+   <li>Made initial Confluence page, will follow up later</li>
+  </ul>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207779_590194407.1765478004921--

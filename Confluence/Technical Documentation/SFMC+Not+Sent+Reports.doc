@@ -1,0 +1,613 @@
+Date: Thu, 11 Dec 2025 13:19:33 -0500 (EST)
+Message-ID: <99428391.207764.1765477173407@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207763_642731884.1765477173407"
+
+------=_Part_207763_642731884.1765477173407
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SFMC Not Sent Reports</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SFMC Not Sent Reports</h1>
+    <div class=3D"Section1">
+        <div role=3D"region" aria-label=3D"Note" class=3D"confluence-inform=
+ation-macro  confluence-information-macro-note">
+ <p class=3D"title conf-macro-render">Need SFTP Access</p><span role=3D"pre=
+sentation" class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence=
+-information-macro-icon"></span>
+ <div class=3D"confluence-information-macro-body">
+  <p>In order to get access to Not Sent Reports, you need to have access to=
+ the SFTP in order extract the data.<br><a href=3D"https://confluence.jnj.c=
+om/spaces/VBPG/pages/1079921954/SFMC+SFTP+Access" rel=3D"nofollow">Learn mo=
+re here</a>.</p>
+ </div>
+</div>
+<div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCNotSentReports-SFMC'NotSent'Reports">SFMC 'Not Sent' Report=
+s</h2>
+  <p>Salesforce Marketing Cloud not sent reports are a exported list of use=
+rs who were not sent communications for a variety of reasons. Checking thes=
+e reports on a regular basis is important to maintain our quality of standa=
+rds as we need to identify any issues with our sending process. This could =
+be due to build issues, data issues, blacklists or other system constraints=
+.</p>
+  <h3 id=3D"SFMCNotSentReports-WhythisisImportant">Why this is Important</h=
+3>
+  <ul>
+   <li data-uuid=3D"6557e890-ca70-4376-8425-c198c2cba2d7"><span style=3D"co=
+lor:#333333;"><strong>Deliverability accuracy</strong> - Not Sent affects y=
+our true delivery and engagement metrics. If many emails are Not Sent due t=
+o build errors, you may think a campaign underperforms when the problem is =
+with the build, not recipient behavior</span></li>
+   <li data-uuid=3D"1b0c0f29-4500-4b48-87bb-5c848ab6f51f"><span style=3D"co=
+lor:#333333;"><strong>QA and Bug Detection</strong> - Not Sent flags potent=
+ial issues in your email build (content, personalization, AMPscript, data r=
+eferences) before you deploy widely</span></li>
+   <li data-uuid=3D"ba0e95f3-31c8-4c4d-8b9a-7e89fd7dcd21"><strong>Data Qual=
+ity and Governance</strong> - Not Sent instances point to data issues (bad =
+addresses, missing fields, suppressed subscribers) that need cleaning to ma=
+intain compliance and reputation</li>
+   <li data-uuid=3D"d094a2aa-6eaa-4f9d-a6c6-2f666a2f12b6"><span style=3D"co=
+lor:#333333;"><strong>Agreements and Stakeholder Trust</strong> - If key ca=
+mpaigns show Not Sent due to build problems, it can violate internal SLAs a=
+nd erode trust with stakeholders relying on timely, accurate sends</span></=
+li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Run Report</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCNotSentReports-HowtoRun'NotSent'Reports"><span style=3D"col=
+or:#333333;">How to Run 'Not Sent' Reports</span></h2>
+  <ol>
+   <li data-uuid=3D"a3da7e0f-8ceb-4059-8737-0d68867cec12"><span style=3D"co=
+lor:#333333;">Go to Salesforce Marketing Cloud &gt; Blue Cloud &gt; Hover "=
+Journey Builder" &gt; Automation Studio (<a href=3D"/download/attachments/1=
+152005369/not_sent_step1.png?version=3D1&amp;modificationDate=3D17631355250=
+76&amp;api=3Dv2" data-linked-resource-id=3D"1154159275" data-linked-resourc=
+e-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-resour=
+ce-default-alias=3D"not_sent_step1.png" data-nice-type=3D"Image" data-linke=
+d-resource-content-type=3D"image/png" data-linked-resource-container-id=3D"=
+1152005369" data-linked-resource-container-version=3D"9">screenshot</a>)</s=
+pan></li>
+   <li data-uuid=3D"b031a252-8cf5-4be4-8a8b-89c98ff6c951"><span style=3D"co=
+lor:#333333;">In Automation Studio, go to Overview &gt; my automation &gt; =
+Not Sent &gt; Not Sent Extract (<a href=3D"/download/attachments/1152005369=
+/not_sent_step2.png?version=3D1&amp;modificationDate=3D1763135535348&amp;ap=
+i=3Dv2" data-linked-resource-id=3D"1154159276" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=
+t-alias=3D"not_sent_step2.png" data-nice-type=3D"Image" data-linked-resourc=
+e-content-type=3D"image/png" data-linked-resource-container-id=3D"115200536=
+9" data-linked-resource-container-version=3D"9">screenshot</a>)</span>
+    <ul>
+     <li><span style=3D"color:#333333;">This is an automation that contains=
+ a "Data Extract" activity and pulls "Not Sent" records</span></li>
+    </ul></li>
+   <li data-uuid=3D"40328ad8-3d5d-4448-99ee-9e2bb810319d"><span style=3D"co=
+lor:#333333;">Go to "Run Once" (<a href=3D"/download/attachments/1152005369=
+/not_sent_step3.png?version=3D1&amp;modificationDate=3D1763135571364&amp;ap=
+i=3Dv2" data-linked-resource-id=3D"1154159278" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=
+t-alias=3D"not_sent_step3.png" data-nice-type=3D"Image" data-linked-resourc=
+e-content-type=3D"image/png" data-linked-resource-container-id=3D"115200536=
+9" data-linked-resource-container-version=3D"9">screenshot</a>) and run all=
+ activities to run this manually (<a href=3D"/download/attachments/11520053=
+69/not_sent_step3b.png?version=3D1&amp;modificationDate=3D1763135631083&amp=
+;api=3Dv2" data-linked-resource-id=3D"1154159281" data-linked-resource-vers=
+ion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-def=
+ault-alias=3D"not_sent_step3b.png" data-nice-type=3D"Image" data-linked-res=
+ource-content-type=3D"image/png" data-linked-resource-container-id=3D"11520=
+05369" data-linked-resource-container-version=3D"9">screenshot</a>), then w=
+ait a few minutes for completion (<a href=3D"/download/attachments/11520053=
+69/not_sent_step3c.png?version=3D1&amp;modificationDate=3D1763135684463&amp=
+;api=3Dv2" data-linked-resource-id=3D"1154159292" data-linked-resource-vers=
+ion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-def=
+ault-alias=3D"not_sent_step3c.png" data-nice-type=3D"Image" data-linked-res=
+ource-content-type=3D"image/png" data-linked-resource-container-id=3D"11520=
+05369" data-linked-resource-container-version=3D"9">screenshot</a>)</span><=
+/li>
+   <li data-uuid=3D"46a586a3-e8b2-4675-af34-5d1934709d6a"><span style=3D"co=
+lor:#333333;">Go to the SFTP with a program like FileZilla and login to the=
+ ExactTarget account for our instance, get information on login from Passwo=
+rd sheet</span></li>
+   <li data-uuid=3D"263f643b-535c-4ae8-a298-585d0cf73998"><span style=3D"co=
+lor:#333333;">Go to Import folder and look for "NotSent.zip" which will sho=
+w up around the time the automation finished (<a href=3D"/download/attachme=
+nts/1152005369/not_sent_step5.png?version=3D1&amp;modificationDate=3D176313=
+5997011&amp;api=3Dv2" data-linked-resource-id=3D"1154159307" data-linked-re=
+source-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-r=
+esource-default-alias=3D"not_sent_step5.png" data-nice-type=3D"Image" data-=
+linked-resource-content-type=3D"image/png" data-linked-resource-container-i=
+d=3D"1152005369" data-linked-resource-container-version=3D"9">screenshot</a=
+>)</span></li>
+   <li data-uuid=3D"d048a498-30bd-4e0b-852e-ea69b6cf2906">Export this to yo=
+ur local machine and unzip the file (<a href=3D"/download/attachments/11520=
+05369/not_sent_step6.png?version=3D1&amp;modificationDate=3D1763136016804&a=
+mp;api=3Dv2" data-linked-resource-id=3D"1154159308" data-linked-resource-ve=
+rsion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-d=
+efault-alias=3D"not_sent_step6.png" data-nice-type=3D"Image" data-linked-re=
+source-content-type=3D"image/png" data-linked-resource-container-id=3D"1152=
+005369" data-linked-resource-container-version=3D"9">screenshot</a>)</li>
+   <li data-uuid=3D"e0d7818c-a3e8-4b44-a83f-d2790638043f">Open the CSV name=
+d "NotSent.csv" (<a href=3D"/download/attachments/1152005369/not_sent_step7=
+.png?version=3D1&amp;modificationDate=3D1763136027361&amp;api=3Dv2" data-li=
+nked-resource-id=3D"1154159311" data-linked-resource-version=3D"1" data-lin=
+ked-resource-type=3D"attachment" data-linked-resource-default-alias=3D"not_=
+sent_step7.png" data-nice-type=3D"Image" data-linked-resource-content-type=
+=3D"image/png" data-linked-resource-container-id=3D"1152005369" data-linked=
+-resource-container-version=3D"9">screenshot</a>)=20
+    <ul>
+     <li>This will show all of the users who have not been sent a communica=
+tion in the last 30 days (<a href=3D"/download/attachments/1152005369/NotSe=
+nt_edited_11_12_25.csv?version=3D1&amp;modificationDate=3D1762987153617&amp=
+;api=3Dv2" data-linked-resource-id=3D"1152005730" data-linked-resource-vers=
+ion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-def=
+ault-alias=3D"NotSent_edited_11_12_25.csv" data-linked-resource-content-typ=
+e=3D"text/csv" data-linked-resource-container-id=3D"1152005369" data-linked=
+-resource-container-version=3D"9">CSV example</a>)</li>
+     <li>:warning: Please note: this will only show users for the past 90 d=
+ays</li>
+    </ul></li>
+   <li data-uuid=3D"27a4f34d-d1f6-4d15-8af1-95439b18d89e">Sort by Event Dat=
+e to see the latest users who did not receive communication, troubleshoot a=
+ccordingly</li>
+  </ol>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Not Sent Reasons</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCNotSentReports-NotSentReasons">Not Sent Reasons</h2>
+  <h3 id=3D"SFMCNotSentReports-Subscriberstatusandlistissues">Subscriber st=
+atus and list issues</h3>
+  <ul class=3D"KsbFXc U6u95">
+   <li data-uuid=3D"37f67dbd-3a2c-45f0-9a5a-1de03ee4eb15"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Held:</strong><span>&nbsp;</span>The subscri=
+ber has received multiple bounces and is temporarily on hold.</span>
+    <ul class=3D"KsbFXc U6u95">
+     <li><span class=3D"T286Pc">:warning: This is a list hygiene issue - ne=
+ed to investigate reasoning for the held and if the subscriber should be re=
+-enabled in "All Subscribers"</span></li>
+    </ul></li>
+   <li data-uuid=3D"a069bc33-796b-40c0-b7c5-d20e678f722b"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Unsubscribed:</strong><span>&nbsp;</span>The=
+ subscriber has opted out of receiving emails, either globally at the accou=
+nt level or on a specific list.</span>
+    <ul class=3D"KsbFXc U6u95">
+     <li><span class=3D"T286Pc">:warning: We should not be seeing any "Unsu=
+bcribed" at JNJ, we are not having internal employees opt-out</span></li>
+    </ul></li>
+   <li data-uuid=3D"38bccfe2-3048-4cb0-a414-b5008b1e73c3"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Suppression List Exclusion:</strong><span>&n=
+bsp;</span>The subscriber's email address is on the suppression list, eithe=
+r automatically or manually.</span></li>
+   <li data-uuid=3D"ff6a86f0-2043-430f-b25e-977b5829bece"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">List Detective Exclusion:</strong><span>&nbs=
+p;</span>The email address is flagged as problematic by List Detective, whi=
+ch identifies and excludes spam traps, blocklisted addresses, and inactive =
+domains to protect deliverability</span>
+    <ul class=3D"KsbFXc U6u95">
+     <li><span class=3D"T286Pc">:warning: If this is an internal communicat=
+ion (not partner without jnj address), we need to investigate why this pers=
+on was excluded, maybe needs escalation to SFMC admins</span></li>
+    </ul></li>
+  </ul>
+  <h3 id=3D"SFMCNotSentReports-Technicalandsend-relatedissues">Technical an=
+d send-related issues</h3>
+  <ul class=3D"KsbFXc U6u95">
+   <li data-uuid=3D"4bb5ce1a-b803-4ee5-9c89-71879c347242"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Invalid Email Address:</strong><span>&nbsp;<=
+/span>The email address is malformed (e.g., "abc@yahoo@co" instead of "abc@=
+yahoo.com").</span></li>
+   <li data-uuid=3D"4bc9e33f-d869-4bc6-afa3-549e49c68c9b"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Build Email Error:</strong><span>&nbsp;</spa=
+n>An error occurred while the system was trying to build the email for send=
+ing.</span>
+    <ul class=3D"KsbFXc U6u95">
+     <li><span class=3D"T286Pc">:warning: This is likely an AMPScript issue=
+ and needs to be investigated by the developers</span></li>
+    </ul></li>
+   <li data-uuid=3D"43fdbba7-faf2-4ca2-ba3b-88976e12bf6f"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Send Time Filter Excluded:</strong><span>&nb=
+sp;</span>A send-time filter script was used to exclude the subscriber base=
+d on certain criteria.</span></li>
+   <li data-uuid=3D"5362653a-6343-4acc-84f5-0b156f288c98"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Domain Exclusion:</strong><span>&nbsp;</span=
+>The email is from a domain that has been explicitly excluded from sends.</=
+span></li>
+   <li data-uuid=3D"1c27bfe0-dd5e-4b9f-bc6d-c15acb1af93f"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Invalid Data Extension:</strong><span>&nbsp;=
+</span>The Data Extension is missing an "EmailAddress"<span>&nbsp;</span>fi=
+eld or has more than one.</span><span class=3D"vKEkVd">&nbsp;</span></li>
+  </ul>
+  <h3 id=3D"SFMCNotSentReports-JourneyBuilderspecificissues">Journey Builde=
+r specific issues</h3>
+  <ul class=3D"KsbFXc U6u95">
+   <li data-uuid=3D"9af88cf1-8bd8-4626-b940-266e164e2fd7"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Entry Source or Filter Exclusion:</strong><s=
+pan>&nbsp;</span>The contact was not accepted into the journey because they=
+ did not meet the criteria of the entry source or a filter activity.</span>=
+</li>
+   <li data-uuid=3D"8902d127-c304-4258-a4f8-273c2f588838"><span class=3D"T2=
+86Pc"><strong class=3D"Yjhzub">Contact Path Issues:</strong><span>&nbsp;</s=
+pan>After being injected, the contact did not reach the email activity due =
+to a different path in a multi-step journey.</span><span class=3D"vKEkVd">&=
+nbsp;</span></li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Troubleshooting</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCNotSentReports-Troubleshooting'NotSent'Records">Troubleshoo=
+ting 'Not Sent' Records</h2>
+  <p><span style=3D"color:#333333;">Salesforce "Not Sent" records provide l=
+imited information (Job ID, Email ID, and subscriber email).</span></p>
+  <h3 id=3D"SFMCNotSentReports-StepstoIdentify'NotSent'Records"><span style=
+=3D"color:#333333;">Steps to Identify 'Not Sent' Records</span></h3>
+  <ol>
+   <li><span style=3D"color:#333333;">Confirm if they are an active employe=
+e by going to the <a class=3D"external-link" href=3D"https://home.jnj.com/s=
+earch-centre?source=3D91122&amp;sort=3DdisplayName&amp;dir=3Dasc&amp;mode=
+=3Dgrid" rel=3D"nofollow">J&amp;J People Finder</a> and search their email<=
+/span>
+    <ul>
+     <li data-uuid=3D"92bd533d-96bd-4f41-ad7f-a37c958e32a6"><span style=3D"=
+color:#333333;">If they are listed as Terminated or Inactive, then this rec=
+ord should be ignored as the system correctly identified that this user sho=
+uld not be sent a communication</span></li>
+    </ul></li>
+   <li data-uuid=3D"48761473-73ea-465d-a6e5-a416c506ba3d"><span style=3D"co=
+lor:#333333;">If the user is an Active user, we need to see which journey l=
+ed to this issue</span>
+    <ol>
+     <li data-uuid=3D"4511d52e-8db2-45e7-b8cc-718766063fef"><span style=3D"=
+color:#333333;">Go to Salesforce &gt; Hover Blue Cloud &gt; App Exchange &g=
+t; Query Studio (<a href=3D"/download/attachments/1152005369/not_held_step1=
+.png?version=3D1&amp;modificationDate=3D1763755723298&amp;api=3Dv2" data-li=
+nked-resource-id=3D"1158268256" data-linked-resource-version=3D"1" data-lin=
+ked-resource-type=3D"attachment" data-linked-resource-default-alias=3D"not_=
+held_step1.png" data-nice-type=3D"Image" data-linked-resource-content-type=
+=3D"image/png" data-linked-resource-container-id=3D"1152005369" data-linked=
+-resource-container-version=3D"9">screenshot</a>)</span>
+      <ul>
+       <li data-uuid=3D"61165c2e-9b21-4c8a-a6e6-3c4c35e4d3e9"><span style=
+=3D"color:#333333;">If Query Studio not listed, contact SFMC Leadership tea=
+m</span></li>
+       <li data-uuid=3D"ec24defa-8c4a-4f69-8e6a-29d8e11955cf"><span style=
+=3D"color:#333333;">If Query Studio shows a blank screen, you need to go to=
+ the "third party settings" of your browser and enable "Third party Cookies=
+" (<a href=3D"/download/attachments/1152005369/not_held_step2.png?version=
+=3D1&amp;modificationDate=3D1763755751353&amp;api=3Dv2" data-linked-resourc=
+e-id=3D"1158268259" data-linked-resource-version=3D"1" data-linked-resource=
+-type=3D"attachment" data-linked-resource-default-alias=3D"not_held_step2.p=
+ng" data-nice-type=3D"Image" data-linked-resource-content-type=3D"image/png=
+" data-linked-resource-container-id=3D"1152005369" data-linked-resource-con=
+tainer-version=3D"9">Chrome example screenshot</a>)</span></li>
+      </ul></li>
+     <li><span style=3D"color:#333333;"><span style=3D"color:#172b4d;">Run =
+a query with the below code with Query Editor, the line "JobID" I put in th=
+e SendID</span></span>
+      <ul>
+       <li data-uuid=3D"1e9bf0ce-50a1-4b52-9bc0-f4b7de1f0cb7"><span style=
+=3D"color:#333333;"><span style=3D"color:#172b4d;">After we run this query,=
+ we will get the name of the journey that was used</span></span></li>
+       <li data-uuid=3D"bb532fa0-7577-4498-a1a2-00e2a1021127"><span style=
+=3D"color:#333333;"><span style=3D"color:#172b4d;">:star: If the journey th=
+at is returned says "Simulation" in journey name, you can ignore this issue=
+ then because this was a Journey Builder test (<a href=3D"/download/attachm=
+ents/1152005369/not_held_step3.png?version=3D1&amp;modificationDate=3D17637=
+55901605&amp;api=3Dv2" data-linked-resource-id=3D"1158268282" data-linked-r=
+esource-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-=
+resource-default-alias=3D"not_held_step3.png" data-nice-type=3D"Image" data=
+-linked-resource-content-type=3D"image/png" data-linked-resource-container-=
+id=3D"1152005369" data-linked-resource-container-version=3D"9">screenshot</=
+a>)</span></span></li>
+      </ul></li>
+    </ol></li>
+   <li data-uuid=3D"1c4feb4d-7c7e-46f7-984f-4ef4ae01a7cd"><span style=3D"co=
+lor:#333333;"><span style=3D"color:#172b4d;">From the journey, get the send=
+able data extension that was used for sending</span></span></li>
+   <li data-uuid=3D"6dbd2123-7a4a-4b65-abf0-056e069b568d"><span style=3D"co=
+lor:#333333;"><span style=3D"color:#172b4d;">For Build Error Issues specifi=
+cally, confirm by testing with that subscriber in Email Studio</span></span=
+>
+    <ol>
+     <li data-uuid=3D"f9f239da-fee3-4200-b74f-d24b38fb1073"><span style=3D"=
+color:#333333;"><span style=3D"color:#172b4d;">Preview the email as well as=
+ send a test to yourself and see if the email loads in Salesforce and on av=
+ailable ESPs</span></span></li>
+    </ol></li>
+  </ol>
+  <h3 id=3D"SFMCNotSentReports-RemediationEfforts"><span style=3D"color:#33=
+3333;">Remediation Efforts</span></h3>
+  <p><span style=3D"color:#333333;"><span style=3D"color:#172b4d;">After th=
+e issue has been identified, Salesforce leadership and the project team sho=
+uld decide whether to send an apology, perform a resend, or pursue an alter=
+native remediation to ensure clear and effective communication and to maint=
+ain stakeholder trust.</span></span></p>
+  <p class=3D"line-reveal"><strong>Key factors to consider:</strong></p>
+  <ul>
+   <li class=3D"line-reveal" data-uuid=3D"d141f1fb-5ced-4429-8cd0-1e910399f=
+d7c"><strong>Scope:</strong> How many recipients were affected and what was=
+ the impact?</li>
+   <li class=3D"line-reveal" data-uuid=3D"b63dcc95-ac24-42b2-a52b-112f318d6=
+be0"><strong>Content:</strong> Was incorrect or incomplete information deli=
+vered?</li>
+   <li class=3D"line-reveal" data-uuid=3D"3fed7b9a-5ee6-46a2-832d-9d2b1e74b=
+83e"><strong>User Experience:</strong> Will an apology or resend improve tr=
+ust, or risk fatigue/confusion</li>
+   <li class=3D"line-reveal" data-uuid=3D"129a328a-b911-402c-b049-ab0cfa056=
+f57"><strong>Approvals:</strong> Who must sign off on the decision and the =
+proposed messaging?</li>
+  </ul>
+  <h3 id=3D"SFMCNotSentReports-QueryStudioSQLExample">Query Studio SQL Exam=
+ple</h3>
+  <div class=3D"code panel pdl" style=3D"border-width: 1px;">
+   <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: =
+1px;">
+    <b>SQL to Find Journey Info for 'Not Sent' Records</b>
+   </div>
+   <div class=3D"codeContent panelContent pdl">
+    <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"b=
+rush: sql; gutter: true">SELECT
+j.JobID as JobID,
+j.EmailName as EmailName,
+jo.JourneyName as JourneyName,
+jo.VersionNumber as VersionNumber,
+jo.ModifiedDate as ModifiedDate
+FROM
+_Job j
+LEFT JOIN
+_JourneyActivity ja
+ON ja.JourneyActivityObjectID =3D j.TriggererSendDefinitionObjectID
+LEFT JOIN
+_Journey jo
+ON jo.VersionID =3D ja.VersionID
+WHERE
+j.JobID =3D '[SEND ID FOUND IN HELD REPORT]</pre>
+   </div>
+  </div>
+  <p><br></p>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Links</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCNotSentReports-Links">Links</h2>
+  <p><a class=3D"external-link" href=3D"https://help.salesforce.com/s/artic=
+leView?id=3D000382076&amp;type=3D1" rel=3D"nofollow">SFMC Documentation on =
+'Not Sent' Subscribers in Journeys</a></p>
+  <p><a class=3D"external-link" href=3D"https://help.salesforce.com/s/artic=
+leView?id=3Dmktg.mc_as_notsent.htm&amp;type=3D5" rel=3D"nofollow">SFMC Docu=
+mentation on 'Not Sent' Extract List and Columns</a></p>
+  <p><a class=3D"external-link" href=3D"https://jira.jnj.com/browse/JDUB-12=
+035" rel=3D"nofollow">Jira Epic to Track 'Not Sent' Report Progress</a></p>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207763_642731884.1765477173407--

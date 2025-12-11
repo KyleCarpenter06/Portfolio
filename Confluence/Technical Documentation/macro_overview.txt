@@ -1,0 +1,115 @@
+Macro overview:
+
+Tip (check mark)
+Purpose: Callout box for helpful tips or recommended actions; usually rendered with a green background and a check icon.
+Common params: optional title.
+When to use: highlight best practices, shortcuts, or non‑critical advice.
+Wiki markup example:
+{tip:title=Pro tip}Use keyboard shortcuts to save time.{tip}
+Editor: Insert → Info/Tip (or type “/tip” in the new editor).
+Caveat: Keep short and actionable; don’t overload with long paragraphs.
+
+Info
+Purpose: Neutral informational callout (often blue or neutral icon) for context or background details.
+Common params: optional title.
+When to use: provide background, links to related pages, definitions.
+Wiki markup example:
+{info:title=Background}This page explains the new deployment flow.{info}
+Editor: Insert → Info (or “/info”).
+Caveat: Use when you want to inform rather than warn or emphasize urgency.
+
+Note(s)
+Purpose: Highlight small reminders or facts; visually similar to an info/tip but usually styled differently depending on theme.
+When to use: short reminders, side notes, or exceptions.
+Wiki markup example:
+{note}Remember to update the release notes.{note}
+Editor: Insert → Note (or “/note”).
+Caveat: Avoid putting critical procedures only inside notes—readers may skip them.
+
+Warning
+Purpose: High‑visibility callout (often orange/red) to indicate caution, risks, or required preconditions.
+When to use: call out breaking changes, prerequisites, or hazards.
+Wiki markup example:
+{warning:title=Important}Do not edit the master pipeline without approval.{warning}
+Editor: Insert → Warning (or “/warning”).
+Caveat: Reserve for real warnings so the effect remains meaningful.
+
+Anchor
+Purpose: Create a named in‑page anchor to link directly to a specific point in a page.
+Common params: $name (anchor ID).
+Wiki markup example:
+{anchor:deploy_steps}
+Link to it: [Go to deployment steps|#deploy_steps] or in editor create a link and choose "Anchor".
+Editor: Insert → Anchor (or add a heading and link to it).
+Caveat: Anchor names should be unique and without spaces (use underscores/dashes).
+
+JIRA link (JIRA Issues / JIRA chart macros)
+Purpose: Embed JIRA issues, filters, or results inside Confluence pages (single issue, issue list, or JQL results).
+Common params: issue keys or JQL, columns to display, server instance (if multiple).
+When to use: show progress, link incidents, or embed reports without screenshots.
+Wiki markup example (classic):
+{jira:issues=PROJ-123}
+Or with JQL:
+{jira:query=project = PROJ AND status != Done|maxResults=20|columns=key,summary,assignee}
+Editor: Insert → Jira (type "/jira") and choose Issue, Filter or JQL.
+Caveat: Requires Jira application link & correct permissions; results reflect live Jira data.
+
+CSS stylesheet (Space/Global stylesheet)
+Purpose: Inject custom CSS to change styles for a space or the entire Confluence site (Server / Data Center).
+When to use: corporate theming, tweak visual presentation, custom UI adjustments.
+How to apply: Administration → Look & Feel → Stylesheet (Space or Global). Some plugins add a stylesheet macro.
+Caveats / Warnings:
+Requires Confluence admin or space admin rights depending on scope.
+Can break accessibility, responsive layout, or future updates; use sparingly and document changes.
+Confluence Cloud: custom CSS is not supported for security reasons—this is typically Server/DC only.
+Prefer theme/custom UI features before resorting to raw CSS.
+
+Code block
+Purpose: Show code snippets with monospace font, syntax highlighting, optional line numbers and collapsing.
+Common params: $language (java, python, bash, none), linenumbers=true|false, title, collapse=true|false.
+Wiki markup example:
+{code:language=python|linenumbers=true}
+def hello():
+    print("hello")
+{code}
+Editor: Insert → Code block (select language and options).
+When to use: API examples, scripts, config snippets. Don’t paste extremely long files; attach instead.
+Caveat: For long scripts, prefer attachments or link to source repos.
+
+Table
+Purpose: Structured tabular data in the page; Confluence tables support header rows, sort, and simple formatting.
+How to create: Use the editor toolbar Insert table or paste CSV/TSV; wiki markup uses pipes:
+||Header 1||Header 2||
+|row1col1|row1col2|
+Tips:
+Use header row for column labels (double pipes in wiki markup).
+Combine with macros (Excerpt, Page Properties) for metadata-driven tables.
+For advanced filtering, use Table Filter/Chart add-ons.
+Caveat: Large datasets perform poorly—consider external document or attachments.
+
+Attachments
+Purpose: Display a list of files attached to the page and allow downloads.
+Common params: show thumbnails, match (pattern), reverse=true, sort=date|name, exclude.
+Wiki markup example:
+{attachments:pattern=*.pdf|reverse=true}
+Editor: Insert → Attachments macro or simply drag files onto the page to attach.
+When to use: central place for downloads (design docs, binaries, images).
+Caveat: Keep attachment names consistent; large binaries can bloat the Confluence storage.
+
+localtab and localtab group (tab group macros)
+Purpose: Create tabbed sections within a page so readers can switch between alternative content panels (e.g., OS-specific instructions, versions).
+Typical structure (plugin-style wiki markup):
+{localtabgroup}
+{localtab:title=Windows}
+Windows instructions...
+{localtab}
+{localtab:title=macOS}
+macOS instructions...
+{localtab}
+{localtabgroup}
+Editor: Many Confluence instances use a Tabs/LocalTabs macro plugin; use Insert → Tabs (or type “/tabs”) and add tab panes.
+When to use: present mutually exclusive content (platforms, versions, languages) without long vertical scrolling.
+Caveats:
+Tabs are often provided by an add‑on/plugin — check availability in your instance.
+Content in non-active tabs is still on the page for search/SEO, but may be ignored by some export formats (PDF) depending on the exporter.
+Avoid hiding critical content only in tabs—readers may miss it.

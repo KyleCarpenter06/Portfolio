@@ -1,0 +1,504 @@
+Date: Thu, 11 Dec 2025 13:32:43 -0500 (EST)
+Message-ID: <613548846.207776.1765477963978@awsalsnval000m.jnj.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_207775_126641675.1765477963978"
+
+------=_Part_207775_126641675.1765477963978
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SFMC Metrics to Power BI</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SFMC Metrics to Power BI</h1>
+    <div class=3D"Section1">
+        <div class=3D"bv-pdf-tabs">
+ <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline">O=
+verview</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCMetricstoPowerBI-Overview">Overview</h2>
+  <p>This page is dedicated to the work done by support team to display ove=
+rall metrics from Jira onto a Power BI Dashboard.</p>
+  <h3 id=3D"SFMCMetricstoPowerBI-BusinessUseCases">Business Use Cases</h3>
+  <ul>
+   <li data-uuid=3D"32ef4cf9-452d-4bfe-9331-f681583e193b">Compare open/clic=
+k/conversion performance across all campaigns and journeys</li>
+   <li data-uuid=3D"98bd9b1a-8cdd-45cc-b558-4240e5b8d60f">Monitor hard/soft=
+ bounces and retrace steps with held users in Salesforce</li>
+   <li data-uuid=3D"fded5768-3288-42f7-8af8-a7e7a9afed82">Monitor KPI chang=
+e over time to see if we need to adjust any email elements with OCM to impr=
+ove metrics</li>
+   <li data-uuid=3D"65e9e72b-8db2-4855-9fea-98f92cd02249">Segment email KPI=
+s by region, country, sector and language</li>
+   <li data-uuid=3D"a515c524-599b-430e-9982-f567e3c5a9a4">Segment email KPI=
+s by time of day, day of week and month of year</li>
+  </ul>
+  <h3 id=3D"SFMCMetricstoPowerBI-ImprovementIssue">Improvement Issue</h3>
+  <p><span class=3D"jira-issue resolved" data-jira-key=3D"JDUB-32096"> <a h=
+ref=3D"https://jira.jnj.com/browse/JDUB-32096" class=3D"jira-issue-key"><im=
+g class=3D"icon" src=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmal=
+l&amp;avatarId=3D31995&amp;avatarType=3Dissuetype">JDUB-32096</a> - <span c=
+lass=3D"summary">Improve SFMC to Power BI Exporting</span> <span class=3D"a=
+ui-lozenge aui-lozenge-subtle             aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Completed</span> </span> <br><span=
+ class=3D"jira-issue" data-jira-key=3D"JDUB-36671"> <a href=3D"https://jira=
+.jnj.com/browse/JDUB-36671" class=3D"jira-issue-key"><img class=3D"icon" sr=
+c=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D10=
+318&amp;avatarType=3Dissuetype">JDUB-36671</a> - <span class=3D"summary">SF=
+MC Power BI Dashboard Edits</span> <span class=3D"aui-lozenge aui-lozenge-s=
+ubtle             aui-lozenge-default
+     jira-macro-single-issue-export-pdf">Open</span> </span></p>
+  <h3 class=3D"auto-cursor-target" id=3D"SFMCMetricstoPowerBI-ActionItems">=
+Action Items</h3>
+  <div class=3D"bv-pdf-tabs">
+   <strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underline"=
+>Open Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module-604405598" class=3D"refresh-module-id jira-ta=
+ble">
+     <p></p>
+     <div id=3D"jira-issues-604405598" style=3D"width: 100%;  overflow: aut=
+o;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">T</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">P</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Summary</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Status</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Due</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Assignee</th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport">Latest Summary</th>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=
+=3D"nofollow" href=3D"https://jira.jnj.com/secure/IssueNavigator.jspa?reset=
+=3Dtrue&amp;jqlQuery=3Dproject+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%=
+28%29+AND+parent+%3D+%22JDUB-32096%22+AND+status+%21%3D+%22Completed%22+ORD=
+ER+BY+due+ASC%2C+priority+DESC++++++++++++++&amp;src=3Dconfmacro"> <span>No=
+ issues found</span> </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: unde=
+rline">Closed Items</strong>
+   <div class=3D"bv-pdf-tabs-pane">
+    <div id=3D"refresh-module--1182517446" class=3D"refresh-module-id jira-=
+table">
+     <p></p>
+     <div id=3D"jira-issues--1182517446" style=3D"width: 100%;  overflow: a=
+uto;" class=3D"jira-issues">
+      <table class=3D"aui">
+       <tbody>
+        <tr></tr>
+        <tr>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"type">T</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"priority">P</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"summary">Summary</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"status">Status</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"due">Due</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"assignee">Assignee</span></th>
+         <th style=3D"text-align: left;" class=3D"jira-macro-table-underlin=
+e-pdfexport jira-tablesorter-header"><span class=3D"jim-table-header-conten=
+t" sort-column-key=3D"customfield_12037">Latest Summary</span></th>
+        </tr>
+        <tr class=3D"rowNormal">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-16404?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/trivial.svg" alt=
+=3D"Low" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-16404?src=3Dconfmacro"> Develop Campaign ID an=
+d Journey Builder Activity Association </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 03, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+        <tr class=3D"rowAlternate">
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><a href=3D"https://jira.jnj.com/browse/JDUB-22487?src=3Dconfmacro"> <img s=
+rc=3D"https://jira.jnj.com/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D1=
+0316&amp;avatarType=3Dissuetype" alt=3D"Sub-task" class=3D"icon"> </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><img src=3D"https://jira.jnj.com/images/icons/priorities/trivial.svg" alt=
+=3D"Low" class=3D"icon"></td>
+         <td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"http=
+s://jira.jnj.com/browse/JDUB-22487?src=3Dconfmacro"> Review SFMC Power Bi V=
+isualizations </a></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+><!-- The new status lozengens support for Jira 6.2 or later. Otherwise we =
+use the icon.--> <span class=3D"aui-lozenge aui-lozenge-subtle             =
+aui-lozenge-success
+    "> Completed </span></td>
+         <td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"=
+>Jul 08, 2025</td>
+         <td class=3D"jira-macro-table-underline-pdfexport">Carpenter, Kyle=
+ [GTSUS NON-J&amp;amp;J]</td>
+         <td class=3D"jira-macro-table-underline-pdfexport"></td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <div class=3D"refresh-issues-bottom">
+      <span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=
+=3D"nofollow" title=3D"View all matching issues in Jira." href=3D"https://j=
+ira.jnj.com/secure/IssueNavigator.jspa?reset=3Dtrue&amp;jqlQuery=3Dproject+=
+%3D+JDUB+AND+issuetype+in+subTaskIssueTypes%28%29+AND+parent+%3D+%22JDUB-32=
+096%22+AND+status+%3D+%22Completed%22+ORDER+BY+due+ASC%2C+priority+DESC++++=
+++++++++++++&amp;src=3Dconfmacro"> 2 issues </a> </span>
+     </div>
+     <p></p>
+    </div>
+   </div>
+   <p><br></p>
+  </div>
+  <p><br></p>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Action Items</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCMetricstoPowerBI-ActionItems.1">Action Items</h2>
+  <ul>
+   <li data-uuid=3D"f04b1ef5-bd87-4d44-8b9d-94aca4a32a0c">Discussion with S=
+FMC Leadership if the Power BI should still be used into 2026, if the curre=
+nt one needs to be improved or if a new method should be used to export SFM=
+C Metrics</li>
+   <li data-uuid=3D"c894d60c-bc8a-46ed-9dab-0ddbf7d9c733">If Power BI shoul=
+d still be used:=20
+    <ul>
+     <li data-uuid=3D"4c51016a-6b5c-41fd-b9e6-d803c58df1d3">Are there any d=
+ata points that should be added to the export?</li>
+     <li data-uuid=3D"27d54d53-26c9-464c-93b1-6e1579768468">What additional=
+ metrics should be analyzed in the report?</li>
+     <li data-uuid=3D"9f38949a-cba2-47ca-bdd5-a263c1f4f185">What visualizat=
+ions/tabs should be included that can help with improvements?</li>
+    </ul></li>
+  </ul>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Improvements</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCMetricstoPowerBI-ImprovementAreas">Improvement Areas</h2>
+  <ul>
+   <li>Adding Journey tables to filter by versions=20
+    <ul>
+     <li data-uuid=3D"8bf5d3bf-50fe-4c45-a61b-ab5337fbab67">Would need to e=
+dit the Automation Studio process to export the additional journey tables</=
+li>
+     <li data-uuid=3D"f139df14-f9c7-4ff6-a3b2-4a35da3854bd">Help &gt; <a cl=
+ass=3D"external-link" href=3D"https://dataviews.io/" rel=3D"nofollow">https=
+://dataviews.io/</a></li>
+    </ul></li>
+   <li>In Power BI, find way to export data for a single campaign, either i=
+n CSV, Excel or PDF format=20
+    <ul>
+     <li data-uuid=3D"8d7dd863-8c96-4686-89c3-9be5e3af294a">Not sure if thi=
+s could be done in Power BI or if this needs a new integration</li>
+    </ul></li>
+   <li>In Power BI, find a way to make a customized link for a specific cam=
+paign, share with the OCM Team=20
+    <ul>
+     <li data-uuid=3D"831a774b-c921-4800-a0b1-554ad180959b">Some projects h=
+ave their own Power BI Dashboard not sure if this is necessary</li>
+    </ul></li>
+   <li>Include additional tabs for other communication methods in the futur=
+e (MS Teams, Genesys, Nexthink Pop-ups)</li>
+   <li>Using Power Automate to handle export of data from SFMC and insert d=
+ata into AD tables</li>
+  </ul>
+ </div><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: underl=
+ine">Issues</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCMetricstoPowerBI-KnownIssues">Known Issues</h2>
+  <p>Pipe Issues inside Link Names</p>
+  <ul>
+   <li>Job Table -<span>&nbsp;</span><a class=3D"external-link" href=3D"htt=
+ps://jira.jnj.com/browse/JDUB-24073" rel=3D"nofollow" title=3D"Follow link"=
+>https://jira.jnj.com/browse/JDUB-24073</a></li>
+   <li>Click Table -<span>&nbsp;</span><a class=3D"external-link" href=3D"h=
+ttps://jira.jnj.com/browse/JDUB-25037" rel=3D"nofollow" title=3D"Follow lin=
+k">https://jira.jnj.com/browse/JDUB-25037</a></li>
+   <li>Other teams have access to our instance and is putting pipes in the =
+link names, temp fixed by replacing pipe character with word pipe, need bet=
+ter approach here</li>
+  </ul>
+  <p>Duplicated in Journeys</p>
+  <ul>
+   <li>Inability to Distinguish number of times user enters journey for lar=
+ge-scale project, Mich had idea of doing a HASH Subscriber Key and which th=
+en can be linked to a separate table</li>
+  </ul>
+  <p>Handling Test Sends</p>
+  <ul>
+   <li>Need to find a way to filter out SFMC Team sends with JB</li>
+   <li>Possibly can export journey table as well to remove the name -<span>=
+&nbsp;</span><a class=3D"external-link" href=3D"https://jira.jnj.com/browse=
+/JDUB-17007" rel=3D"nofollow" title=3D"Follow link">https://jira.jnj.com/br=
+owse/JDUB-17007</a></li>
+  </ul>
+ </div>
+ <p><br></p><strong class=3D"bv-pdf-tabs-label" style=3D"text-decoration: u=
+nderline">Notes</strong>
+ <div class=3D"bv-pdf-tabs-pane">
+  <h2 id=3D"SFMCMetricstoPowerBI-Notes">Notes</h2>
+ </div>
+ <p><br></p>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_207775_126641675.1765477963978--

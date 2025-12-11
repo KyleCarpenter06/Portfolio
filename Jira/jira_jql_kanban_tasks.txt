@@ -1,0 +1,3 @@
+JQL to get all tasks to do for today and all tasks finished yesterday, perfect for kanban calls
+
+project = JDUB AND (assignee  = calvar73 AND status != Completed ) OR (assignee = calvar73 AND status = Completed AND resolutiondate >= startOfDay(-1) AND resolutiondate <= endOfDay(-1)) ORDER BY resolutiondate ASC, due ASC

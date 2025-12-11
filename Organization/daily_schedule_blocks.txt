@@ -1,0 +1,50 @@
+Daily blocks for workflow efficiency and priorities:
+	- daily stand up
+		- each team members says previous tasks worked on, todays tasks, blockers
+		- screen is shared to show task list or kanban board of each team member
+		- limit to 15 minutes or less
+	- productivity blocks
+		- used for review, 30 minute blocks, marked in calendar as busy
+		- additional time for hydration, movement, look away from screen to reduce fatigue
+	- productivity block (start of day)
+		- address major issues (if necessary)
+		- review emails in inbox
+		- quick review of task for current day
+		- perform follow ups with stakeholders or team members
+	- productivity block (middle of day)
+		- address major issues (if necessary)
+		- perform additional follow ups (if necessary)
+		- quick review of daily tasks, push back slots if needed
+	- productivity block (end of day)
+		- review unfinished tasks, push back dates
+		- review actions for next day, setup reminder blocks
+		- backlog grooming if available
+	- reminder blocks
+		- reminder in outlook for little tasks
+		- examples: review approval, check automation, follow up with stakeholders/developers
+		- usually 2 minutes or less per tasks
+		- reminder blocks sometimes stuffed into productivity blocks for easy organization
+		- time is not blocked out in calendar, block can be moved based on update received
+	- team sync block
+		- end of day, 30 minutes, marked in calendar as busy
+		- time to address discussions/questions/blockers, actions for next day, QA
+	- standard work blocks
+		- time of day varies, length of block varies, marked in calendar as busy
+		- need to plan/navigate work around meetings/lunch
+		- for more critical tasks, heads down time for deep work
+		
+Example Schedule:
+	- 8:30-9AM: Productivity A
+	- 9-9:15AM: Daily stand-up
+	- 9:15-10AM: Work Block
+	- 10-10:30AM: free block for meetings
+	- 10:30-11:30AM: Work Block
+	- 11:30AM-12PM: Productivity B
+	- 12PM-1PM: Lunch
+	- 1PM-3PM: free block for meetings
+	- 3PM-4PM: Work Block
+	- 4-4:30PM: team sync block
+	- 4:30PM-5PM: Productivity C
+	
+
+		

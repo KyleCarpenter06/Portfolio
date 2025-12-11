@@ -1,0 +1,1 @@
+= Table.RemoveColumns(#"Reordered Language Columns",{"Language"})

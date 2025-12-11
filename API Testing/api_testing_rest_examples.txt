@@ -1,0 +1,83 @@
+GET DATA EXTENSION DATA:
+Type: Get
+EndPoint: https://xxxxxxxxxxxxxxxxxxxxxxxxxx-x.rest/data/v1/customobjectdata/key/Master_JNJ_DL_DataLake/rowset?$pageSize=3000&page=1
+
+GET AUTOMATION DATA:
+Type: Get
+EndPoint: https://xxxxxxxxxxxxxxxxxxxxxxxxxx-x.rest/automation/v1/automations?$filter=name%20like%20'Abiomed'
+
+UPDATE DATA EXTENSION:
+Type: Post
+EndPoint: https://xxxxxxxxxxxxxxxxxxxxxxxxxx-x.rest.marketingcloudapis.com/hub/v1/dataevents/key:Windows_10_to_11_Upgrade_Nexthink_API_UAT/rowset
+Body:
+[
+  {
+    "keys": {
+      "Email": "example@its.jnj.com"
+    },
+    "values": {
+      "UpdatedDate": "10/30/25"
+    }
+  }
+]
+
+FIRE AUTOMATION (CUSTOM STEPS):
+Type: Post
+Endpoint: https://xxxxxxxxxxxxxxxxxxxxxxxxxx-x.rest/automation/v1/automations/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/actions/runallonce
+Body:
+{
+    "Steps": [
+        {
+            "StepType": "Activity",
+            "Activities": [
+                {
+                    "ActivityObjectId": "a8b7b3b1-fcd5-40da-87c7-bd52e5fe9beb",
+                    "Id": "a2f1cc0a-b88d-4d34-9fad-b3b0b564bc5c",
+                    "IsIncludedInRun": true
+                }
+            ]
+        }
+    ]
+}
+
+FIRE AUTOMATION (ALL STEPS):
+Type: Post
+Endpoint: https://xxxxxxxxxxxxxxxxxxxxxxxxxx-x.rest/automation/v1/automations/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/actions/runallonce
+
+UPDATE JOURNEY BUILDER API (SINGLE):
+Type: Post
+EndPoint: https://xxxxxxxxxxxxxxxxxxxxxxxxxx-x.rest.marketingcloudapis.com/interaction/v1/events
+Body:
+{
+	"EventDefinitionKey": "APIEvent-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"ContactKey": "example@its.jnj.com",
+	"Data": 
+	{
+		"Email": "example@its.jnj.com"
+		"UpdatedDate": "2024-12-10"
+	}
+}
+
+UPDATE JOURNEY BUILDER API (MULTIPLE):
+Type: Post
+EndPoint: https://xxxxxxxxxxxxxxxxxxxxxxxxxx-x.rest.marketingcloudapis.com/interaction/v1/async/events
+Body:
+{
+	"EventDefinitionKey": "APIEvent-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"members": [
+    {
+      "contactKey": "example1@its.jnj.com",
+      "data": {
+        "Email": "example1@its.jnj.com",
+        "MigrationDate": "3/13/24"
+      }
+    },
+    {
+      "contactKey": "example2@its.jnj.com",
+      "data": {
+        "Email": "example2@its.jnj.com",
+        "MigrationDate": "3/13/24"
+      }
+    }
+  ]
+}

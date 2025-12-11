@@ -1,0 +1,34 @@
+= Sql.Database("eusazramtproddb.database.windows.net", "eusazramtprod", [Query="
+SELECT
+	dl.wwid AS WWID,
+	dl.username AS Username,
+	dl.email AS Email,
+	dl.employee_status AS 'Status',
+	dl.first_name AS 'First Name',
+	dl.last_name AS 'Last Name',
+	dl.mobile_number AS 'Phone Number',
+	dl.language_jjeds AS 'Language',
+	dl.company_name AS 'Company Name',
+	dl.company_sector AS 'Company Sector',
+	dl.region AS Region,
+	dl.country AS Country,
+	dl.state AS 'State',
+	dl.city AS 'City',
+	dl.business_area AS 'Business Area',
+	dl.business_subarea AS 'Business Subarea',
+	dl.job_group AS 'Job Group',
+	vw.VIP AS VIP,
+	dl.site_name_modified AS 'Site Name',
+	dl.partner_company AS 'Partner Company',
+	dl.sector AS Sector,
+	vw.[Manager WWID] AS 'Manager WWID',
+	vw.[Manager Email] AS 'Manager Email',
+	vw.[Manager Full Name] AS 'Manager Full Name',
+	dl.last_update AS 'Record Last Update Date'
+FROM datalake_dm_user dl
+LEFT JOIN vw_usermanagerinfo vw ON dl.wwid = vw.WWID
+WHERE 
+	dl.sector != 'Kenvue' AND
+	dl.usertype = 'real user' AND
+	dl.employee_status != 'TERMINATED' AND
+	dl.email IS NOT NULL"])
