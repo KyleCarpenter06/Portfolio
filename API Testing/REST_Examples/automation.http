@@ -1,0 +1,114 @@
+### Salesforce Marketing Cloud - Automation Studio REST API Examples
+
+# GET All Automations (Filter by Name)
+
+GET {{base_url}}/automation/v1/automations?$filter=name%20like%20'{{automationName}}'
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+###
+
+# GET Automation by ID
+
+GET {{base_url}}/automation/v1/automations/{{automationId}}
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+###
+
+# POST Fire Automation - All Steps
+
+POST {{base_url}}/automation/v1/automations/{{automationId}}/actions/runallonce
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+###
+
+# POST Fire Automation - Custom Steps Only
+
+POST {{base_url}}/automation/v1/automations/{{automationId}}/actions/runallonce
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+  "Steps": [
+    {
+      "StepType": "Activity",
+      "Activities": [
+        {
+          "ActivityObjectId": "a8b7b3b1-fcd5-40da-87c7-bd52e5fe9beb",
+          "Id": "a2f1cc0a-b88d-4d34-9fad-b3b0b564bc5c",
+          "IsIncludedInRun": true
+        }
+      ]
+    }
+  ]
+}
+
+###
+
+# PATCH Pause Automation
+
+PATCH {{base_url}}/automation/v1/automations/{{automationId}}
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+  "status": "Paused"
+}
+
+###
+
+# PATCH Resume Automation
+
+PATCH {{base_url}}/automation/v1/automations/{{automationId}}
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+{
+  "status": "Active"
+}
+
+###
+
+# GET Automation Runs (History)
+
+GET {{base_url}}/automation/v1/automations/{{automationId}}/runs?$top=100
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+###
+
+# POST Fire Automation with Webhook (async)
+
+POST {{base_url}}/automation/v1/automations/{{automationId}}/actions/runallonce?notificationEmail={{notificationEmail}}
+Authorization: Bearer {{access_token}}
+Content-Type: application/json
+
+###
+
+# Automation Response Examples
+
+# Fire Automation - Success Response (200 OK)
+# {
+#   "automationId": "12345678-1234-1234-1234-123456789012",
+#   "status": "Executed",
+#   "message": "Automation executed successfully"
+# }
+
+# Get Automation - Success Response (200 OK)
+# {
+#   "automationId": "12345678-1234-1234-1234-123456789012",
+#   "name": "Example Automation",
+#   "description": "Email send automation",
+#   "status": "Active",
+#   "createdDate": "2024-01-15T10:30:00Z",
+#   "modifiedDate": "2024-12-20T14:45:00Z"
+# }
+
+# Error Response - Automation Not Found (404)
+# {
+#   "errorCode": 404,
+#   "message": "Automation not found",
+#   "documentation": "https://..."
+# }

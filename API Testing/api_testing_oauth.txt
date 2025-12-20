@@ -1,3 +1,0 @@
-Access token URL, client ID and client secret are setup in postman collection
-Setup in environments so data is safeguarded and information is not exported
-Final token is then sent to all requests inside the collection
