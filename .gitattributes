@@ -1,0 +1,42 @@
+# GitHub Linguist Configuration for Portfolio Repository
+# This file helps GitHub correctly identify and syntax highlight various file types
+
+# AMPScript Files - Salesforce Marketing Cloud
+# Associate .amp files with HTML for syntax highlighting compatibility
+*.amp linguist-language=HTML
+*.amp diff=html
+
+# SSJS Files - Server-Side JavaScript for Salesforce Marketing Cloud
+*.ssjs linguist-language=JavaScript
+*.ssjs diff=javascript
+
+# SQL Files
+*.sql linguist-language=SQL
+*.sql diff=sql
+
+# Power Automate Flow Files
+*.json linguist-language=JSON
+*.json diff=json
+
+# Excel/Power Query Files
+*.pq linguist-language=M
+*.pq diff=text
+
+# Confluence/Documentation
+*.confluence linguist-language=Markdown
+*.confluence diff=markdown
+
+# Mark documentation files
+*.md linguist-detectable=true
+README.md linguist-documentation=true
+
+# Binary files
+*.xlsx binary
+*.xls binary
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
