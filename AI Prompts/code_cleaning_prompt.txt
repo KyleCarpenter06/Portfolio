@@ -1,0 +1,42 @@
+Code Cleaning Prompt for GitHub
+
+Objective: Polish the code in this file.
+
+Do this:
+- Create comments to explain code lines:
+	- Place comments above lines that are important (e.g., introducing new sections, conditionals, loops).
+	- For less critical lines, place comments to the right of the code.
+	- If multiple variables are declared consecutively, use one comment above all vars explaining their collective purpose.
+- Avoid large line spacing between code lines.
+- Safeguard personal identifiable information (PII):
+	- Replace personal names, company names, project names, email addresses, phone numbers, and dates of birth with generic placeholders.
+	- Example: "John Smith" → "Employee Name"; "Johnson and Johnson Inc." → "Company Name Services, Inc."
+	- Maintain original casing and formatting conventions.
+- Safeguard URLs that reference actual companies:
+	- Replace with generic or placeholder URLs.
+	- Example: "https://ap.companyname.com/" → "https://ap.example.com/"
+- Safeguard company images and logos:
+	- Replace with generic placeholder images using embedded SVG data URIs.
+	- Preserve original image dimensions and aspect ratios.
+	- Match hex foreground and background colors from the original image.
+	- Example: Replace "Johnson and Johnson Logo" with a generic "Company Name" text placeholder in matching colors.
+- Place a comment block at the top explaining:
+	- Purpose of the code
+	- Usage instructions
+	- Key variables and their roles
+- Maintain proper indentation and tab structure:
+	- Conditional blocks (if/then/else) should use consistent indentation.
+	- HTML tables should use nested indentation for clarity.
+	- Example:
+		if (condition)
+			// action here
+		else
+			// alternate action here
+- Fix any syntax errors or potential logic errors discovered.
+- For non-English content, use HTML entity encoding compatible with email service providers (e.g., &ecirc;, &ntilde;, &ccedil;).
+
+Do NOT do this:
+- Translate non-English text into English.
+	- If non-English text contains PII, replace only the PII with generic placeholders while preserving the original language.
+- Include anything that could reveal proprietary information, trade secrets, or confidential business logic.
+- Remove or obscure code functionality; only safeguard sensitive identifiers and references.
