@@ -1,32 +1,16 @@
-# Hey there 👋 Welcome to My Portfolio!
+# Cloud Pages
 
-I’m Kyle — a Senior Salesforce Marketing Cloud Email Developer & Automation Specialist who’s spent the last few years crafting business solutions and email marketing campaigns to make and keep everyone happy. I have worked at Fortune 500 companies and your local small business. I live for turning messy data + chaotic requests into smooth, scalable automations that make marketing teams smile and stakeholders do happy dances.
+This folder contains static Cloud Page examples and sanitized copies used for portfolio/demo purposes. All files have been edited to remove proprietary data and personal information; they are safe to publish in a public GitHub portfolio.
 
-Open to chat, brainstorm, or geek out over segmentation logic — coffee’s on me (virtual or IRL)!  
-Drop me a message here or on LinkedIn and let’s build something awesome together.
+Files in this folder
+- `supplier_faq.html`: Multilingual (English, Portuguese, Spanish) Supplier FAQ page. Contains FAQs for suppliers and a language toggle; images are embedded as anonymized SVGs and all company-specific PII and external links have been replaced with portfolio-safe placeholders.
+- `supplier_legal_entity.html`: Announcement template describing new legal entities. Originally contained company names, addresses and VAT numbers — these have been redacted or replaced with placeholders. Header/footer logos are embedded SVGs. Includes table layout examples for showing impacted legal entities.
+- `supplier_phone_numbers.html`: Country-level supplier phone number list. Phone numbers have been redacted for portfolio display and images replaced with anonymized SVGs. Includes operating hours and a footer section.
 
-**Kyle Carpenter**  
-kylecarpenter06@gmail.com  
-https://www.linkedin.com/in/kyle06/
+Table of contents
+- [supplier_faq.html](supplier_faq.html) — Multilingual FAQ Cloud Page
+- [supplier_legal_entity.html](supplier_legal_entity.html) — Legal Entity announcement / supplier notice
+- [supplier_phone_numbers.html](supplier_phone_numbers.html) — Country phone numbers (redacted)
 
-### What you’ll find here
-- Email templates with mobile friendly designs optimized for many ESPs
-- Dynamic AMPscript & SSJS tricks for effective personalization
-- Battle-tested SQL queries that are adaptive and scalable for business  
-- Journey Builder and Automation Studio examples
-- Power Automate solutions to save your team hundreds of hours  
-- Workflow designs, data pipelines, documentation examples, and much more
-
-## Table of Contents
-1. [Email Design Examples](Email%20Designs/README.md)
-1. AMPScript Code Snippets
-1. SSJS Code Snippets
-1. SQL Query Examples
-1. Automation Studio Examples
-1. Journey Builder Examples
-1. API Testing Examples
-1. Power Automate Flow Examples
-1. Excel Template and Function Examples
-1. Project Tracking Examples
-1. Documentation Template Examples
-1. Future Ideas
+Notes
+- These files are intended as portfolio examples demonstrating email-safe HTML, inline SVG usage, multilingual text encoding, and Cloud Page structure. If you want the original production content restored, keep a secure private copy outside this repository.
