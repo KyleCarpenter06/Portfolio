@@ -1,37 +1,69 @@
+/*
+================================================================================
+FILE: ampscript_bcc_leaders_block.amp
+PURPOSE:
+  Identifies and handles BCC and Leadership email communications in email
+  templates. Detects email type via SendType attribute and applies appropriate
+  prefix to subject line. Displays a conditional notice block with contact
+  information for recipients to report incorrect delivery.
+
+USAGE:
+  Include this block in email templates where BCC and Leadership communications
+  need to be distinguished. The notice block displays only if SendType is set
+  to either "bcc" or "leadership".
+
+VARIABLES USED:
+  @sendType - Email type: "bcc" or "leadership" (from attribute)
+  @isBCCOrLeadership - Flag to show/hide notice block
+  @subject - Email subject line (modified with prefix)
+  @leader - Leadership contact group display name
+  @subjectEmail - Subject line for correction emails
+  @message - Notice message text for recipients
+  @manager - Manager contact name
+  @cssshow - CSS display rule for notice block
+================================================================================
+*/
+
 %%[/* --- BCC AMPSCRIPT BLOCK --- */]%%
 <!--== 
 %%[
+/* Declare variables for email type detection and notice display */
 var @sendType, @message, @isBCCOrLeadership
+/* Retrieve SendType attribute and configure display settings */
+set @sendType = AttributeValue("SendType") /* Get email type (bcc or leadership) */
+set @manager = "Manager Name" /* Manager contact reference */
+set @cssshow = "display:block !important" /* CSS to show notice block */
 
-set @sendType = AttributeValue("SendType")
-set @manager = "Yetzabel Garcia."
-set @cssshow = "display:block !important"
-
+/* Check if email type is BCC */
 if @sendType == "bcc" then
- set @isBCCOrLeadership = true
- set @subject = Concat("[BCC] ", @subject)
- set @leader = "SFMCE Leadership"
- set @subjectEmail = "Incorrectly BCC'd"
- set @message = "<b>NOTICE:</b> This <b>BCC</b> communication serves to keep you informed of the campaign below that was deployed via services provided by the Salesforce Marketing Cloud Engagement (SFMCE) Team. If you consider you were not supposed to receive this notification, feel free to contact "
+	set @isBCCOrLeadership = true /* Flag to display notice */
+	set @subject = Concat("[BCC] ", @subject) /* Add [BCC] prefix */
+	set @leader = "Leadership Team" /* Contact group name */
+	set @subjectEmail = "Incorrect BCC Delivery" /* Subject for reply */
+	set @message = "<b>NOTICE:</b> This <b>BCC</b> communication serves to keep you informed of the campaign below that was deployed by our marketing team. If you were not supposed to receive this notification, feel free to contact " /* BCC notice message */
+/* Check if email type is Leadership */
 elseif @sendType == "leadership" then
- set @isBCCOrLeadership = true
- set @subject = Concat("[Leaders] ", @subject)
- set @leader = "SFMCE Leadership"
- set @subjectEmail = "Incorrect Leader"
- set @message = "<b>NOTICE:</b> This is a <b>Leadership</b> email. If you consider you were not supposed to receive this notification, feel free to contact "
+	set @isBCCOrLeadership = true /* Flag to display notice */
+	set @subject = Concat("[Leaders] ", @subject) /* Add [Leaders] prefix */
+	set @leader = "Leadership Team" /* Contact group name */
+	set @subjectEmail = "Incorrect Leader Delivery" /* Subject for reply */
+	set @message = "<b>NOTICE:</b> This is a <b>Leadership</b> email. If you were not supposed to receive this notification, feel free to contact " /* Leadership notice message */
 endif
 
+/* Display notice block if BCC or Leadership email */
 if @isBCCOrLeadership then
 ]%%--->
 
+<!-- Notice block table with message and contact link -->
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="display: none; %%=V(@cssshow)=%%">
-  <tr>
-    <td align="left" bgcolor="#f1efed" style="padding: 30px 40px; font-size: 14px; line-height: 18px; color: #000000; mso-line-height-rule: exactly; border-bottom: 1px solid #d4cfc9;" valign="top">
-      %%=V(@message)=%% <a href="mailto:yabud1@its.jnj.com,Rinda@its.jnj.com,ygarci11@its.jnj.com,kcarpen7@its.jnj.com,dmulvih1@its.jnj.com,msotelo@its.jnj.com?subject=%%=v(@subjectEmail)=%%" alias="Yetzabel email" title="Yetzabel email" style="color: #EB1700; text-decoration: none;font-weight: 700;">%%=V(@leader)=%%</a>.
-    </td>
-  </tr>
+	<tr>
+		<td align="left" bgcolor="#f1efed" style="padding: 30px 40px; font-size: 14px; line-height: 18px; color: #000000; mso-line-height-rule: exactly; border-bottom: 1px solid #d4cfc9;" valign="top">
+			%%=V(@message)=%% <a href="mailto:contact@company.com?subject=%%=v(@subjectEmail)=%%" alias="Leadership contact" title="Leadership contact" style="color: #EB1700; text-decoration: none; font-weight: 700;">%%=V(@leader)=%%</a>.
+		</td>
+	</tr>
 </table>
 
+<!-- Close the conditional block if it was a BCC or Leadership email -->
 <!---- 
 %%[
 endif

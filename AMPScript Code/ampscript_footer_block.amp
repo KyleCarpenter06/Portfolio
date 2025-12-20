@@ -1,8 +1,27 @@
+/*
+================================================================================
+FILE: ampscript_footer_block.amp
+PURPOSE:
+  Retrieves and displays the legal footer content block from Content Builder.
+  Supports multilingual footer display with automatic fallback to English if
+  the specified language version is not available.
+
+USAGE:
+  Include this block at the end of email templates to display standardized
+  legal footer content. The @langShortName variable must be set to the current
+  language code before this block executes.
+
+VARIABLES USED:
+  @LegalFooter - Retrieved footer content block for display
+  @langShortName - Current language code for localized footer lookup
+  
+NOTE: This code is standardized - modifications may break dependent templates.
+================================================================================
+*/
+
 <!--%%[
-/* This code is standarized, do not edit. */
-
-set @LegalFooter = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Legal Footer\JNJ_Legal_Footer_", @langShortName), "", "", ContentBlockByName("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Legal Footer\JNJ_Legal_Footer_EN"))
-
+/* Retrieve legal footer content with language-specific lookup and English fallback */
+set @LegalFooter = ContentBlockByName(Concat("Content Builder\1. Email Templates\0. Template Library\5. Dynamic Blocks\Legal Footer\Footer_", @langShortName), "", "", ContentBlockByName("Content Builder\1. Email Templates\0. Template Library\5. Dynamic Blocks\Legal Footer\Footer_EN")) /* Get localized or default footer */
 ]%%-->
 
 %%=V(@LegalFooter)=%%

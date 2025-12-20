@@ -1,24 +1,38 @@
-%%[ /* Shared SL PH (Subject Line and Preheader Line) block */ ]%%
+/*
+================================================================================
+FILE: ampscript_body_blocks_loop.amp
+PURPOSE:
+  Dynamically retrieves and displays email content blocks from Content Builder
+  based on campaign folder path and language settings. Supports multilingual
+  content with fallback to default language if specified language not available.
+
+USAGE:
+  Set @subPath to the folder path structure after "3. Campaigns" folder,
+  with folders separated by backslashes. Set @campaignName to the campaign
+  identifier used in content block naming convention.
+  Example: @subPath = "Project Name\Campaign Type\Wave\Stage"
+           @campaignName = "PROJ_CAMP_STAGE"
+
+VARIABLES USED:
+  @subPath - Folder path structure for campaign content location
+  @campaignName - Campaign identifier used in content block names
+  @ammountOfBlocks - Number of content blocks to retrieve
+  @langShortName - Language code for multilingual content lookup
+  @content - Retrieved content block for display
+================================================================================
+*/
+
+%%[/* --- BODY CONTENT BLOCKS LOOP --- */]%%
 <!--
 %%[
+/* Configure campaign path and content settings */
+set @subPath = "Project Name\Campaign Type\Wave\Stage" /* Campaign folder path after 3. Campaigns */
+set @campaignName = "PROJ_CAMP_STAGE" /* Campaign identifier for content block lookup */
+set @ammountOfBlocks = 5 /* Total number of content blocks to retrieve */
 
-/* ---------------------
- Set the @subPath variable as the folder structura you have after 3. Campaigns folder, each folder should be separated with backslash, for instance:
- 
- set @subPath = "7. Outlook Mobile\1. Mobility End of Year Cleanup\1. Initial"
- 
- The @campaignName variable should have the name you put as an identifier for your campaign block, for instance:
- 
- set @campaignName = "OM_MEOYC_Initial"
---------------------- */
-
-set @subPath = "Acquisitions and Divestitures\Intra-Cellular\Device Migration\W\W-35"
-set @campaignName = "ITCI_DM_FS_W35"
-set @ammountOfBlocks = 5
-
-set @content = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\", @langShortName, "\", @campaignName, "_SL_PL_", @langShortName), "", "", ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\EN\", @campaignName, "_SL_PL_EN")))
-
+/* Retrieve content block with language-specific lookup and English fallback */
+set @content = ContentBlockByName(Concat("Content Builder\1. Email Templates\3. Campaigns\", @subPath, "\", @langShortName, "\", @campaignName, "_SL_PL_", @langShortName), "", "", ContentBlockByName(Concat("Content Builder\1. Email Templates\3. Campaigns\", @subPath, "\EN\", @campaignName, "_SL_PL_EN"))) /* Get localized or default content */
 ]%%-->
 
+<!-- Display retrieved content block -->
 <!--%%=V(@content)=%%-->
-

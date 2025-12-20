@@ -1,10 +1,32 @@
+/*
+================================================================================
+FILE: ampscript_content_blocks.amp
+PURPOSE:
+  Loops through numbered content blocks (P-blocks) for a campaign and retrieves
+  language-specific versions from Content Builder. Each iteration retrieves the
+  corresponding content block with automatic fallback to English if the specified
+  language version is not available.
+
+USAGE:
+  This block should be paired with ampscript_body_blocks_loop.amp which sets
+  @subPath, @campaignName, and @ammountOfBlocks variables. The loop iterates
+  through each block number and displays the content.
+
+VARIABLES USED:
+  @counter - Loop counter tracking current block number (1 to @ammountOfBlocks)
+  @ammountOfBlocks - Total number of content blocks to process
+  @subPath - Campaign folder path (set by parent block)
+  @campaignName - Campaign identifier (set by parent block)
+  @langShortName - Current language code for localized content
+  @content - Retrieved content block for display
+================================================================================
+*/
+
 <!--%%[
-
-/* Adjust the number of blocks based on your maximum available P-blocks. */
-
+/* Loop through numbered content blocks and retrieve language-specific versions */
 for @counter = 1 to @ammountOfBlocks do
-
-set @content = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\", @langShortName, "\", @campaignName, "_P", @counter, "_", @langShortName), "", "", ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\3. Campaigns\", @subPath, "\EN\", @campaignName, "_P", @counter, "_EN")))
+	/* Retrieve content block with language fallback to English */
+	set @content = ContentBlockByName(Concat("Content Builder\1. Email Templates\3. Campaigns\", @subPath, "\", @langShortName, "\", @campaignName, "_P", @counter, "_", @langShortName), "", "", ContentBlockByName(Concat("Content Builder\1. Email Templates\3. Campaigns\", @subPath, "\EN\", @campaignName, "_P", @counter, "_EN")))
 
 ]%%-->
 

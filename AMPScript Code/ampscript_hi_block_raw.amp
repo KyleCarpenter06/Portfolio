@@ -1,1 +1,18 @@
+/*
+================================================================================
+FILE: ampscript_hi_block_raw.amp
+PURPOSE:
+  Displays a personalized greeting message using the subscriber's first name.
+  This is a simple salutation block that provides a personalized welcome.
+
+USAGE:
+  Include this block in email templates where a personalized greeting is needed.
+  Ensure @firstName variable is populated via the data block before this block
+  executes.
+
+VARIABLES USED:
+  @firstName - Subscriber's first name (formatted with proper case)
+================================================================================
+*/
+
 Hello %%=v(@firstName)=%%,

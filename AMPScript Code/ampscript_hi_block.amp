@@ -1,17 +1,34 @@
-<!-- Body Text -->
+/*
+================================================================================
+FILE: ampscript_hi_block.amp
+PURPOSE:
+  Displays a personalized greeting/hello message using dynamic content from
+  Content Builder. Supports multilingual greeting with automatic fallback to
+  English. Includes responsive table structure for email display.
+
+USAGE:
+  Include this block in email templates to display a greeting message section.
+  Ensure @langShortName variable is set before this block executes.
+
+VARIABLES USED:
+  @hiContent - Retrieved greeting content block for display
+  @langShortName - Current language code for localized greeting lookup
+
+NOTE: This code is standardized - modifications may break dependent templates.
+================================================================================
+*/
+
+<!-- Greeting message section -->
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <!----first paragraph---->
-  <tr>
-    <td align="left" bgcolor="#ffffff" class="pad-30LR" id="paragraph" style="padding: 10px 30px 0px 30px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #212121; mso-line-height-rule: exactly;width:100%" valign="top">
-    </td>
-  </tr>
+	<tr>
+		<td align="left" bgcolor="#ffffff" class="pad-30LR" id="paragraph" style="padding: 10px 30px 0px 30px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #212121; mso-line-height-rule: exactly; width: 100%;" valign="top">
+		</td>
+	</tr>
 </table>
-<!-- /Body Text -->
 <!--%%[
-/* This code is standarized, do not edit. */
-
-set @hiContent = ContentBlockByName(Concat("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Hello\JnJ_202310_Hello_10px_Top_Abio_", @langShortName), "", "", ContentBlockByName("Content Builder\1. Email Templates JnJ\0. New Template 2024\5. Dynamic Blocks\Hello\JnJ_202310_Hello_10px_Top_Abio_EN"))
-
+/* Retrieve greeting content with language-specific lookup and English fallback */
+set @hiContent = ContentBlockByName(Concat("Content Builder\1. Email Templates\0. Template Library\5. Dynamic Blocks\Hello\Greeting_", @langShortName), "", "", ContentBlockByName("Content Builder\1. Email Templates\0. Template Library\5. Dynamic Blocks\Hello\Greeting_EN")) /* Get localized or default greeting */
 ]%%-->
 
+<!-- Display greeting content -->
 %%=V(@hiContent)=%%

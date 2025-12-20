@@ -1,19 +1,47 @@
+/*
+================================================================================
+FILE: ampscript_extra_columns_block.amp
+PURPOSE:
+  Parses JSON-formatted extra column data from a subscriber attribute and
+  extracts specific fields into individual variables. Supports dynamic field
+  detection and conditional variable assignment based on available columns.
+
+USAGE:
+  This block should be included in templates where ExtraColumns data is needed.
+  The ExtraColumns attribute should contain JSON-formatted data with field names
+  and values. The script checks for specific fields and only creates variables
+  if those fields exist in the JSON.
+
+VARIABLES USED:
+  @jsonExtraColumns - JSON array constructed from ExtraColumns attribute
+  @jsonRows - Rowset parsed from JSON data
+  @SoftphoneNumber - Softphone number (if available in data)
+  @Buddy - Buddy identifier (if available in data)
+  @Conference - Conference reference (if available in data)
+
+NOTE: This code is standardized - modifications may break dependent templates.
+================================================================================
+*/
+
 <!--%%[
-/* This code is standardized, do not edit. */
-set @jsonExtraColumns = concat("[", AttributeValue("ExtraColumns"), "]")
-set @jsonRows = BuildRowsetFromJSON(@jsonExtraColumns, '$.[*]', 1)
-var @SoftphoneNumber, @Buddy
+/* Parse JSON extra columns data and extract into individual variables */
+set @jsonExtraColumns = concat("[", AttributeValue("ExtraColumns"), "]") /* Format as JSON array */
+set @jsonRows = BuildRowsetFromJSON(@jsonExtraColumns, '$.[*]', 1) /* Convert JSON to rowset */
+var @SoftphoneNumber, @Buddy, @Conference /* Declare optional field variables */
+
+/* Check if Softphone field exists and extract value */
 if IndexOf(@jsonExtraColumns, "Softphone") > 0 then
-    Set @SoftphoneNumber = field(row(@jsonRows,1),"SoftphoneNumber")
-else
+	Set @SoftphoneNumber = field(row(@jsonRows, 1), "SoftphoneNumber") /* Extract softphone number */
 endif
+
+/* Check if Buddy field exists and extract value */
 if IndexOf(@jsonExtraColumns, "buddy") > 0 then
-    Set @Buddy = field(row(@jsonRows,1),"buddy")
-else
+	Set @Buddy = field(row(@jsonRows, 1), "buddy") /* Extract buddy identifier */
 endif
+
+/* Check if Conference field exists and extract value */
 if IndexOf(@jsonExtraColumns, "Conference") > 0 then
-    Set @Conference = field(row(@jsonRows,1),"Conference")
-else
+	Set @Conference = field(row(@jsonRows, 1), "Conference") /* Extract conference reference */
 endif
 ]%%-->
 %%[ /* ExtraColumns JSON */ ]%%

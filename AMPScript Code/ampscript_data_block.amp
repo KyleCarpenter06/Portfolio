@@ -1,16 +1,31 @@
-%%[ /* Data block */ ]%%
+/*
+================================================================================
+FILE: ampscript_data_block.amp
+PURPOSE:
+  Initializes and retrieves data variables from email attributes and data
+  extensions. Variables are set up for use throughout the email template,
+  including personalization data and campaign parameters.
+
+USAGE:
+  Place this block at the beginning of email templates to establish all data
+  variables needed for personalization and dynamic content. Data comes from
+  subscriber attributes or data extension fields.
+
+VARIABLES USED:
+  @firstName - Subscriber's first name (formatted with proper case)
+  @deviceType - Type of device/platform for the campaign
+  @wave - Campaign wave or segment identifier
+  Additional custom variables can be added as needed
+================================================================================
+*/
+
+%%[/* --- DATA BLOCK --- */]%%
 <!--
 %%[
-/* ---------------------
- Set all data variables you need here
- You can pull DE data, for instance:
- var @phoneNumber
- set @phoneNumber = AttributeValue("PhoneNumber")
---------------------- */
-var @firstName
-set @firstName = ProperCase(AttributeValue("FirstName"))
-
-set @deviceType = AttributeValue("DeviceType")
-set @wave = AttributeValue("Wave")
+/* Initialize subscriber and campaign data variables */
+var @firstName /* Subscriber personalization */
+set @firstName = ProperCase(AttributeValue("FirstName")) /* Format first name with proper case */
+set @deviceType = AttributeValue("DeviceType") /* Device or platform type */
+set @wave = AttributeValue("Wave") /* Campaign wave identifier */
 ]%%
 -->

@@ -1,7 +1,39 @@
-%%[ 
-var @subject, @preheader, @bannerText, @topBannerText 
-set @subject = "Congratulations! You have been scheduled for your technology migration. Let’s get prepared" 
-set @preheader = "Let’s help you prepare for your migration" 
-set @topBannerText = "Technology / Intra-Cellular / Technology Migration" 
-set @bannerText = "Congratulations! You have been scheduled for your technology migration. Let’s get prepared" 
+%%[
+/*
+================================================================================
+PURPOSE:
+  Initializes subject line and preheader text for email campaigns.
+  Sets banner and subject messaging used in the email header and email client preview.
+
+USAGE:
+  Define subject line (email header), preheader (preview text in email client),
+  and banner text (top of email). These variables are used throughout the template
+  and can be overridden by dynamic Content Builder blocks.
+
+VARIABLES USED:
+  Output: @subject (email subject line), @preheader (preview text), 
+          @topBannerText (banner header), @bannerText (banner message)
+
+LAST MODIFIED: December 2025
+================================================================================
+*/
 ]%%
+
+<!--%%[
+
+/* Subject line and preheader text variables for email template */
+var @subject, @preheader, @bannerText, @topBannerText
+
+/* Email subject line displayed in inbox */
+set @subject = "Congratulations! You have been scheduled for your [Project Name]. Let's get prepared"
+
+/* Preview text shown in email client preview pane */
+set @preheader = "Let's help you prepare for your [Project Name]"
+
+/* Banner header text - organizational and project information */
+set @topBannerText = "[Organization] / [Project Type] / [Project Name]"
+
+/* Banner message text - main heading in email body */
+set @bannerText = "Congratulations! You have been scheduled for your [Project Name]. Let's get prepared"
+
+]%%-->

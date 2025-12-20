@@ -1,6 +1,39 @@
-%%[/* -- Pre Salutation Block -- */]%%
-<!--%%[ 
-set @preSalutation = ContentBlockByName(Concat(@basePath,@subPath,"\",@langShortName,"\", "PreSalutation","_",@langShortName), "", "", ContentBlockByName(Concat(@basePath,@subPath,"\EN\PreSalutation_EN"))) 
+%%[
+/*
+================================================================================
+PURPOSE:
+  Retrieves pre-salutation content block for multilingual email campaigns.
+  Displays introductory content before the subscriber greeting/salutation.
+
+USAGE:
+  This block retrieves language-specific pre-salutation content from Content
+  Builder with automatic fallback to English if the language version is not found.
+  Content is stored in a folder structure: @basePath/@subPath/@langShortName/
+
+EXAMPLE OUTPUT:
+  Welcome to our exclusive update!
+  
+  Dear Subscriber,
+  
+  We're thrilled to share the latest news with you...
+  [Pre-salutation content ends here, then greeting/salutation follows]
+
+VARIABLES USED:
+  Input: @basePath (root folder path), @subPath (campaign subfolder), @langShortName (language code)
+  Output: @preSalutation (pre-salutation HTML content)
+  Dependencies: Requires @basePath, @subPath, @langShortName to be set prior
+
+LAST MODIFIED: December 2025
+================================================================================
+*/
+]%%
+
+<!--%%[
+
+/* Retrieve language-specific pre-salutation content with English fallback */
+set @preSalutation = ContentBlockByName(Concat(@basePath,@subPath,"\",@langShortName,"\","PreSalutation","_",@langShortName), "", "", ContentBlockByName(Concat(@basePath,@subPath,"\EN\PreSalutation_EN")))
+
 ]%%-->
 
+/* Display pre-salutation content */
 %%=v(@preSalutation)=%% 
