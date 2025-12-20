@@ -1,0 +1,280 @@
+### RETRIEVE DATA EXAMPLES
+
+## 1. Get Automation ID by Name
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>Automation</ObjectType>
+                <Properties>ProgramID</Properties>
+                <Properties>Name</Properties>
+                <Properties>CreatedDate</Properties>
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>Name</Property>
+                    <SimpleOperator>equals</SimpleOperator>
+                    <Value>{{Automation Name}}</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+RESPONSE (Success):
+<?xml version="1.0" encoding="utf-8"?>
+<RetrieveResponseMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+    <OverallStatus>OK</OverallStatus>
+    <RequestID>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</RequestID>
+    <Results>
+        <Result>
+            <ObjectID>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</ObjectID>
+            <Properties>
+                <Property>
+                    <Name>ProgramID</Name>
+                    <Value>12345</Value>
+                </Property>
+                <Property>
+                    <Name>Name</Name>
+                    <Value>Welcome Email Campaign</Value>
+                </Property>
+                <Property>
+                    <Name>CreatedDate</Name>
+                    <Value>2023-06-15T10:30:00</Value>
+                </Property>
+            </Properties>
+        </Result>
+    </Results>
+</RetrieveResponseMsg>
+
+---
+
+## 2. Get Data Extension Records by Email
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>FirstName</Properties>
+                <Properties>LastName</Properties>
+                <Properties>SubscriptionStatus</Properties>
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>Email</Property>
+                    <SimpleOperator>equals</SimpleOperator>
+                    <Value>{{subscriber@example.com}}</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+RESPONSE (Success):
+<?xml version="1.0" encoding="utf-8"?>
+<RetrieveResponseMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+    <OverallStatus>OK</OverallStatus>
+    <RequestID>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</RequestID>
+    <Results>
+        <Result>
+            <ObjectID>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</ObjectID>
+            <Properties>
+                <Property>
+                    <Name>Email</Name>
+                    <Value>subscriber@example.com</Value>
+                </Property>
+                <Property>
+                    <Name>FirstName</Name>
+                    <Value>John</Value>
+                </Property>
+                <Property>
+                    <Name>LastName</Name>
+                    <Value>Doe</Value>
+                </Property>
+                <Property>
+                    <Name>SubscriptionStatus</Name>
+                    <Value>Active</Value>
+                </Property>
+            </Properties>
+        </Result>
+    </Results>
+</RetrieveResponseMsg>
+
+---
+
+## 3. Get Multiple Records with Pagination
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>FirstName</Properties>
+                <Properties>Status</Properties>
+                <Properties>LastModifiedDate</Properties>
+                <Options>
+                    <RequestType>Paginated</RequestType>
+                </Options>
+                <PageSize>100</PageSize>
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>Status</Property>
+                    <SimpleOperator>equals</SimpleOperator>
+                    <Value>Active</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- PageSize: Maximum records per request (typically 50-500)
+- Response includes RequestID for continuation
+- Use RequestID in follow-up request to get next page
+
+---
+
+## 4. Get Subscriber Attributes
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>Subscriber</ObjectType>
+                <Properties>SubscriberID</Properties>
+                <Properties>EmailAddress</Properties>
+                <Properties>Status</Properties>
+                <Properties>CreatedDate</Properties>
+                <Properties>OptedInDate</Properties>
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>EmailAddress</Property>
+                    <SimpleOperator>equals</SimpleOperator>
+                    <Value>{{subscriber@example.com}}</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+---
+
+## 5. Filter Multiple Conditions (AND)
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>Name</Properties>
+                <Properties>Region</Properties>
+                <!-- Multiple conditions: Status = Active AND Region = North America -->
+                <Filter xsi:type="ComplexFilterPart">
+                    <LeftOperand xsi:type="SimpleFilterPart">
+                        <Property>Status</Property>
+                        <SimpleOperator>equals</SimpleOperator>
+                        <Value>Active</Value>
+                    </LeftOperand>
+                    <LogicalOperator>AND</LogicalOperator>
+                    <RightOperand xsi:type="SimpleFilterPart">
+                        <Property>Region</Property>
+                        <SimpleOperator>equals</SimpleOperator>
+                        <Value>North America</Value>
+                    </RightOperand>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- Use ComplexFilterPart for AND/OR logic
+- LogicalOperator: AND or OR
+- Can nest multiple filters for complex queries
+
+---
+
+## 6. Pattern Match Search (LIKE)
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>CompanyName</Properties>
+                <!-- Search for emails ending in @example.com -->
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>Email</Property>
+                    <SimpleOperator>like</SimpleOperator>
+                    <Value>%@example.com</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- Use "like" operator for pattern matching
+- % = any characters
+- _ = single character
+- Example: "%john%" finds emails containing "john"

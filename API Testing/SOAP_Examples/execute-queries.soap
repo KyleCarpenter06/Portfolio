@@ -1,0 +1,327 @@
+### EXECUTE QUERIES EXAMPLES
+
+## 1. Simple ExecuteRequest
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Execute
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <ExecuteRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <ExecuteRequest>
+                <Name>RetrieveAllData</Name>
+                <Parameters>
+                    <Parameter>{{Parameter Name}}</Parameter>
+                </Parameters>
+            </ExecuteRequest>
+        </ExecuteRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+---
+
+## 2. Query Data Extension with Complex Filter
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>FirstName</Properties>
+                <Properties>SubscriptionStatus</Properties>
+                <Properties>LastEmailDate</Properties>
+                <!-- Complex filter: Status = Active AND LastEmailDate > 2024-01-01 -->
+                <Filter xsi:type="ComplexFilterPart">
+                    <LeftOperand xsi:type="SimpleFilterPart">
+                        <Property>SubscriptionStatus</Property>
+                        <SimpleOperator>equals</SimpleOperator>
+                        <Value>Active</Value>
+                    </LeftOperand>
+                    <LogicalOperator>AND</LogicalOperator>
+                    <RightOperand xsi:type="SimpleFilterPart">
+                        <Property>LastEmailDate</Property>
+                        <SimpleOperator>greaterThan</SimpleOperator>
+                        <Value>2024-01-01</Value>
+                    </RightOperand>
+                </Filter>
+                <Options>
+                    <RequestType>Paginated</RequestType>
+                </Options>
+                <PageSize>500</PageSize>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- Combines SimpleFilterPart with AND/OR logic
+- greaterThan/lessThan for date comparisons
+- Large PageSize (500) recommended for efficiency
+- Response includes RequestID for pagination continuation
+
+---
+
+## 3. Nested Complex Filter (OR with AND)
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>Name</Properties>
+                <Properties>Region</Properties>
+                <!-- (Status = Active AND Region = North America) OR (Status = Pending AND CreatedDate > 2024-06-01) -->
+                <Filter xsi:type="ComplexFilterPart">
+                    <LeftOperand xsi:type="ComplexFilterPart">
+                        <LeftOperand xsi:type="SimpleFilterPart">
+                            <Property>Status</Property>
+                            <SimpleOperator>equals</SimpleOperator>
+                            <Value>Active</Value>
+                        </LeftOperand>
+                        <LogicalOperator>AND</LogicalOperator>
+                        <RightOperand xsi:type="SimpleFilterPart">
+                            <Property>Region</Property>
+                            <SimpleOperator>equals</SimpleOperator>
+                            <Value>North America</Value>
+                        </RightOperand>
+                    </LeftOperand>
+                    <LogicalOperator>OR</LogicalOperator>
+                    <RightOperand xsi:type="ComplexFilterPart">
+                        <LeftOperand xsi:type="SimpleFilterPart">
+                            <Property>Status</Property>
+                            <SimpleOperator>equals</SimpleOperator>
+                            <Value>Pending</Value>
+                        </LeftOperand>
+                        <LogicalOperator>AND</LogicalOperator>
+                        <RightOperand xsi:type="SimpleFilterPart">
+                            <Property>CreatedDate</Property>
+                            <SimpleOperator>greaterThan</SimpleOperator>
+                            <Value>2024-06-01</Value>
+                        </RightOperand>
+                    </RightOperand>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- Nesting ComplexFilterPart inside ComplexFilterPart
+- Use parentheses conceptually to understand logic
+- Complex filters are powerful but can slow queries
+- Test in UAT with large datasets before production
+
+---
+
+## 4. Sort and Limit Results
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>FirstName</Properties>
+                <Properties>OpenCount</Properties>
+                <Properties>ClickCount</Properties>
+                <Properties>LastEngagedDate</Properties>
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>Status</Property>
+                    <SimpleOperator>equals</SimpleOperator>
+                    <Value>Active</Value>
+                </Filter>
+                <!-- Sort Options -->
+                <Options>
+                    <RequestType>Paginated</RequestType>
+                </Options>
+                <PageSize>100</PageSize>
+                <!-- Results ordered by LastEngagedDate descending -->
+                <OrderBy>
+                    <Property>LastEngagedDate</Property>
+                    <Direction>Descending</Direction>
+                </OrderBy>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- Direction: Ascending or Descending
+- Sort on server side (more efficient than client)
+- Can only sort on properties returned in Properties
+- Helps identify most engaged subscribers
+
+---
+
+## 5. Count Records Without Retrieval
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <!-- No Properties means count only -->
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>Status</Property>
+                    <SimpleOperator>equals</SimpleOperator>
+                    <Value>Active</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+RESPONSE (Success):
+<?xml version="1.0" encoding="utf-8"?>
+<RetrieveResponseMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+    <OverallStatus>OK</OverallStatus>
+    <RequestID>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</RequestID>
+    <TotalCount>5432</TotalCount>
+    <Results/>
+</RetrieveResponseMsg>
+
+NOTES:
+- Omitting Properties returns only count
+- Much faster than retrieving all records
+- Good for estimating data volume
+- Use before large batch operations
+
+---
+
+## 6. Query with IN Operator (Multiple Values)
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>Region</Properties>
+                <Properties>Status</Properties>
+                <!-- Find records where Region is in this list -->
+                <Filter xsi:type="SimpleFilterPart">
+                    <Property>Region</Property>
+                    <SimpleOperator>in</SimpleOperator>
+                    <Value>North America</Value>
+                    <Value>South America</Value>
+                    <Value>Europe</Value>
+                </Filter>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- IN operator matches any value in list
+- More efficient than OR-ing multiple equals
+- Useful for regional/segmentation queries
+
+---
+
+## 7. Date Range Query (BETWEEN)
+
+POST /Service.asmx
+Content-Type: text/xml
+SOAPAction: Retrieve
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <fueloauth xmlms="http://exacttarget.com">{{TOKEN}}</fueloauth>
+    </soapenv:Header>
+    <soapenv:Body>
+        <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+            <RetrieveRequest>
+                <ObjectType>DataExtensionObject[{{Data Extension Key}}]</ObjectType>
+                <Properties>Email</Properties>
+                <Properties>FirstName</Properties>
+                <Properties>JoinedDate</Properties>
+                <!-- Find records created between date range -->
+                <Filter xsi:type="ComplexFilterPart">
+                    <LeftOperand xsi:type="SimpleFilterPart">
+                        <Property>JoinedDate</Property>
+                        <SimpleOperator>greaterThan</SimpleOperator>
+                        <Value>2024-01-01</Value>
+                    </LeftOperand>
+                    <LogicalOperator>AND</LogicalOperator>
+                    <RightOperand xsi:type="SimpleFilterPart">
+                        <Property>JoinedDate</Property>
+                        <SimpleOperator>lessThan</SimpleOperator>
+                        <Value>2024-12-31</Value>
+                    </RightOperand>
+                </Filter>
+                <Options>
+                    <RequestType>Paginated</RequestType>
+                </Options>
+                <PageSize>500</PageSize>
+            </RetrieveRequest>
+        </RetrieveRequestMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+NOTES:
+- Use greaterThan and lessThan for date ranges
+- Dates in YYYY-MM-DD or ISO 8601 format
+- Useful for anniversary/engagement queries
+- Combine with sorting for timeline analysis
