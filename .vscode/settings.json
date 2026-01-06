@@ -27,6 +27,26 @@
         {
             "folderPath": "Portfolio\\.gitattributes\\",
             "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\Automation Studio\\docs\\SFMC - Azure - PowerBI Reporting Integration.png\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\Automation Studio\\docs\\sfmc_auto_script_example_abiomed.png\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\Automation Studio\\docs\\sfmc_auto_sfmc_export_notsentlist.png\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\Automation Studio\\docs\\sfmc_auto_sfmc_input_data_from_azure_sftp.png\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\Automation Studio\\docs\\sfmc_auto_sfmc_output_dataviews_azure.png\\",
+            "color": "foldercolorizer.color_00cc33"
         }
     ]
 }

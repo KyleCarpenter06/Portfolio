@@ -24,7 +24,7 @@ This folder contains visual documentation and architecture diagrams demonstratin
 ## Architecture Diagrams
 
 ### SFMC - Azure - PowerBI Reporting Integration
-![SFMC Azure PowerBI Integration Architecture](./SFMC%20-%20Azure%20-%20PowerBI%20Reporting%20Integration.png)
+![SFMC Azure PowerBI Integration Architecture](./docs/SFMC%20-%20Azure%20-%20PowerBI%20Reporting%20Integration.png)
 
 **Purpose**: Comprehensive architecture diagram showing the end-to-end data flow from Salesforce Marketing Cloud through Azure Data Factory to Power BI dashboards.
 
@@ -34,14 +34,14 @@ This folder contains visual documentation and architecture diagrams demonstratin
 - Azure SQL Database (Datalake) storage
 - Power BI visualization layer
 
-[View Image](./SFMC%20-%20Azure%20-%20PowerBI%20Reporting%20Integration.png)
+[View Image](./docs/SFMC%20-%20Azure%20-%20PowerBI%20Reporting%20Integration.png)
 
 ---
 
 ## Automation Examples
 
 ### SFMC Automation Script Example (Abiomed)
-![SFMC Automation Script Example](./sfmc_auto_script_example_abiomed.png)
+![SFMC Automation Script Example](./docs/sfmc_auto_script_example_abiomed.png)
 
 **Purpose**: Demonstrates a complete Automation Studio workflow configuration for a specific client implementation.
 
@@ -50,12 +50,12 @@ This folder contains visual documentation and architecture diagrams demonstratin
 - Script activity configuration
 - Workflow scheduling and triggers
 
-[View Image](./sfmc_auto_script_example_abiomed.png)
+[View Image](./docs/sfmc_auto_script_example_abiomed.png)
 
 ---
 
 ### SFMC Export Not Sent List
-![SFMC Export Not Sent List](./sfmc_auto_sfmc_export_notsentlist.png)
+![SFMC Export Not Sent List](./docs/sfmc_auto_sfmc_export_notsentlist.png)
 
 **Purpose**: Shows automation configuration for exporting subscribers who were not sent an email, useful for suppression list management and deliverability analysis.
 
@@ -64,12 +64,12 @@ This folder contains visual documentation and architecture diagrams demonstratin
 - File transfer configuration
 - Destination settings
 
-[View Image](./sfmc_auto_sfmc_export_notsentlist.png)
+[View Image](./docs/sfmc_auto_sfmc_export_notsentlist.png)
 
 ---
 
 ### SFMC Input Data from Azure SFTP
-![SFMC Input Data from Azure SFTP](./sfmc_auto_sfmc_input_data_from_azure_sftp.png)
+![SFMC Input Data from Azure SFTP](./docs/sfmc_auto_sfmc_input_data_from_azure_sftp.png)
 
 **Purpose**: Illustrates the automation workflow for importing data files from Azure SFTP server into SFMC data extensions.
 
@@ -78,12 +78,12 @@ This folder contains visual documentation and architecture diagrams demonstratin
 - Data import mapping
 - Automation scheduling configuration
 
-[View Image](./sfmc_auto_sfmc_input_data_from_azure_sftp.png)
+[View Image](./docs/sfmc_auto_sfmc_input_data_from_azure_sftp.png)
 
 ---
 
 ### SFMC Output DataViews to Azure
-![SFMC Output DataViews to Azure](./sfmc_auto_sfmc_output_dataviews_azure.png)
+![SFMC Output DataViews to Azure](./docs/sfmc_auto_sfmc_output_dataviews_azure.png)
 
 **Purpose**: Demonstrates the automation workflow for extracting SFMC system data views (tracking data) and transferring them to Azure storage.
 
@@ -93,7 +93,7 @@ This folder contains visual documentation and architecture diagrams demonstratin
 - Scheduled export to Azure blob storage
 - Support for tracking data (opens, clicks, bounces, etc.)
 
-[View Image](./sfmc_auto_sfmc_output_dataviews_azure.png)
+[View Image](./docs/sfmc_auto_sfmc_output_dataviews_azure.png)
 
 ---
 

@@ -1,10 +1,16 @@
+Need to create a medium-sized readme file which includes the following image.
+
+Include the following:
+- 
+
 Image README Prompt for GitHub
 
 Objective: Create/improve/expand the README from images in this folder.
 
 Do this:
 - Examine IMAGES ONLY in the current directory.
-- Create a new README.md (if none exists) or edit/improve the existing one.
+- Create a new README.md (if none exists) or edit/improve the existing one
+- If the images are in a subfolder or docs folder, place the README just outside of the folder
 - Structure the README with sections in this exact order:
 - Brief overview of the images (1–2 sentences summarizing folder contents)
 - Importance and Business use cases (bullet list of key benefits and scenarios)
@@ -29,7 +35,6 @@ Do this:
 
 Do NOT do this:
 - Include any information regarding files that are NOT images (.jpeg, .png, .jpg)
-- Include links to the image files themselves; they will be deleted later
 - Use absolute links (e.g., full URLs) instead of relative paths.
 - Create broken or non-functional anchor links.
 - Leave sections empty or incomplete.
