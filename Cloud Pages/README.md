@@ -8,9 +8,9 @@ Files in this folder
 - `supplier_phone_numbers.html`: Country-level supplier phone number list. Phone numbers have been redacted for portfolio display and images replaced with anonymized SVGs. Includes operating hours and a footer section.
 
 Table of contents
-- [supplier_faq.html](https://htmlpreview.github.io/?https://github.com/KyleCarpenter06/Portfolio/blob/main/Cloud%20Pages/supplier_faq.html) — Multilingual FAQ Cloud Page ([view code](supplier_faq.html))
-- [supplier_legal_entity.html](https://htmlpreview.github.io/?https://github.com/KyleCarpenter06/Portfolio/blob/main/Cloud%20Pages/supplier_legal_entity.html) — Legal Entity announcement / supplier notice ([view code](supplier_legal_entity.html))
-- [supplier_phone_numbers.html](https://htmlpreview.github.io/?https://github.com/KyleCarpenter06/Portfolio/blob/main/Cloud%20Pages/supplier_phone_numbers.html) — Country phone numbers (redacted) ([view code](supplier_phone_numbers.html))
+- [supplier_faq.html](https://raw.githack.com/KyleCarpenter06/Portfolio/main/Cloud%20Pages/supplier_faq.html) — Multilingual FAQ Cloud Page ([view code](supplier_faq.html))
+- [supplier_legal_entity.html](https://raw.githack.com/KyleCarpenter06/Portfolio/main/Cloud%20Pages/supplier_legal_entity.html) — Legal Entity announcement / supplier notice ([view code](supplier_legal_entity.html))
+- [supplier_phone_numbers.html](https://raw.githack.com/KyleCarpenter06/Portfolio/main/Cloud%20Pages/supplier_phone_numbers.html) — Country phone numbers (redacted) ([view code](supplier_phone_numbers.html))
 
 Notes
 - These files are intended as portfolio examples demonstrating email-safe HTML, inline SVG usage, multilingual text encoding, and Cloud Page structure. If you want the original production content restored, keep a secure private copy outside this repository.
