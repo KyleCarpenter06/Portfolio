@@ -6,14 +6,25 @@ This folder contains comprehensive guides for API testing, including OAuth 2.0 a
 
 ## Table of Contents
 
-1. [Quick Start Overview](#quick-start-overview)
-2. [UAT vs Production Testing](#uat-vs-production-testing)
-3. [OAuth 2.0 Setup](#oauth-20-setup)
-4. [Environment Management](#environment-management)
-5. [Token Management](#token-management)
-6. [REST vs SOAP Implementation](#rest-vs-soap-implementation)
-7. [Troubleshooting](#troubleshooting)
-8. [Security Best Practices](#security-best-practices)
+1. [API Example Folders](#api-example-folders)
+2. [Quick Start Overview](#quick-start-overview)
+3. [UAT vs Production Testing](#uat-vs-production-testing)
+4. [OAuth 2.0 Setup](#oauth-20-setup)
+5. [Environment Management](#environment-management)
+6. [Token Management](#token-management)
+7. [REST vs SOAP Implementation](#rest-vs-soap-implementation)
+8. [Troubleshooting](#troubleshooting)
+9. [Security Best Practices](#security-best-practices)
+
+---
+
+## API Example Folders
+
+### REST Examples
+[./REST_Examples/README.md](./REST_Examples/README.md) — Modern REST API implementations with JSON payloads, including authentication, data retrieval, and automation triggers for Salesforce Marketing Cloud.
+
+### SOAP Examples
+[./SOAP_Examples/README.md](./SOAP_Examples/README.md) — Legacy SOAP API examples with XML envelopes, demonstrating retrieve operations, perform actions, and complex filtering for Salesforce Marketing Cloud Engagement.
 
 ---
 

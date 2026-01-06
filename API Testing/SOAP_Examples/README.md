@@ -6,6 +6,26 @@ This folder contains production-ready SOAP API examples for Salesforce Marketing
 
 ---
 
+## Table of Contents
+
+- [File Organization](#file-organization)
+- [API Examples by Category](#api-examples-by-category)
+- [SOAP Endpoints](#soap-endpoints)
+- [Key Concepts](#key-concepts)
+- [Common Patterns](#common-patterns)
+- [Response Format](#response-format)
+- [Best Practices](#best-practices)
+- [Testing Workflow](#testing-workflow)
+- [Comparison: SOAP vs REST](#comparison-soap-vs-rest)
+- [Common SOAP Errors](#common-soap-errors)
+- [Tools & Resources](#tools--resources)
+- [Migration Path: SOAP to REST](#migration-path-soap-to-rest)
+- [RETRIEVE DATA EXAMPLES](#retrieve-data-examples)
+- [PERFORM ACTIONS EXAMPLES](#perform-actions-examples)
+- [EXECUTE QUERIES EXAMPLES](#execute-queries-examples)
+
+---
+
 ## File Organization
 
 ### `.soap` Files (Primary Format)
