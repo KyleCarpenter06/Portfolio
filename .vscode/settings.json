@@ -1,0 +1,32 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": "Portfolio\\AI Prompts\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\AMPScript Code\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\Automation Studio\\",
+            "color": "foldercolorizer.color_ff3333"
+        },
+        {
+            "folderPath": "Portfolio\\API Testing\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\LICENSE\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\README.md\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Portfolio\\.gitattributes\\",
+            "color": "foldercolorizer.color_00cc33"
+        }
+    ]
+}
