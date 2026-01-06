@@ -26,13 +26,83 @@ This folder contains visual documentation and architecture diagrams demonstratin
 ### SFMC - Azure - PowerBI Reporting Integration
 ![SFMC Azure PowerBI Integration Architecture](./docs/SFMC%20-%20Azure%20-%20PowerBI%20Reporting%20Integration.png)
 
-**Purpose**: Comprehensive architecture diagram showing the end-to-end data flow from Salesforce Marketing Cloud through Azure Data Factory to Power BI dashboards.
+**Purpose**: Comprehensive architecture diagram showing the end-to-end data flow from Salesforce Marketing Cloud through Azure Data Factory to Power BI dashboards. This integration enables automated marketing analytics by synchronizing email engagement data with cloud-based reporting infrastructure.
 
-**Key Components**:
-- Salesforce Marketing Cloud automation (8-hour delta updates)
-- Azure Data Factory processing pipeline
-- Azure SQL Database (Datalake) storage
-- Power BI visualization layer
+#### Architecture Overview
+
+This solution implements a multi-tier data pipeline that extracts marketing data from SFMC, processes it through Azure services, and delivers actionable insights via Power BI dashboards.
+
+#### Key Components
+
+**1. Salesforce Marketing Cloud (Data Source)**
+- **Automation Studio**: Scheduled jobs run every 8 hours to export delta updates
+- **Data Extracted**: Includes tracking data such as:
+  - Bounce events (email delivery failures)
+  - Open events (email opens and unique opens)
+  - Click events (link clicks and unique clicks)
+  - Campaign metadata (send details, audience segmentation)
+  - Campaign_Emails relationship data
+- **File Format**: CSV/text files sent via Azure Linked Service to blob storage
+- **Update Frequency**: 8-hour intervals to balance real-time needs with system performance
+
+**2. Azure Data Factory (ETL/Processing Layer)**
+- **Microsoft ADF Linked Service**: Ingests blob files from SFMC automation
+- **Data Factory Processing Pipeline**: 
+  - Validates incoming file schemas
+  - Transforms and cleanses data
+  - Handles incremental updates (delta processing)
+  - Manages data quality and error handling
+- **Processing Activities**:
+  - Blob Files Sent activity monitors for Bounce, Open, Click, Campaign, and Campaign_Emails files
+  - Data transformations prepare raw data for database loading
+  - Automated validation ensures data integrity
+
+**3. Azure SQL Database (Data Lake)**
+- **Function**: Centralized data warehouse for reporting
+- **Schema Design**: Optimized for analytical queries and dashboard performance
+- **Data Refresh**: Continuously updated by Data Factory pipeline as new files arrive
+- **Storage**: Maintains historical tracking data for trend analysis and performance measurement
+
+**4. Power BI (Visualization & Analytics Layer)**
+- **Data Connection**: Direct query to Azure SQL Database (Datalake)
+- **Refresh Strategy**: Pulls data from Datalake to publish updated dashboards
+- **Reporting Capabilities**:
+  - Campaign performance metrics (open rates, click rates, bounce rates)
+  - Subscriber engagement trends over time
+  - Comparative analysis across campaigns
+  - Real-time operational dashboards
+  - Executive-level KPI summaries
+
+#### Data Flow Sequence
+
+```
+1. SFMC Automation Studio → Export tracking data every 8 hours
+                          ↓
+2. Azure Linked Service → Receive files in blob storage
+                          ↓
+3. Azure Data Factory   → Process and transform data
+                          ↓
+4. Azure SQL Database   → Store in data lake tables
+                          ↓
+5. Power BI Dashboards  → Query and visualize insights
+```
+
+#### Technical Benefits
+
+- **Scalability**: Handles high-volume email data from enterprise-scale campaigns
+- **Reliability**: Automated retry logic and error handling in Azure Data Factory
+- **Performance**: Delta processing reduces data transfer and processing time
+- **Security**: Enterprise-grade security with Azure Active Directory integration
+- **Flexibility**: Modular architecture allows for additional data sources and destinations
+- **Cost Efficiency**: Optimized data transfer schedules minimize cloud storage and compute costs
+
+#### Business Benefits
+
+- **Real-Time Insights**: Near real-time visibility into campaign performance (8-hour lag)
+- **Data Democratization**: Self-service analytics through Power BI for stakeholders
+- **Historical Analysis**: Maintains complete audit trail of all marketing activities
+- **Compliance**: Centralized data storage supports GDPR and data retention policies
+- **Decision Support**: Enables data-driven optimization of email marketing strategies
 
 [View Image](./docs/SFMC%20-%20Azure%20-%20PowerBI%20Reporting%20Integration.png)
 
