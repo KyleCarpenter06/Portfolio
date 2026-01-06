@@ -21,17 +21,18 @@ This portfolio showcases real-world examples and solutions across Salesforce Mar
 - [AMPScript Code](#ampscript-code)
 - [API Testing Examples](#api-testing-examples)
 - [Automation Studio Examples](#automation-studio-examples)
-- [Cloud Pages](#cloud-pages)
-- [Documentation Template Examples](#documentation-template-examples)
+- [Cloud Page Example](#cloud-pages)
+- [Data Extension Examples](#data-extensions)
+- [Documentation Page Examples](#documentation-pages)
 - [Email Designs](#email-designs)
+- [Email Reporting](#email-designs)
 - [Excel Template and Function Examples](#excel-template-and-function-examples)
 - [Future Ideas](#future-ideas)
-- [JIRA](#jira)
 - [Journey Builder Examples](#journey-builder-examples)
 - [Organization](#organization)
 - [Power Automate Flow Examples](#power-automate-flow-examples)
 - [Project Tracking Examples](#project-tracking-examples)
-- [QA](#qa)
+- [Quality Assurance](#qa)
 - [SQL Queries](#sql-queries)
 - [SSJS Scripts](#ssjs-scripts)
 
@@ -47,23 +48,26 @@ This portfolio showcases real-world examples and solutions across Salesforce Mar
 ### Automation Studio Examples
 [./Automation%20Studio%20Examples](./Automation%20Studio%20Examples) — Automation Studio workflows demonstrating scheduled jobs, triggered automations, and process orchestration.
 
-### Cloud Pages
+### Cloud Page Examples
 [./Cloud%20Pages/README.md](./Cloud%20Pages/README.md) — Cloud Page implementations showcasing landing pages, preference centers, and interactive experiences.
 
-### Documentation Template Examples
-[./Documentation%20Template%20Examples](./Documentation%20Template%20Examples) — Documentation examples showcasing best practices for API guides, runbooks, and technical specifications.
+### Data Extension Examples
+[./Data%20Extensions](./Data%20Extensions) — Data Extension examples demonstrating data modeling, schema design, and data management strategies.
+
+### Documentation Page Examples
+[./Documentation%20Pages](./Documentation%20Pages) — Documentation examples showcasing best practices for API guides, runbooks, and technical specifications.
 
 ### Email Designs
 [./Email%20Designs/README.md](./Email%20Designs/README.md) — Email templates with mobile-friendly designs optimized for multiple email service providers (ESPs).
+
+### Email Reporting
+[./Email%20Reporting](./Email%20Reporting) — Email reporting dashboards, metrics tracking, and performance analysis tools.
 
 ### Excel Template and Function Examples
 [./Excel%20Template%20and%20Function%20Examples](./Excel%20Template%20and%20Function%20Examples) — Reusable Excel templates, custom functions, and macros for data analysis and reporting.
 
 ### Future Ideas
 [./Future%20Ideas](./Future%20Ideas) — Upcoming projects and concepts in development.
-
-### JIRA
-[./JIRA](./JIRA) — JIRA ticket examples, workflow configurations, and project management artifacts.
 
 ### Journey Builder Examples
 [./Journey%20Builder%20Examples](./Journey%20Builder%20Examples) — Journey Builder designs showcasing multi-step customer journeys, decision trees, and engagement strategies.
@@ -77,8 +81,8 @@ This portfolio showcases real-world examples and solutions across Salesforce Mar
 ### Project Tracking Examples
 [./Project%20Tracking%20Examples](./Project%20Tracking%20Examples) — Project management templates and tracking methodologies used across real-world engagements.
 
-### QA
-[./QA](./QA) — Quality assurance test cases, testing strategies, and validation documentation.
+### Quality Assurance
+[./Quality%20Assurance](./Quality%20Assurance) — Quality assurance test cases, testing strategies, and validation documentation.
 
 ### SQL Queries
 [./SQL%20Queries/README.md](./SQL%20Queries/README.md) — Battle-tested SQL queries that are adaptive and scalable for business intelligence and data management.
