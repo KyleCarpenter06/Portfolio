@@ -9,13 +9,12 @@ This folder contains production-ready REST API examples for Salesforce Marketing
 1. [Overview](#overview)
 2. [How to Use These Examples](#how-to-use-these-examples)
 3. [Data Extensions](#data-extensions)
-4. [Automation Studio](#automation-studio)
-5. [Journey Builder](#journey-builder)
-6. [Key Concepts](#key-concepts)
-7. [Best Practices](#best-practices)
-8. [Testing Workflow](#testing-workflow)
-9. [Common Errors](#common-errors)
-10. [Tools & Resources](#tools--resources)
+4. [Journey Builder](#journey-builder)
+5. [Key Concepts](#key-concepts)
+6. [Best Practices](#best-practices)
+7. [Testing Workflow](#testing-workflow)
+8. [Common Errors](#common-errors)
+9. [Tools & Resources](#tools--resources)
 
 ---
 
@@ -272,157 +271,6 @@ Content-Type: application/json
 ```
 
 **Note:** Only the key field is required to identify which row to delete.
-
----
-
-## Automation Studio
-
-Automations are scheduled or triggered workflows for email sends, data processing, etc.
-
-### Operations
-
-- **GET** - Retrieve automation details and run history
-- **POST** - Fire/trigger automation immediately
-- **PATCH** - Pause, resume, or modify automation
-
----
-
-### Example 1: GET All Automations (Filter by Name)
-
-```http
-GET {{base_url}}/automation/v1/automations?$filter=name%20like%20'{{automationName}}'
-Authorization: Bearer {{access_token}}
-Content-Type: application/json
-```
-
-**Response (Success):**
-```json
-{
-  "count": 1,
-  "page": 1,
-  "pageSize": 50,
-  "totalCount": 1,
-  "items": [
-    {
-      "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-      "name": "Welcome Email Campaign",
-      "description": "Sends welcome email to new subscribers",
-      "status": "Active",
-      "createdDate": "2023-06-15T10:30:00"
-    }
-  ]
-}
-```
-
----
-
-### Example 2: GET Automation by ID
-
-```http
-GET {{base_url}}/automation/v1/automations/{{automationId}}
-Authorization: Bearer {{access_token}}
-Content-Type: application/json
-```
-
-**Use Case:** Get full details of a specific automation before triggering it.
-
----
-
-### Example 3: POST Fire Automation - All Steps
-
-```http
-POST {{base_url}}/automation/v1/automations/{{automationId}}/actions/runallonce
-Authorization: Bearer {{access_token}}
-Content-Type: application/json
-```
-
-**Note:** Empty POST body triggers all automation steps immediately. Very efficient for one-off execution.
-
----
-
-### Example 4: POST Fire Automation - Custom Steps Only
-
-```http
-POST {{base_url}}/automation/v1/automations/{{automationId}}/actions/runallonce
-Authorization: Bearer {{access_token}}
-Content-Type: application/json
-
-{
-  "Steps": [
-    {
-      "StepType": "Activity",
-      "Activities": [
-        {
-          "ActivityObjectId": "a8b7b3b1-fcd5-40da-87c7-bd52e5fe9beb",
-          "Id": "a2f1cc0a-b88d-4d34-9fad-b3b0b564bc5c",
-          "IsIncludedInRun": true
-        }
-      ]
-    }
-  ]
-}
-```
-
-**Advanced Use Case:** Run only specific activities within an automation, skipping others.
-
----
-
-### Example 5: PATCH Pause Automation
-
-```http
-PATCH {{base_url}}/automation/v1/automations/{{automationId}}
-Authorization: Bearer {{access_token}}
-Content-Type: application/json
-
-{
-  "status": "Paused"
-}
-```
-
-**Note:** Paused automations can be resumed later. Better than stopping if you need to restart.
-
----
-
-### Example 6: PATCH Resume Automation
-
-```http
-PATCH {{base_url}}/automation/v1/automations/{{automationId}}
-Authorization: Bearer {{access_token}}
-Content-Type: application/json
-
-{
-  "status": "Active"
-}
-```
-
----
-
-### Example 7: GET Automation Runs (History)
-
-```http
-GET {{base_url}}/automation/v1/automations/{{automationId}}/runs?$top=100
-Authorization: Bearer {{access_token}}
-Content-Type: application/json
-```
-
-**Response (Success):**
-```json
-{
-  "count": 25,
-  "items": [
-    {
-      "id": "run-123",
-      "automationId": "{{automationId}}",
-      "startTime": "2024-12-20T14:30:00Z",
-      "endTime": "2024-12-20T14:35:45Z",
-      "status": "Completed",
-      "totalContacts": 5432
-    }
-  ]
-}
-```
-
-**Use Case:** Monitor automation execution history and performance.
 
 ---
 
