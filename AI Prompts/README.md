@@ -33,13 +33,6 @@ This folder contains subfolders with focused prompt sets and example outputs. Be
 	- `monthly_stock_checkup.md` — Monthly Core portfolio checklist detailing allocation, trimming/selling logic, and buying-power calculations.
     - `investment_update.md` — User uploads CSV file of current positions. Positions are updated in Notion database.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Importance and Business Use Cases](#importance-and-business-use-cases)
-- [Files in This Folder and Their Purpose](#files-in-this-folder-and-their-purpose)
-- [Real-World Usage](#real-world-usage)
-
 ## Real-World Usage
 
 These AI prompts were used in actual projects to maintain documentation standards, improve content quality, and accelerate the creation of professional README files, social posts, and portfolio analysis artifacts.
