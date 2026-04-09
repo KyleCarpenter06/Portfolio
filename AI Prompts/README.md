@@ -31,8 +31,7 @@ This folder contains subfolders with focused prompt sets and example outputs. Be
 - `Stock Analysis/` — Prompts and checklists used with a Notion.so AI agent to evaluate stock portfolios using CSV inputs and web research.
 	- [investment_update.md](Stock%20Analysis/investment_update.md) — Instructions for uploading a CSV of current positions and updating the Notion database.
 	- [monthly_stock_checkup.md](Stock%20Analysis/monthly_stock_checkup.md) — Monthly Core portfolio checklist detailing allocation, trimming/selling logic, and buying-power calculations.
-	- [weekly_stock_checkup.md](Stock%20Analysis/weekly_stock_checkup.md) — Weekly review checklist and instructions for gathering news, earnings, and risk flags.
-	- [stock_checkup.md](stock_checkup.md) — (Top-level) Roth IRA weekly checkup used by the Notion agent; includes news and earnings table templates.
+	- [weekly_stock_checkup.md](Stock%20Analysis/weekly_stock_checkup.md) — Roth IRA weekly checkup used by the Notion agent; includes news and earnings table templates.
 
 ## Real-World Usage
 
