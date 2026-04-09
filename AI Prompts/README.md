@@ -17,21 +17,22 @@ This folder contains a collection of AI prompts designed to streamline common do
 This folder contains subfolders with focused prompt sets and example outputs. Below are each subfolder, the files inside them, and a one-line summary for every file.
 
 - `Code Cleaning/` — Used for optimizing consistency when polishing code for a portfolio; emphasizes redaction, commenting, and indentation for HTML and HTML email builds.
-	- `code_cleaning_prompt.txt` — Prompt template for refactoring and standardizing code formatting, comments, and best practices.
-	- `folder_readme_cleaning_prompt.txt` — Prompt to clean and standardize README files for project folders.
-	- `image_readme_cleaning_prompt.txt` — Prompt to generate and improve README sections that describe images and media assets.
-	- `main_readme_cleaning_prompt.txt` — Prompt focused on creating and improving the main portfolio README structure and navigation.
+	- [code_cleaning_prompt.txt](Code%20Cleaning/code_cleaning_prompt.txt) — Prompt template for refactoring and standardizing code formatting, comments, and best practices.
+	- [folder_readme_cleaning_prompt.txt](Code%20Cleaning/folder_readme_cleaning_prompt.txt) — Prompt to clean and standardize README files for project folders.
+	- [image_readme_cleaning_prompt.txt](Code%20Cleaning/image_readme_cleaning_prompt.txt) — Prompt to generate and improve README sections that describe images and media assets.
+	- [main_readme_cleaning_prompt.txt](Code%20Cleaning/main_readme_cleaning_prompt.txt) — Prompt focused on creating and improving the main portfolio README structure and navigation.
 
 - `LinkedIn Project/` — Prompts created during a freelance project to produce LinkedIn posts and companion images; includes example output.
-	- `linkedin_image.txt` — Prompt for generating AI image descriptions and instructions used to create social visuals.
-	- `linkedin_post_nolink.txt` — Prompt for drafting LinkedIn posts that do not include external links.
-	- `linkedin_post_withlink.txt` — Prompt for drafting LinkedIn posts that include external links and CTA guidance.
-	- `chatgpt_image_ouput_linkedin_03_09_26.png` — Example image output produced by the image-generation prompt.
+	- [linkedin_image.txt](LinkedIn%20Project/linkedin_image.txt) — Prompt for generating AI image descriptions and instructions used to create social visuals.
+	- [linkedin_post_nolink.txt](LinkedIn%20Project/linkedin_post_nolink.txt) — Prompt for drafting LinkedIn posts that do not include external links.
+	- [linkedin_post_withlink.txt](LinkedIn%20Project/linkedin_post_withlink.txt) — Prompt for drafting LinkedIn posts that include external links and CTA guidance.
+	- [chatgpt_image_ouput_linkedin_03_09_26.png](LinkedIn%20Project/chatgpt_image_ouput_linkedin_03_09_26.png) — Example image output produced by the image-generation prompt.
 
 - `Stock Analysis/` — Prompts and checklists used with a Notion.so AI agent to evaluate stock portfolios using CSV inputs and web research.
-	- `stock_checkup.md` — Weekly Roth IRA review checklist and instructions for gathering news, earnings, and risk flags.
-	- `monthly_stock_checkup.md` — Monthly Core portfolio checklist detailing allocation, trimming/selling logic, and buying-power calculations.
-    - `investment_update.md` — User uploads CSV file of current positions. Positions are updated in Notion database.
+	- [investment_update.md](Stock%20Analysis/investment_update.md) — Instructions for uploading a CSV of current positions and updating the Notion database.
+	- [monthly_stock_checkup.md](Stock%20Analysis/monthly_stock_checkup.md) — Monthly Core portfolio checklist detailing allocation, trimming/selling logic, and buying-power calculations.
+	- [weekly_stock_checkup.md](Stock%20Analysis/weekly_stock_checkup.md) — Weekly review checklist and instructions for gathering news, earnings, and risk flags.
+	- [stock_checkup.md](stock_checkup.md) — (Top-level) Roth IRA weekly checkup used by the Notion agent; includes news and earnings table templates.
 
 ## Real-World Usage
 
