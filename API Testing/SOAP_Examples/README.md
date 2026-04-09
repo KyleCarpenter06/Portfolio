@@ -1,6 +1,6 @@
 # Triggering Automation Studio Automations via SOAP API
 
-This README replaces the previous content with a focused, practical guide for reliably starting Automation Studio automations using the Fuel SOAP API. The REST API has no officially supported endpoint for firing Automation Studio automations on demand; any REST-based approach relies on undocumented, community-discovered endpoints that may break without notice. For stable, supported integration (for example, invoking an automation from Power Automate after external processing completes), use the SOAP API.
+The REST API has no officially supported endpoint for firing Automation Studio automations on demand; any REST-based approach relies on undocumented, community-discovered endpoints that may break without notice. For stable, supported integration (for example, invoking an automation from Power Automate after external processing completes), use the SOAP API.
 
 ## Why SOAP is used here
 
@@ -8,7 +8,7 @@ I used the SOAP API to trigger Marketing Cloud automations from Power Automate w
 
 ## The Two-Step SOAP Process to Fire an Automation
 
-Your memory is correct — starting an Automation via the Fuel SOAP API is a two-step process using the `Retrieve` and `Perform` operations. This mirrors clicking "Run Once" in the Automation Studio UI.
+Starting an Automation via the SFMC SOAP API is a two-step process using the `Retrieve` and `Perform` operations. This mirrors clicking "Run Once" in the Automation Studio UI.
 
 ### Step 1 — Retrieve the Automation Name/ObjectID
 
