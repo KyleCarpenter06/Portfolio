@@ -8,6 +8,12 @@ AMPScript is Salesforce Marketing Cloud's proprietary personalization language t
 
 ---
 
+## Placement in Email
+
+AMPScript blocks are organized so that background configuration and data-initialization blocks execute first (they do not render but set variables), followed by header and preheader initialization, then pre-salutation and greeting blocks, the main content blocks, and finally the footer. This ordering ensures variables and language settings are available when content blocks render and that non-displayed blocks (settings, subject/preheader, data load) run safely in the template background.
+
+![AMPScript Email Architecture Wireframe](ampscript_email_architecture_wireframe.svg)
+
 ## File Descriptions
 
 Below are the AMPScript blocks in this folder grouped by purpose. Each entry is a direct link to the file followed by a one-line description (no tables).

@@ -1,0 +1,81 @@
+<svg width="100%" viewBox="0 0 680 845" role="img" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, sans-serif; background: white;">
+  <title>AMPScript Email Architecture Wireframe</title>
+  <desc>Wireframe showing the block structure of an AMPScript email, with displayed content blocks on the left and non-displayed background blocks in a purple sidebar on the right.</desc>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="18" font-weight="600" fill="#1a1a1a">AMPScript Email Architecture Wireframe</text>
+
+  <!-- ===== MAIN CONTENT COLUMN ===== -->
+  <rect x="30" y="54" width="420" height="791" rx="10" fill="none" stroke="#c0bdb5" stroke-width="1"/>
+
+  <!-- BCC Block (amber) -->
+  <rect x="46" y="70" width="388" height="52" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8" stroke-dasharray="5 3"/>
+  <text x="240" y="97" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#633806">ampscript_bcc_leaders_block.amp</text>
+  <text x="240" y="136" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">[ BCC / Disclaimer Block ]</text>
+  <text x="240" y="152" text-anchor="middle" font-size="12" fill="#666">Hidden disclaimer for leadership recipients</text>
+
+  <!-- Language Toggle Block (blue) -->
+  <rect x="46" y="168" width="388" height="52" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+  <text x="240" y="194" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#0C447C">ampscript_language_toggle_display.amp</text>
+  <text x="240" y="235" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">[ Language Toggle Display ]</text>
+  <text x="240" y="251" text-anchor="middle" font-size="12" fill="#666">Shows language selector / variation banner</text>
+
+  <!-- Pre-Salutation Block (gray) -->
+  <rect x="46" y="267" width="388" height="52" rx="6" fill="#F1EFE8" stroke="#888780" stroke-width="0.8"/>
+  <text x="240" y="293" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#444441">ampscript_presalutation_block.amp</text>
+  <text x="240" y="334" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">[ Pre-Salutation Block ]</text>
+  <text x="240" y="350" text-anchor="middle" font-size="12" fill="#666">Introductory text before greeting</text>
+
+  <!-- Hi / Greeting Block (neutral) -->
+  <rect x="46" y="366" width="388" height="52" rx="6" fill="#f8f8f6" stroke="#c0bdb5" stroke-width="0.8"/>
+  <text x="240" y="392" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#3d3d3a">ampscript_hi_block.amp</text>
+  <text x="240" y="433" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">[ Hi / Greeting Block ]</text>
+  <text x="240" y="449" text-anchor="middle" font-size="12" fill="#666">Personalized greeting line</text>
+
+  <!-- Content Blocks (green, tall) -->
+  <rect x="46" y="465" width="388" height="230" rx="6" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.8"/>
+  <text x="240" y="579" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#27500A">ampscript_content_blocks.amp</text>
+  <text x="240" y="710" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">[ Content Blocks ]</text>
+  <text x="240" y="726" text-anchor="middle" font-size="12" fill="#666">Main body content area</text>
+
+  <!-- Footer Block (gray) -->
+  <rect x="46" y="742" width="388" height="52" rx="6" fill="#F1EFE8" stroke="#888780" stroke-width="0.8"/>
+  <text x="240" y="768" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="500" fill="#444441">ampscript_footer_block.amp</text>
+  <text x="240" y="809" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">[ Footer Block ]</text>
+  <text x="240" y="825" text-anchor="middle" font-size="12" fill="#666">Unsubscribe, legal, address</text>
+
+  <!-- ===== RIGHT SIDEBAR ===== -->
+  <rect x="468" y="54" width="188" height="791" rx="10" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.8" stroke-dasharray="4 3"/>
+
+  <!-- Sidebar header -->
+  <text x="562" y="80" text-anchor="middle" font-size="12" font-weight="600" fill="#3C3489">Non-displayed /</text>
+  <text x="562" y="96" text-anchor="middle" font-size="12" font-weight="600" fill="#3C3489">background blocks</text>
+
+  <!-- Sidebar item 1: language toggle settings -->
+  <rect x="484" y="112" width="156" height="80" rx="5" fill="white" stroke="#AFA9EC" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="562" y="130" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">ampscript_language_</text>
+  <text x="562" y="145" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">toggle_settings.amp</text>
+  <text x="562" y="165" text-anchor="middle" font-size="10" fill="#534AB7">Language settings &amp; config</text>
+
+  <!-- Sidebar item 2: subject preheader -->
+  <rect x="484" y="210" width="156" height="80" rx="5" fill="white" stroke="#AFA9EC" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="562" y="228" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">ampscript_subject_</text>
+  <text x="562" y="243" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">preheader_block.amp</text>
+  <text x="562" y="263" text-anchor="middle" font-size="10" fill="#534AB7">Email subject &amp;</text>
+  <text x="562" y="277" text-anchor="middle" font-size="10" fill="#534AB7">preheader text</text>
+
+  <!-- Sidebar item 3: data block -->
+  <rect x="484" y="308" width="156" height="80" rx="5" fill="white" stroke="#AFA9EC" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="562" y="326" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">ampscript_data_</text>
+  <text x="562" y="341" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">block.amp</text>
+  <text x="562" y="361" text-anchor="middle" font-size="10" fill="#534AB7">Data retrieval &amp;</text>
+  <text x="562" y="375" text-anchor="middle" font-size="10" fill="#534AB7">variable setup</text>
+
+  <!-- Sidebar item 4: extra columns -->
+  <rect x="484" y="406" width="156" height="80" rx="5" fill="white" stroke="#AFA9EC" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="562" y="424" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">ampscript_extra_</text>
+  <text x="562" y="439" text-anchor="middle" font-size="11" font-weight="500" fill="#3C3489">columns_block.amp</text>
+  <text x="562" y="459" text-anchor="middle" font-size="10" fill="#534AB7">Extra data columns /</text>
+  <text x="562" y="473" text-anchor="middle" font-size="10" fill="#534AB7">attributes</text>
+
+</svg>
