@@ -10,79 +10,32 @@ AMPScript is Salesforce Marketing Cloud's proprietary personalization language t
 
 ## File Descriptions
 
-### Core Configuration & Settings
-
-| File | Purpose |
-|------|---------|
-| **ampscript_language_toggle_settings.amp** | Language configuration and initialization block. Manages 22+ language toggles, date formatting, locale-specific settings, and PDF content text. Sets @langShortName, @languageCode, and @languageLocalFormat variables based on subscriber language preference with English fallback. |
-| **ampscript_data_block.amp** | Subscriber and campaign data initialization. Retrieves attribute values for first name, device type, wave/stage information, and formats them for use throughout the template. Establishes foundational variables consumed by all other blocks. |
-
-### Content Retrieval & Processing
-
-| File | Purpose |
-|------|---------|
-| **ampscript_body_blocks_loop.amp** | Campaign path configuration and subject/preheader retrieval. Sets @subPath and @campaignName variables, then retrieves language-specific subject line and preheader content from Content Builder with English fallback mechanism. |
-| **ampscript_content_blocks.amp** | Dynamic content block retriever. Loops through numbered P-blocks (1 through @ammountOfBlocks), retrieves language-specific content from Content Builder with automatic English fallback for missing translations. |
-| **ampscript_extra_columns_block.amp** | JSON data parser for extra subscriber columns. Parses ExtraColumns attribute containing JSON data, extracts specific fields (SoftphoneNumber, Buddy, Conference), and declares them as variables for use in template. Handles missing fields gracefully. |
-| **ampscript_footer_block.amp** | Legal footer content retriever. Retrieves language-specific footer content (legal disclaimers, compliance text) from Content Builder with English fallback. |
-| **ampscript_presalutation_block.amp** | Pre-salutation introductory content. Retrieves language-specific pre-salutation content that displays before the main greeting, with English fallback. |
-
-### Personalization & Greetings
-
-| File | Purpose |
-|------|---------|
-| **ampscript_hi_block_raw.amp** | Simple personalized greeting in plain text. Displays "Hello [First Name]" using raw AMPScript variable substitution without HTML formatting. |
-| **ampscript_hi_block.amp** | Formatted personalized greeting block. Displays subscriber name in a responsive HTML table structure with language-specific greeting content from Content Builder, with English fallback. |
-
-### Email Header & Special Handling
-
-| File | Purpose |
-|------|---------|
-| **ampscript_subject_preheader_block.amp** | Email subject line and preheader initialization. Sets static subject line, preview text (shown in email client preview pane), and banner messaging used in email header. |
-| **ampscript_bcc_leaders_block.amp** | Leadership/BCC notification handling. Detects if email type is "bcc" or "leadership", adds subject line prefix, and conditionally displays notice block with management contact information. |
-
-### Language Selection Interface
-
-| File | Purpose |
-|------|---------|
-| **ampscript_language_toggle_display.amp** | Language selection toggle display. Renders clickable language links for 22+ languages (English, German, French, Spanish, Italian, Portuguese, Japanese, Korean, Chinese Simplified/Traditional, Russian, Dutch, Czech, Greek, Hebrew, Polish, Swedish, Thai, Turkish, Ukrainian, Indonesian, Malay, Vietnamese) with RedirectTo URLs pointing to language-specific PDF files. Uses HTML entities for international character rendering. |
-
----
-
-## Table of Contents
-
-1. [Language & Localization](#language--localization)
-2. [Data & Configuration](#data--configuration)
-3. [Content Retrieval](#content-retrieval)
-4. [Email Structure & Display](#email-structure--display)
+Below are the AMPScript blocks in this folder grouped by purpose. Each entry is a direct link to the file followed by a one-line description (no tables).
 
 ### Language & Localization
 
-- [ampscript_language_toggle_settings.amp](#ampscript_language_toggle_settingsamp) - Language configuration and locale settings
-- [ampscript_language_toggle_display.amp](#ampscript_language_toggle_displayamp) - Language selection interface with 22+ languages
+- [ampscript_language_toggle_settings.amp](ampscript_language_toggle_settings.amp) - Language configuration and initialization block: manages 22+ language toggles, locale-specific date formats, PDF content names, and sets global variables such as `@langShortName`, `@languageCode`, and `@languageLocalFormat` with English as the fallback.
+- [ampscript_language_toggle_display.amp](ampscript_language_toggle_display.amp) - Language selection UI renderer: outputs clickable language links for supported locales, builds RedirectTo URLs for language-specific PDF assets, and uses HTML entities to ensure correct international character rendering.
 
 ### Data & Configuration
 
-- [ampscript_data_block.amp](#ampscript_data_blockamp) - Subscriber attribute initialization
-- [ampscript_extra_columns_block.amp](#ampscript_extra_columns_blockamp) - JSON parsing for extra column data
-- [ampscript_subject_preheader_block.amp](#ampscript_subject_preheader_blockamp) - Email header metadata
+- [ampscript_data_block.amp](ampscript_data_block.amp) - Subscriber and campaign data initializer: reads subscriber attributes (e.g., `@firstName`, device type), normalizes values (ProperCase), and defines baseline variables consumed across templates and blocks.
+- [ampscript_extra_columns_block.amp](ampscript_extra_columns_block.amp) - JSON extra-columns parser: safely parses the `ExtraColumns` JSON attribute, extracts fields such as `SoftphoneNumber`, `Buddy`, and `Conference`, and maps them to template variables with graceful handling for missing keys.
 
 ### Content Retrieval
 
-- [ampscript_body_blocks_loop.amp](#ampscript_body_blocks_loopamp) - Campaign path and email header content
-- [ampscript_content_blocks.amp](#ampscript_content_blocksamp) - Dynamic content block retrieval
-- [ampscript_footer_block.amp](#ampscript_footer_blockamp) - Footer and legal content
-- [ampscript_presalutation_block.amp](#ampscript_presalutation_blockamp) - Pre-greeting introduction
+- [ampscript_body_blocks_loop.amp](ampscript_body_blocks_loop.amp) - Campaign path and header content loader: sets `@subPath` and `@campaignName`, then retrieves language-specific subject lines and preheaders from Content Builder with an automatic English fallback.
+- [ampscript_content_blocks.amp](ampscript_content_blocks.amp) - Dynamic P-block retriever: loops numbered content blocks (P1..Pn), fetches language-specific HTML/text for each block from Content Builder, and falls back to English when translations are absent.
+- [ampscript_footer_block.amp](ampscript_footer_block.amp) - Legal footer fetcher: retrieves localized legal and compliance text from Content Builder and ensures a reliable English fallback for missing translations.
+- [ampscript_presalutation_block.amp](ampscript_presalutation_block.amp) - Pre-salutation content loader: pulls language-specific introductory copy that appears before the main greeting, with fallback behavior for absent translations.
 
 ### Email Structure & Display
 
-- [ampscript_hi_block.amp](#ampscript_hi_blockamp) - Formatted greeting with HTML structure
-- [ampscript_hi_block_raw.amp](#ampscript_hi_block_rawamp) - Simple text greeting
-- [ampscript_bcc_leaders_block.amp](#ampscript_bcc_leaders_blockamp) - Leadership notification handling
+- [ampscript_hi_block_raw.amp](ampscript_hi_block_raw.amp) - Plain-text greeting block: simple `Hello [First Name]` substitution using AMPScript variables for lightweight, text-only messages.
+- [ampscript_hi_block.amp](ampscript_hi_block.amp) - Formatted greeting block: renders the subscriber name within a responsive HTML table structure and inserts language-specific greeting content pulled from Content Builder.
+- [ampscript_subject_preheader_block.amp](ampscript_subject_preheader_block.amp) - Subject and preheader initializer: sets the `@subject` and preview text used by email clients and can include dynamic banner messaging for the header area.
+- [ampscript_bcc_leaders_block.amp](ampscript_bcc_leaders_block.amp) - BCC / leadership handling block: detects leadership or BCC send types, prepends subject prefixes when needed, and conditionally renders a management notification block with contact information.
 
----
-
-## Key Features
 
 ### Multilingual Support
 - 22+ supported languages with individual enable/disable flags
